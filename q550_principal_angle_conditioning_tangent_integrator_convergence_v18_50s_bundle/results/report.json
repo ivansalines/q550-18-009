@@ -1,0 +1,82 @@
+{
+  "version": "v18.50s",
+  "title": "Principal-Angle Conditioning & Tangent-Integrator Convergence Audit",
+  "classification": "INHERITED_CHART_NUMERICAL_PRINCIPAL_ANGLE_INTEGRATOR_CONVERGENCE_NOT_MATERIAL_CERTIFICATE",
+  "parent": {
+    "zip_sha256": "a6d01c7871aedf75a4ccff7f148e9ad9eb52d42154e0c9d10c3deacbfa3493c7",
+    "source_files": 11,
+    "output_files": 6,
+    "classification": "MODEL_JET_TANGENT_AND_SAMPLED_DIFFERENTIAL_KERNEL_DIAGNOSTIC_NOT_MATERIAL_INVARIANCE_CERTIFICATE"
+  },
+  "methods": {
+    "vector_flow": "Genuine analytic 10D Jacobian J10 from the inherited 11D structural jet; independently solves 100D fundamental matrix evolution",
+    "principal_angle_sin": "asin(sigma_max((I-P_instant)Q_transport))",
+    "principal_angle_cos": "acos(sigma_min(K_instant.T Q_transport)); retained as conditioning comparison only",
+    "independent_projector": "asin(||P_instant-P_transport||_2)",
+    "completion": "Require solve_ivp.success AND solver end time matches requested terminal time",
+    "accuracy": "Cross method, rtol, atol and max_step cap; no unverified endpoint accepted"
+  },
+  "config": {
+    "methods": [
+      "DOP853",
+      "Radau"
+    ],
+    "kinds": [
+      "original",
+      "autonomous"
+    ],
+    "rtols": [
+      1e-08,
+      1e-10,
+      1e-12
+    ],
+    "max_step_divisors": [
+      8,
+      16
+    ]
+  },
+  "counts": {
+    "attempted_tangent_integrations": 24,
+    "complete_tangent_integrations": 24,
+    "incomplete_tangent_integrations": 0,
+    "natural_state_replays": 2
+  },
+  "per_branch": {
+    "original": {
+      "max_angle_deg": 0.002151489330366254,
+      "min_angle_deg": 0.0021514893303630975,
+      "asin_spread_deg": 3.1563293645398005e-15,
+      "max_sin_projector_difference": 8.66277535815918e-17,
+      "max_acos_asin_difference_deg": 9.96784590631683e-11,
+      "min_nfev": 65,
+      "max_nfev": 194,
+      "reference_parent_q_arccos_deg": 0.0021514895994426,
+      "min_vs_parent_q_deg": 2.6907634627371113e-10
+    },
+    "autonomous": {
+      "max_angle_deg": 0.002150566883612001,
+      "min_angle_deg": 0.002150566883610192,
+      "asin_spread_deg": 1.8088829045748156e-15,
+      "max_sin_projector_difference": 1.9611862047547168e-16,
+      "max_acos_asin_difference_deg": 5.488983898481459e-10,
+      "min_nfev": 58,
+      "max_nfev": 194,
+      "reference_parent_q_arccos_deg": 0.002150567012607,
+      "min_vs_parent_q_deg": 1.2899499914412194e-10
+    }
+  },
+  "incomplete": [],
+  "limitations": [
+    "The observer and orthogonal projector are expressed in the inherited Euclidean seed chart, not a derived material kinetic metric.",
+    "Parent q used an FD tangent generator, whereas this audit uses the analytic 10D Jacobian; agreement is a regression, not a mathematical identity.",
+    "Solver tolerance convergence is not an interval error bound or an exact continuous-time certification.",
+    "Near-zero principal angles computed from arccos of overlaps can exhibit subtractive loss of precision.",
+    "Integrations that fail or do not reach the final gate are explicitly rejected.",
+    "No polymer constitutive law, memory certificate, material connection, or physical torsional flip is established."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1"
+  }
+}

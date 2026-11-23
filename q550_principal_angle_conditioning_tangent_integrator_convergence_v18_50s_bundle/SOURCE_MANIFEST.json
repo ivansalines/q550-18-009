@@ -1,0 +1,16 @@
+{
+  "root": "q550_principal_angle_conditioning_tangent_integrator_convergence_v18_50s_bundle",
+  "files": {
+    "README.md": "176d068a60b9ec5fb28506dc3d1c03b8ec4337fddbf746b6f2ed9fb681cb6902",
+    "SCIENTIFIC_DECISION_RULES.md": "a9e2a8985ec39db93cd8fcc74a65f57626ed93f98987e02a1651e24d65caaccd",
+    "SCIENTIFIC_REPORT.md": "bfec6c5b149a0eeb8134780cbaed796e271caa2fb7b556e83f7b0a64a0a40ae6",
+    "inputs/q550_differential_kernel_invariance_analytic_tangent_generator_v18_50r_bundle_server_sendback.zip": "a6d01c7871aedf75a4ccff7f148e9ad9eb52d42154e0c9d10c3deacbfa3493c7",
+    "requirements.txt": "a7d5a88ad8c722d2fe6edd551dd4c798feba32a616fc1b2cdd95a24210defe51",
+    "run_on_server.sh": "666a2912c3f6fb247a55883e5fda06b8fba567daf7967a7811292fbed62e0571",
+    "scripts/pack_sendback.py": "09c9b8862d0eb945d3e12065e6e69e8c0ce5fe68234cc87290ee107f01d3744d",
+    "scripts/run_audit.py": "f3b1df5d1ee979e5777c2a63f3ad208f3afb0d43c4b5fc0f4b9d4412bfc4aa71",
+    "scripts/verify_source_manifest.py": "999db5afa1445dd395c2d290f6d908f68450ed850e3c5b071c98e468fe84e5b4",
+    "scripts/write_output_manifest.py": "f885ea98acd3287184925069807b571b17a58d1a75d56636b19316ad034c90d0",
+    "tests/test_angle_conditioning.py": "66b6ea5ab5bf5fd8cfc468565d14b186fec08d70066c83538622938dd2d7a4bd"
+  }
+}

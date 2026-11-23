@@ -1,0 +1,11 @@
+{
+  "root": "q550_principal_angle_conditioning_tangent_integrator_convergence_v18_50s_bundle",
+  "file_sha256": {
+    "results/angle_conditioning_autonomous.png": "3ac63b8c5a739fc0d855c76c0db60ddadc5dd4cfea9561e2334400e6df9ebc24",
+    "results/angle_conditioning_original.png": "432b71ebaf4ca2136fa79ec11c2c3988f91970258df6536757579b94fd7a0210",
+    "results/parent_q_angle_comparison.csv": "69ca202994885b22a2289482a31b042d0823ecbf39e5121fbb02f55742b22c77",
+    "results/principal_angle_integrator_convergence.csv": "104ce35665fcf9f19f967fda13a41de0210419f829fa2bcea14793fe93e0fb70",
+    "results/report.json": "8df8b883de9d392714f90a7db5d2be85f21c264a71be4e2127fb4122d50c0617",
+    "results/tangent_integrator_effort.png": "9725590e6d6482b599610f1de1b584a65b9a0ee55ac60975d92103ddda3ccde4"
+  }
+}

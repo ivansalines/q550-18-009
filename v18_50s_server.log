@@ -1,0 +1,86 @@
+v18.50s SOURCE IDENTITY VERIFIED 11
+v18.50s stable sin-principal-angle tests PASS
+AUTHENTICATED v18.50r {'zip_sha256': 'a6d01c7871aedf75a4ccff7f148e9ad9eb52d42154e0c9d10c3deacbfa3493c7', 'source_files': 11, 'output_files': 6, 'classification': 'MODEL_JET_TANGENT_AND_SAMPLED_DIFFERENTIAL_KERNEL_DIAGNOSTIC_NOT_MATERIAL_INVARIANCE_CERTIFICATE'} parent q entries 2
+AUTHENTICATED MODEL: staging 10D physical solver
+TANGENT original DOP853 tol=1e-08 max_step=span/8
+  RESULT True True 110 0.002151489330366254
+TANGENT original DOP853 tol=1e-10 max_step=span/8
+  RESULT True True 110 0.002151489330366254
+TANGENT original DOP853 tol=1e-12 max_step=span/8
+  RESULT True True 110 0.002151489330366254
+TANGENT original DOP853 tol=1e-08 max_step=span/16
+  RESULT True True 194 0.0021514893303630975
+TANGENT original DOP853 tol=1e-10 max_step=span/16
+  RESULT True True 194 0.0021514893303630975
+TANGENT original DOP853 tol=1e-12 max_step=span/16
+  RESULT True True 194 0.0021514893303630975
+TANGENT original Radau tol=1e-08 max_step=span/8
+  RESULT True True 65 0.002151489330366254
+TANGENT original Radau tol=1e-10 max_step=span/8
+  RESULT True True 65 0.002151489330366254
+TANGENT original Radau tol=1e-12 max_step=span/8
+  RESULT True True 65 0.002151489330366254
+TANGENT original Radau tol=1e-08 max_step=span/16
+  RESULT True True 114 0.0021514893303630975
+TANGENT original Radau tol=1e-10 max_step=span/16
+  RESULT True True 114 0.0021514893303630975
+TANGENT original Radau tol=1e-12 max_step=span/16
+  RESULT True True 114 0.0021514893303630975
+TANGENT autonomous DOP853 tol=1e-08 max_step=span/8
+  RESULT True True 98 0.002150566883612001
+TANGENT autonomous DOP853 tol=1e-10 max_step=span/8
+  RESULT True True 98 0.002150566883612001
+TANGENT autonomous DOP853 tol=1e-12 max_step=span/8
+  RESULT True True 98 0.002150566883612001
+TANGENT autonomous DOP853 tol=1e-08 max_step=span/16
+  RESULT True True 194 0.002150566883610192
+TANGENT autonomous DOP853 tol=1e-10 max_step=span/16
+  RESULT True True 194 0.002150566883610192
+TANGENT autonomous DOP853 tol=1e-12 max_step=span/16
+  RESULT True True 194 0.002150566883610192
+TANGENT autonomous Radau tol=1e-08 max_step=span/8
+  RESULT True True 58 0.002150566883612001
+TANGENT autonomous Radau tol=1e-10 max_step=span/8
+  RESULT True True 58 0.002150566883612001
+TANGENT autonomous Radau tol=1e-12 max_step=span/8
+  RESULT True True 58 0.002150566883612001
+TANGENT autonomous Radau tol=1e-08 max_step=span/16
+  RESULT True True 114 0.002150566883610192
+TANGENT autonomous Radau tol=1e-10 max_step=span/16
+  RESULT True True 114 0.002150566883610192
+TANGENT autonomous Radau tol=1e-12 max_step=span/16
+  RESULT True True 114 0.002150566883610192
+v18.50s COMPLETE {
+  "counts": {
+    "attempted_tangent_integrations": 24,
+    "complete_tangent_integrations": 24,
+    "incomplete_tangent_integrations": 0,
+    "natural_state_replays": 2
+  },
+  "per_branch": {
+    "original": {
+      "max_angle_deg": 0.002151489330366254,
+      "min_angle_deg": 0.0021514893303630975,
+      "asin_spread_deg": 3.1563293645398005e-15,
+      "max_sin_projector_difference": 8.66277535815918e-17,
+      "max_acos_asin_difference_deg": 9.96784590631683e-11,
+      "min_nfev": 65,
+      "max_nfev": 194,
+      "reference_parent_q_arccos_deg": 0.0021514895994426,
+      "min_vs_parent_q_deg": 2.6907634627371113e-10
+    },
+    "autonomous": {
+      "max_angle_deg": 0.002150566883612001,
+      "min_angle_deg": 0.002150566883610192,
+      "asin_spread_deg": 1.8088829045748156e-15,
+      "max_sin_projector_difference": 1.9611862047547168e-16,
+      "max_acos_asin_difference_deg": 5.488983898481459e-10,
+      "min_nfev": 58,
+      "max_nfev": 194,
+      "reference_parent_q_arccos_deg": 0.002150567012607,
+      "min_vs_parent_q_deg": 1.2899499914412194e-10
+    }
+  }
+}
+v18.50s OUTPUT MANIFEST WRITTEN 6
+v18.50s SENDBACK CREATED /root/elab1/hysteresis/q550_principal_angle_conditioning_tangent_integrator_convergence_v18_50s_bundle_server_sendback.zip files 19 bytes 58016368
