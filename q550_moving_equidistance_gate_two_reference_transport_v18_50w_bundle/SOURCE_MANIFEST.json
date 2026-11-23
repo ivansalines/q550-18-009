@@ -1,0 +1,18 @@
+{
+  "root": "q550_moving_equidistance_gate_two_reference_transport_v18_50w_bundle",
+  "version": "v18.50w",
+  "files": {
+    "README.md": "827c0ffde4406fc19e27c9d9bf091a6dc7be0310a74b224d9954a075a47d12b5",
+    "SCIENTIFIC_DECISION_RULES.md": "2150615ffcd70fd3eace922439b194a996442423f14e1a4adcdd8830699ce5f5",
+    "SCIENTIFIC_REPORT.md": "8cdb22fd863de1adfad88cc2ab9c3a91d4b12d7402a61cc74a21b2677ace33a4",
+    "inputs/q550_long_horizon_kappa_response_activation_threshold_v18_50v_bundle_server_sendback.zip": "08b239b6124cdf94e1fdf44ebc34158bf3f65fd82b080049c883bffe8723a752",
+    "requirements.txt": "1455f2d78c7fd334d5935c37d3876956d20d4d21e9fcfbe2bff3a715d5d3eef3",
+    "run_on_server.sh": "0c9ea385d27b22c8a93310396590016d4b5de1607998592bfdb93e3d3aa5e34c",
+    "scripts/pack_sendback.py": "140120ff92c29cd734ef05ea105a63973e054415b61f0e7ce6b9d3f2b754a433",
+    "scripts/run_audit.py": "096a16257f9d9dcec92998c277e43c5ea62fca808a60a8a980d74dbd9ef95ab9",
+    "scripts/verify_source_manifest.py": "6573bb544209dc31719566b8a828760546a83a32ddcd3cb94b276ac2895b4122",
+    "scripts/write_output_manifest.py": "711a15f6d85bf7fd2841ad346bb4f2eb25560349e7c6114217d6843292264d0b",
+    "tests/test_geometry.py": "03ffaa20d311a6821a9f2dd233bdfe9e8fe0df1ccb6595d64111b97504f2ab09",
+    "tests/test_outputs.py": "2ea200e4b1b11512b1a8ace0774c2538bd280fad6e75e2fea39d6f4aa9e13316"
+  }
+}

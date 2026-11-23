@@ -1,0 +1,5 @@
+xi,u_measure,v_measure,u_root_normalized,v_root_normalized,root_difference_normalized
+0,projector_gap_full,projector_gap_from_seed_anchor,0.49996120472053907,0.49996120570550889,-9.849698279218444e-10
+0,projector_gap_parameter_only,projector_gap_from_seed_anchor,0.49996120472053907,0.49996120570550889,-9.849698279218444e-10
+0.0010920000000000001,projector_gap_full,projector_gap_from_seed_anchor,0.49996115694878679,0.49996115797240093,-1.0236141378960895e-09
+0.0010920000000000001,projector_gap_parameter_only,projector_gap_from_seed_anchor,0.49996118932053601,0.49996115797240093,3.1348135087760909e-08

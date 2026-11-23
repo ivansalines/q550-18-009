@@ -1,0 +1,13 @@
+{
+  "root": "q550_moving_equidistance_gate_two_reference_transport_v18_50w_bundle",
+  "version": "v18.50w",
+  "file_sha256": {
+    "results/equidistance_gate_drift.png": "9db5e2cb1da764b00ffabbff91bc8e911e24a114350d43e986929df12373d259",
+    "results/equidistance_gate_time_ledger.csv": "d577b893d66229b401f24bf5c8d202ca6cb436c8e7e3694d258616fa8cc24340",
+    "results/moving_gate_observable_comparison.png": "cb2655670cbafe97ce050c821f59d348efefb18cbee10a65b79f93a19be28d4c",
+    "results/report.json": "c4166fd7a56e690fe04297f969381d358d7e7a9d29901a57ee0642e05130a9c8",
+    "results/signed_anchor_gap_crossings.png": "436f3f60cb9425459fc5cffa25eb95b43b51687fd04a86317d10d19a84492d99",
+    "results/signed_projector_distance_profiles.csv": "122c68fbbdebb673e62ab72c99b36b6d7fc6dc7426532faec57702e10d2005d3",
+    "results/u_v_short_window_comparison.csv": "ac6bd7d0153e12c78e652e862826d0d45d94af112d6d98586fd49d7f89550fdc"
+  }
+}
