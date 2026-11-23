@@ -1,0 +1,220 @@
+{
+  "version": "v18.50v",
+  "title": "Long-Horizon κ0 Response & Activation-Threshold Audit",
+  "classification": "CONTROLLED_DYNAMIC_PARAMETER_RESPONSE_DIAGNOSTIC_NOT_MATERIAL_ACTIVATION_CERTIFICATE",
+  "parent_u": {
+    "sha256": "7a15374addc08da44ba2c5dfddff89ca5a16342643d79a015ba54c9ac59b8af4",
+    "source_files": 11,
+    "result_files": 6
+  },
+  "parent_t": {
+    "sha256": "1597eae9ea8c93441cdd89eae09b145b513a0a182b1ae917359d512459868b71",
+    "source_count": 11,
+    "result_count": 8
+  },
+  "kappa": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054,
+    "delta": 6.705624902611507e-05,
+    "offsets": [
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.75,
+      -0.5,
+      0.0,
+      0.08333333333333333,
+      0.16666666666666666,
+      0.25,
+      0.3333333333333333,
+      0.41666666666666663,
+      0.5,
+      0.5833333333333333,
+      0.6666666666666666,
+      0.75,
+      0.8333333333333333,
+      0.9166666666666666,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "values": [
+      0.1664654979195883,
+      0.16649902604410138,
+      0.16653255416861443,
+      0.16654931823087096,
+      0.16656608229312747,
+      0.16659961041764054,
+      0.16660519843839272,
+      0.1666107864591449,
+      0.16661637447989708,
+      0.16662196250064926,
+      0.16662755052140144,
+      0.1666331385421536,
+      0.16663872656290576,
+      0.16664431458365794,
+      0.16664990260441012,
+      0.1666554906251623,
+      0.16666107864591448,
+      0.16666666666666666,
+      0.1667001947911797,
+      0.16673372291569277,
+      0.16676725104020584,
+      0.1668007791647189
+    ]
+  },
+  "design": {
+    "two_fixed_natural_seeds": true,
+    "drive_shape": "beta:2:2",
+    "ramp_xi": 0.24,
+    "extended_xi_end": 0.05,
+    "phase_sections": 79,
+    "parameter_points": 22,
+    "new_10d_driven_ivps": 44,
+    "rows": 3476,
+    "integrator": "DOP853",
+    "rtol": 2e-10,
+    "atol": 2e-11,
+    "max_step": 0.00125,
+    "independent_observables": [
+      "10D state sensitivity",
+      "10D RHS sensitivity",
+      "normalized 4D structural observer",
+      "rank-three Jacobian 7D projector"
+    ],
+    "common_chart": "elementwise max of seed scales and 1"
+  },
+  "diagnostics": {
+    "complete_ivps": 44,
+    "nfev": 26488,
+    "minimum_third_sv": 0.4870471360977659,
+    "maximum_fourth_sv": 9.437893911349664e-14,
+    "max_state_gain": 0.5539333689269825,
+    "max_projector_gain": 3.981477830026708,
+    "time_ridge_screen": {
+      "original": {
+        "state_gain": {
+          "qualifying_times": 0,
+          "persistent_adjacent_times": 0,
+          "first_qualifying_xi": null
+        },
+        "observer_gain": {
+          "qualifying_times": 0,
+          "persistent_adjacent_times": 0,
+          "first_qualifying_xi": null
+        },
+        "projector_gain": {
+          "qualifying_times": 0,
+          "persistent_adjacent_times": 0,
+          "first_qualifying_xi": null
+        },
+        "rate_gain": {
+          "qualifying_times": 0,
+          "persistent_adjacent_times": 0,
+          "first_qualifying_xi": null
+        }
+      },
+      "autonomous": {
+        "state_gain": {
+          "qualifying_times": 0,
+          "persistent_adjacent_times": 0,
+          "first_qualifying_xi": null
+        },
+        "observer_gain": {
+          "qualifying_times": 0,
+          "persistent_adjacent_times": 0,
+          "first_qualifying_xi": null
+        },
+        "projector_gain": {
+          "qualifying_times": 0,
+          "persistent_adjacent_times": 0,
+          "first_qualifying_xi": null
+        },
+        "rate_gain": {
+          "qualifying_times": 0,
+          "persistent_adjacent_times": 0,
+          "first_qualifying_xi": null
+        }
+      }
+    },
+    "multiple_seed_and_measure_persistence_screen": false,
+    "candidate_rows": 0,
+    "watchpoints": {
+      "original": [
+        {
+          "xi": 0.001092,
+          "center_state_gain": 0.011361502901720435,
+          "center_rate_gain": 10.418800624335066,
+          "center_observer_gain": 1.943404499752973,
+          "center_projector_gain": 3.8208460248799203,
+          "in_band_state_gain_relative_spread": 2.1389734261132147e-09
+        },
+        {
+          "xi": 0.0125,
+          "center_state_gain": 0.13195918468211149,
+          "center_rate_gain": 10.733334272313748,
+          "center_observer_gain": 2.5812769165550518,
+          "center_projector_gain": 3.8463702873357657,
+          "in_band_state_gain_relative_spread": 1.8009800842407576e-07
+        },
+        {
+          "xi": 0.05,
+          "center_state_gain": 0.5537978463190538,
+          "center_rate_gain": 11.905064016804504,
+          "center_observer_gain": 4.992915747095328,
+          "center_projector_gain": 3.9791944983086585,
+          "in_band_state_gain_relative_spread": 2.918490405516416e-06
+        }
+      ],
+      "autonomous": [
+        {
+          "xi": 0.001092,
+          "center_state_gain": 0.011364280390165914,
+          "center_rate_gain": 10.421347246323533,
+          "center_observer_gain": 1.9455498682487855,
+          "center_projector_gain": 3.8210069782033758,
+          "in_band_state_gain_relative_spread": 3.322083691758288e-09
+        },
+        {
+          "xi": 0.0125,
+          "center_state_gain": 0.13199135221173028,
+          "center_rate_gain": 10.735941454561543,
+          "center_observer_gain": 2.584016688067572,
+          "center_projector_gain": 3.8465499158334695,
+          "in_band_state_gain_relative_spread": 1.8057138284376016e-07
+        },
+        {
+          "xi": 0.05,
+          "center_state_gain": 0.5539293263028378,
+          "center_rate_gain": 11.907782071233147,
+          "center_observer_gain": 4.997849126954147,
+          "center_projector_gain": 3.9794519580869405,
+          "in_band_state_gain_relative_spread": 2.9193556097289745e-06
+        }
+      ]
+    }
+  },
+  "decision": {
+    "outcome": "NO_LOCALIZED_CONTRAST_DETECTED_WITHIN_WINDOW",
+    "conditional_interpretation": "No qualifying internal contrast is a negative finding only within sampled κ, ξ, chart and seeds.",
+    "threshold_internal_to_outer": 1.15,
+    "threshold_requires": "Strict interior maximum, stronger than both outer controls, two consecutive times, both 10D dynamical measures, one geometric observer measure, both fixed seeds, κ alignment within one inner grid step",
+    "cannot_establish": "material activation, physical edges, oscillator bandwidth, or response invariant to observer chart"
+  },
+  "limitations": [
+    "A fixed-seed driven κ scan is not a preparation of a natural orbit for each κ.",
+    "The original turning section and drive clock are held fixed separately inside each seed family.",
+    "The observer metric and shared state chart are declared, not physical kinetic-metric certificates.",
+    "Finite ξ and κ grids cannot exclude unobserved narrow or later activation.",
+    "A local maximum of an observer sensitivity is not a material activation threshold.",
+    "The scalar nullspace projector has no intrinsic material stiffness or energy assigned.",
+    "The moving-tooth ledger is recorded even if no qualifying ridge is present."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1"
+  }
+}

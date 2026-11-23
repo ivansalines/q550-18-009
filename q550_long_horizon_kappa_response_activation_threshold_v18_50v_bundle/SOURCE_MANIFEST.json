@@ -1,0 +1,18 @@
+{
+  "root": "q550_long_horizon_kappa_response_activation_threshold_v18_50v_bundle",
+  "version": "v18.50v",
+  "files": {
+    "README.md": "7f5a4ab045af9936258fcc4efc0b05eeeae2cce3d7e2d6bb8c765761f51fe996",
+    "SCIENTIFIC_DECISION_RULES.md": "088c25e31d7c88e7ef2b709c69b3ccf273f7c09b72dc1ff471b3f3a7b5604d69",
+    "SCIENTIFIC_REPORT.md": "f16b285ba9472b0c1d299a3074cf6e2c6fc70de4961bbd8770f99498f986a953",
+    "inputs/q550_kappa_narrow_band_common_seed_dynamic_scan_v18_50u_bundle_server_sendback.zip": "7a15374addc08da44ba2c5dfddff89ca5a16342643d79a015ba54c9ac59b8af4",
+    "requirements.txt": "3333ba98cf1581a89e1724aa42bc3038d9a75d884fd88f12d9d308a2db91943d",
+    "run_on_server.sh": "6d68bd5a2ae393a605ab8dc53d8dbaee212ee2b1417236b1531c060a2918997f",
+    "scripts/pack_sendback.py": "bf10b6efe6633879c4913a80e88a2aa3c6a7d7ad1993ce6ae7370630a92921de",
+    "scripts/run_audit.py": "2b664ae60673091bdcb1783a482e2e97720af4e67011669ff0d6b0ce1adb4670",
+    "scripts/verify_source_manifest.py": "1b3b3f9549ce6592e73156bd9028a299688c88ec38eb7a3382a66b581db9b1fc",
+    "scripts/write_output_manifest.py": "15bd5e97bd7b67c0eaab128102366e82d5f6801cb21f036744f01dfb1fae8126",
+    "tests/test_output_consistency.py": "87739fd1faab02c559dd273c0e4adb302e5c58c63369d54ad5fe2319bb8a1f95",
+    "tests/test_passage_and_source.py": "c05d3c62181f42cad552abf26e3fee139a5fa4c8614c6b1a662b6fa796b9e1d7"
+  }
+}

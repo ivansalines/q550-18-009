@@ -1,0 +1,15 @@
+{
+  "root": "q550_long_horizon_kappa_response_activation_threshold_v18_50v_bundle",
+  "version": "v18.50v",
+  "file_sha256": {
+    "results/candidate_peak_events.csv": "d4d5983f4a423535e4f53b2ef755ce0e9ca5fe4632458013e807eee1a8be7b20",
+    "results/integration_completion.csv": "f2e950d1f4a7b2110fc033ed5fd807c7743d9bfa36f81fbcc6fe2eda56f50c28",
+    "results/internal_contrast_time_history.png": "715ae749999e47ca8c472f6e3b3a35cdd0b5837216c02c2f53709fde19dc09eb",
+    "results/long_horizon_kappa_response_ledger.csv": "8c407d585a97c5e2f2213b539ec369c18d472ece09638592ff510cc3c68294f4",
+    "results/midband_response_passage.png": "c46ed48e61bc3ea9fac6956d16d21fd1f1e7605a2acbafaa3fc7c516860ecc8a",
+    "results/moving_tooth_ridge_watch.csv": "6353fdb62f8f471bed7175c74dba4604414b2b69422fcedbc462c8e561441bca",
+    "results/report.json": "1e89423a3836bd39196068a3b3126d42bdb7d6a62f3e823fc770220f49b90ff9",
+    "results/state_sensitivity_kappa_time_map.png": "5fe19ae25786d499633a673b9a0e80200c5fb8a2bf97e4e8ef0bf80da5a4f646",
+    "results/three_horizons_state_response.png": "b880b05ad96cfdc1795da23fd0004d945820a1e0e4c3516b7f4a9815911a3880"
+  }
+}

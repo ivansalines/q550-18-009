@@ -1,0 +1,163 @@
+v18.50v SOURCE VERIFIED 12
+v18.50v analytic geometry, false-positive and passage-grid tests PASS
+AUTHENTICATED 50u {'sha256': '7a15374addc08da44ba2c5dfddff89ca5a16342643d79a015ba54c9ac59b8af4', 'source_files': 11, 'result_files': 6}
+AUTHENTICATED MODEL: staging 10D physical solver
+INTEGRATION seed=original 1/22 offset=-2.0000 nfev=602
+INTEGRATION seed=original 2/22 offset=-1.5000 nfev=602
+INTEGRATION seed=original 3/22 offset=-1.0000 nfev=602
+INTEGRATION seed=original 4/22 offset=-0.7500 nfev=602
+INTEGRATION seed=original 5/22 offset=-0.5000 nfev=602
+INTEGRATION seed=original 6/22 offset=+0.0000 nfev=602
+INTEGRATION seed=original 7/22 offset=+0.0833 nfev=602
+INTEGRATION seed=original 8/22 offset=+0.1667 nfev=602
+INTEGRATION seed=original 9/22 offset=+0.2500 nfev=602
+INTEGRATION seed=original 10/22 offset=+0.3333 nfev=602
+INTEGRATION seed=original 11/22 offset=+0.4167 nfev=602
+INTEGRATION seed=original 12/22 offset=+0.5000 nfev=602
+INTEGRATION seed=original 13/22 offset=+0.5833 nfev=602
+INTEGRATION seed=original 14/22 offset=+0.6667 nfev=602
+INTEGRATION seed=original 15/22 offset=+0.7500 nfev=602
+INTEGRATION seed=original 16/22 offset=+0.8333 nfev=602
+INTEGRATION seed=original 17/22 offset=+0.9167 nfev=602
+INTEGRATION seed=original 18/22 offset=+1.0000 nfev=602
+INTEGRATION seed=original 19/22 offset=+1.5000 nfev=602
+INTEGRATION seed=original 20/22 offset=+2.0000 nfev=602
+INTEGRATION seed=original 21/22 offset=+2.5000 nfev=602
+INTEGRATION seed=original 22/22 offset=+3.0000 nfev=602
+FIELD COMPLETE seed original rows so far 1738
+INTEGRATION seed=autonomous 1/22 offset=-2.0000 nfev=602
+INTEGRATION seed=autonomous 2/22 offset=-1.5000 nfev=602
+INTEGRATION seed=autonomous 3/22 offset=-1.0000 nfev=602
+INTEGRATION seed=autonomous 4/22 offset=-0.7500 nfev=602
+INTEGRATION seed=autonomous 5/22 offset=-0.5000 nfev=602
+INTEGRATION seed=autonomous 6/22 offset=+0.0000 nfev=602
+INTEGRATION seed=autonomous 7/22 offset=+0.0833 nfev=602
+INTEGRATION seed=autonomous 8/22 offset=+0.1667 nfev=602
+INTEGRATION seed=autonomous 9/22 offset=+0.2500 nfev=602
+INTEGRATION seed=autonomous 10/22 offset=+0.3333 nfev=602
+INTEGRATION seed=autonomous 11/22 offset=+0.4167 nfev=602
+INTEGRATION seed=autonomous 12/22 offset=+0.5000 nfev=602
+INTEGRATION seed=autonomous 13/22 offset=+0.5833 nfev=602
+INTEGRATION seed=autonomous 14/22 offset=+0.6667 nfev=602
+INTEGRATION seed=autonomous 15/22 offset=+0.7500 nfev=602
+INTEGRATION seed=autonomous 16/22 offset=+0.8333 nfev=602
+INTEGRATION seed=autonomous 17/22 offset=+0.9167 nfev=602
+INTEGRATION seed=autonomous 18/22 offset=+1.0000 nfev=602
+INTEGRATION seed=autonomous 19/22 offset=+1.5000 nfev=602
+INTEGRATION seed=autonomous 20/22 offset=+2.0000 nfev=602
+INTEGRATION seed=autonomous 21/22 offset=+2.5000 nfev=602
+INTEGRATION seed=autonomous 22/22 offset=+3.0000 nfev=602
+FIELD COMPLETE seed autonomous rows so far 3476
+v18.50v COMPLETED {
+  "complete_ivps": 44,
+  "nfev": 26488,
+  "minimum_third_sv": 0.4870471360977659,
+  "maximum_fourth_sv": 9.437893911349664e-14,
+  "max_state_gain": 0.5539333689269825,
+  "max_projector_gain": 3.981477830026708,
+  "time_ridge_screen": {
+    "original": {
+      "state_gain": {
+        "qualifying_times": 0,
+        "persistent_adjacent_times": 0,
+        "first_qualifying_xi": null
+      },
+      "observer_gain": {
+        "qualifying_times": 0,
+        "persistent_adjacent_times": 0,
+        "first_qualifying_xi": null
+      },
+      "projector_gain": {
+        "qualifying_times": 0,
+        "persistent_adjacent_times": 0,
+        "first_qualifying_xi": null
+      },
+      "rate_gain": {
+        "qualifying_times": 0,
+        "persistent_adjacent_times": 0,
+        "first_qualifying_xi": null
+      }
+    },
+    "autonomous": {
+      "state_gain": {
+        "qualifying_times": 0,
+        "persistent_adjacent_times": 0,
+        "first_qualifying_xi": null
+      },
+      "observer_gain": {
+        "qualifying_times": 0,
+        "persistent_adjacent_times": 0,
+        "first_qualifying_xi": null
+      },
+      "projector_gain": {
+        "qualifying_times": 0,
+        "persistent_adjacent_times": 0,
+        "first_qualifying_xi": null
+      },
+      "rate_gain": {
+        "qualifying_times": 0,
+        "persistent_adjacent_times": 0,
+        "first_qualifying_xi": null
+      }
+    }
+  },
+  "multiple_seed_and_measure_persistence_screen": false,
+  "candidate_rows": 0,
+  "watchpoints": {
+    "original": [
+      {
+        "xi": 0.001092,
+        "center_state_gain": 0.011361502901720435,
+        "center_rate_gain": 10.418800624335066,
+        "center_observer_gain": 1.943404499752973,
+        "center_projector_gain": 3.8208460248799203,
+        "in_band_state_gain_relative_spread": 2.1389734261132147e-09
+      },
+      {
+        "xi": 0.0125,
+        "center_state_gain": 0.13195918468211149,
+        "center_rate_gain": 10.733334272313748,
+        "center_observer_gain": 2.5812769165550518,
+        "center_projector_gain": 3.8463702873357657,
+        "in_band_state_gain_relative_spread": 1.8009800842407576e-07
+      },
+      {
+        "xi": 0.05,
+        "center_state_gain": 0.5537978463190538,
+        "center_rate_gain": 11.905064016804504,
+        "center_observer_gain": 4.992915747095328,
+        "center_projector_gain": 3.9791944983086585,
+        "in_band_state_gain_relative_spread": 2.918490405516416e-06
+      }
+    ],
+    "autonomous": [
+      {
+        "xi": 0.001092,
+        "center_state_gain": 0.011364280390165914,
+        "center_rate_gain": 10.421347246323533,
+        "center_observer_gain": 1.9455498682487855,
+        "center_projector_gain": 3.8210069782033758,
+        "in_band_state_gain_relative_spread": 3.322083691758288e-09
+      },
+      {
+        "xi": 0.0125,
+        "center_state_gain": 0.13199135221173028,
+        "center_rate_gain": 10.735941454561543,
+        "center_observer_gain": 2.584016688067572,
+        "center_projector_gain": 3.8465499158334695,
+        "in_band_state_gain_relative_spread": 1.8057138284376016e-07
+      },
+      {
+        "xi": 0.05,
+        "center_state_gain": 0.5539293263028378,
+        "center_rate_gain": 11.907782071233147,
+        "center_observer_gain": 4.997849126954147,
+        "center_projector_gain": 3.9794519580869405,
+        "in_band_state_gain_relative_spread": 2.9193556097289745e-06
+      }
+    ]
+  }
+}
+v18.50v full data consistency, rank and fixed-seed baseline checks PASS
+v18.50v OUTPUT MANIFEST 9
+v18.50v SERVER SENDBACK /root/elab1/hysteresis/q550_long_horizon_kappa_response_activation_threshold_v18_50v_bundle_server_sendback.zip members 23 bytes 59229008

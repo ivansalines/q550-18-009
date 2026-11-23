@@ -1,0 +1,5 @@
+# Python >=3.11 (3.13 recommended for nested historical Q550 tools)
+numpy >=2.0
+scipy >=1.13
+pandas >=2.0
+matplotlib >=3.8
