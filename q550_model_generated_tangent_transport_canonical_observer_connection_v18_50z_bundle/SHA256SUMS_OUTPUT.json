@@ -1,0 +1,12 @@
+{
+  "root": "q550_model_generated_tangent_transport_canonical_observer_connection_v18_50z_bundle",
+  "version": "v18.50z",
+  "file_sha256": {
+    "results/model_vs_canonical_centerline_tensors.npz": "170d1d321745fc998e5cbe2c7b2a44be068f41ab32624f7e84cdabec529fc6e3",
+    "results/model_vs_canonical_transport_ledger.csv": "781a0725890d0aaf779511a644dc286142ceb966beec9069f802681e6d666221",
+    "results/projector_model_vs_canonical_gap.png": "004f47f2cf22212538d4cb110e5c400a6d910328fa9bb9949031a20e89476437",
+    "results/report.json": "d59de6d73f0048c35dc75439bf1488cd82fe9445d5e516eb54cfc0e3d41d3dfb",
+    "results/sensitivity_covariant_rates.png": "da581e90eaacb3013ed8a48716ba3cdb88cd6328d86ef0885ba3f2652c27a366",
+    "results/sensitivity_transport_frames.png": "568a23b1f66244f8b2b06c508c9dea409174437b20cb5cbfb69726229ffd212a"
+  }
+}

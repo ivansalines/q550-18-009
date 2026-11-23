@@ -1,0 +1,30 @@
+SOURCE IDENTITY VERIFIED 12
+v18.50z independent algebraic geometry tests PASS
+AUTHENTICATED v18.50y and embedded v18.50x {'y': {'source_files': 12, 'result_files': 8}, 'x': {'source_files': 12, 'result_files': 11}, 'y_sha256': 'ab1786831f59455e4f56ab97605b1fd00cd25039d8489fe0f83a498171740638', 'x_sha256': '018e95090db62ed87b601f0dc38563a9fde1d945220d30a38d5031e754f0d4df'}
+AUTHENTICATED MODEL: staging 10D physical solver
+AUTHENTICATED MODEL ANCESTRY {'w': {'sources': 12, 'results': 7}, 'v': {'sources': 12, 'results': 9}, 'u': {'sha256': '7a15374addc08da44ba2c5dfddff89ca5a16342643d79a015ba54c9ac59b8af4', 'source_files': 11, 'result_files': 6}, 'w_zip_sha256': '2edeae031bf6724a5bb7e24003c1819e54f3b5fdc76f361933a6243ad32e224d', 'v_zip_sha256': '08b239b6124cdf94e1fdf44ebc34158bf3f65fd82b080049c883bffe8723a752'}
+REPLAY MODEL-JET CENTERLINE original
+BRANCH COMPLETE original angle model J 14.639920928679317 Phi condition 1.3291737202070577
+REPLAY MODEL-JET CENTERLINE autonomous
+BRANCH COMPLETE autonomous angle model J 14.642384169738861 Phi condition 1.3291728331256523
+v18.50z COMPLETED {
+  "branches": 2,
+  "rows": 158,
+  "endpoint": {
+    "original": {
+      "angle_canonical_deg": 8.516607799437976,
+      "angle_model_crossblock_deg": 14.639920928679317,
+      "angle_model_polar_deg": 14.08106617682653,
+      "full_tangent_kernel_gap_frob": 0.2987467625285383
+    },
+    "autonomous": {
+      "angle_canonical_deg": 8.517357764603402,
+      "angle_model_crossblock_deg": 14.642384169738861,
+      "angle_model_polar_deg": 14.083314030328314,
+      "full_tangent_kernel_gap_frob": 0.2988182314007866
+    }
+  }
+}
+v18.50z result semantics PASS
+OUTPUT MANIFEST WRITTEN 6
+SENDBACK PACKED /root/elab1/hysteresis/q550_model_generated_tangent_transport_canonical_observer_connection_v18_50z_bundle_server_sendback.zip members 20 bytes 66542544

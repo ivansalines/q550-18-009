@@ -1,0 +1,18 @@
+{
+  "root": "q550_model_generated_tangent_transport_canonical_observer_connection_v18_50z_bundle",
+  "version": "v18.50z",
+  "files": {
+    "README.md": "067f9a4e269006959fe963fe9ab2e9ed06d88bef5ba339ab760edd3358b9ffa0",
+    "SCIENTIFIC_DECISION_RULES.md": "85b902a04f97a7c3384b4a56e9b4d9f3624fabc8d45b84b7f7329a14e3892f2f",
+    "SCIENTIFIC_REPORT.md": "8c25b5fd9d20afadd36f787e2bba2c88ad50a547cdb5d320bbe5b373c1d2396a",
+    "inputs/q550_covariant_sensitivity_transport_time_derivative_attribution_v18_50y_bundle_server_sendback.zip": "ab1786831f59455e4f56ab97605b1fd00cd25039d8489fe0f83a498171740638",
+    "requirements.txt": "8260c0638c7d0899d352632231bd55db3338b44e75b881ae09dd5eb452c2fb0b",
+    "run_on_server.sh": "1e155301b5ab470685e7fda93ff9e4ef7ec07f3ff3c64a652bec70698f7a3584",
+    "scripts/pack_sendback.py": "de14bdd9e85e11ac0120be73e14d9231aaa2d015588d35bd19bbe69c07720b51",
+    "scripts/run_audit.py": "1e7f51dffcfad9e419a5ac9b396e89e587c862f90dc511f99099446e3175af33",
+    "scripts/verify_source_manifest.py": "d2f551f3ee94a4a4606f2798633583809127f4b12e8415b73cf09b116e2048ae",
+    "scripts/write_output_manifest.py": "1c35831b81688ad425e6fea966bab2f1bfde1a3c1bb56d5c7c7576dae175b51b",
+    "tests/test_output_semantics.py": "8b2bfb4fd5756c70e27b36768c9851a3d86a3cc2c501c3fc998098b82adf2885",
+    "tests/test_transport_geometry.py": "88bda0f3059cc7c918bc477e8fd5715b593daac7f34c04166d4718e2c6da4eec"
+  }
+}
