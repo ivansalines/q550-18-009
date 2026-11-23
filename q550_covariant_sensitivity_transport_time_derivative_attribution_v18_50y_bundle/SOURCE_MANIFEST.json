@@ -1,0 +1,18 @@
+{
+  "root": "q550_covariant_sensitivity_transport_time_derivative_attribution_v18_50y_bundle",
+  "version": "v18.50y",
+  "files": {
+    "README.md": "8627d5d081161be58ef3c603d48d53d526a69d20e98ced2ca3fb764c3d52b72c",
+    "SCIENTIFIC_DECISION_RULES.md": "b8c0711a755acb281a9ea3770f03db11966a1d99fd7458726d0dedc8ebf61914",
+    "SCIENTIFIC_REPORT.md": "15b0f1228d71dcabd67c49368f8fa5ae17165d94728b57bb567c8be381c02838",
+    "inputs/q550_anchor_free_kappa_differential_response_moving_sensitivity_geometry_v18_50x_bundle_server_sendback.zip": "018e95090db62ed87b601f0dc38563a9fde1d945220d30a38d5031e754f0d4df",
+    "requirements.txt": "8260c0638c7d0899d352632231bd55db3338b44e75b881ae09dd5eb452c2fb0b",
+    "run_on_server.sh": "0c9ea385d27b22c8a93310396590016d4b5de1607998592bfdb93e3d3aa5e34c",
+    "scripts/pack_sendback.py": "fa072b764e01839224b975feceb1417b3e575892970a1c3593dc4bcaaa79372d",
+    "scripts/run_audit.py": "5496f3a0b7f98928cc5e11427e5b3938aba4eae229319c81a7cc406c2760cb60",
+    "scripts/verify_source_manifest.py": "b120478ebb27935f3556406a63f520f854116f8d7b5365845872c09e3f7d700e",
+    "scripts/write_output_manifest.py": "7339eb3e840dccbc98cc501ed6d47062490b1bd14c6b8096218a4f3c850ec1f0",
+    "tests/test_geometry.py": "06b578c43f846b68d09c98e0e62ef3d687f354aadbc64dda13ddfecdb910b49c",
+    "tests/test_outputs.py": "f038505b3ad51a2e53ed013cc18c0a01c064aad74eb4090cefcbab5de293e54f"
+  }
+}

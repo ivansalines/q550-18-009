@@ -1,0 +1,13 @@
+{
+  "root": "q550_covariant_sensitivity_transport_time_derivative_attribution_v18_50y_bundle",
+  "file_sha256": {
+    "results/covariant_kappa_sensitivity_ledger.csv": "5f66ecb13758a5fd66b66e5507f89c313fbfce35e9afbc7b53e09ade1d894b9e",
+    "results/observer_coordinate_gauge_controls.csv": "b129d63350d8b91cef6c0dadb141feb20fd828ba955d74d536a31ef9e9b4c698",
+    "results/observer_frame_rate_contribution.png": "4352b18d037e68a75f5cc02486beb205c2e1ec5eee58394c8aaef32c833fe6f8",
+    "results/report.json": "ffdd1d9cbfabccee0c3919b472dc74204c9e6a12443fc214690ac78b8fa4f526",
+    "results/sensitivity_angle_transport_attribution.png": "640f545363e24345f2e79af2adbe53160e162fb4d2b785a123d0c3ba36a0d133",
+    "results/sensitivity_ordinary_vs_horizontal_rates.png": "92a64863bfd1dc3d7de4a005b55a0684c1957c4225566c77b39ccc05c0074d23",
+    "results/transported_sensitivity_angles.csv": "e3405044fe20159ba863ddc7971d73ea5c815d8e49f93294c68e0f5d7352876d",
+    "results/transported_sensitivity_centerline_tensors.npz": "05dc80e0cd07a67a226d79c452fdc47245f2e75c268d73f1438e9c791463df00"
+  }
+}

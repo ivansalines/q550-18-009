@@ -1,0 +1,21 @@
+SOURCE IDENTITY VERIFIED 12
+v18.50y synthetic geometry, projector transport and metric gauge tests PASS
+v18.50y original centerline raw/corrected angle: 9.639478022198285 8.516607799437976
+v18.50y autonomous centerline raw/corrected angle: 9.640634813919474 8.517357764603402
+v18.50y COMPLETED {
+  "parent_sources": 12,
+  "rows": 3476,
+  "gauge_rel_max": 1.0197581040522132e-15,
+  "transport_center_original": {
+    "raw_angle_final_deg": 9.639478022198285,
+    "horizontal_transport_corrected_angle_final_deg": 8.516607799437976,
+    "frame_orthogonality_max": 2.5609853308250226e-15,
+    "projector_transport_endpoint_frobenius": 3.431604787391965e-11,
+    "nfev": 1748,
+    "steps": 78,
+    "success": true
+  }
+}
+v18.50y authenticated x tensor, derivative convergence and result tests PASS
+OUTPUT MANIFEST WRITTEN 8
+SENDBACK PACKED /root/elab1/hysteresis/q550_covariant_sensitivity_transport_time_derivative_attribution_v18_50y_bundle_server_sendback.zip members 22 bytes 65775442

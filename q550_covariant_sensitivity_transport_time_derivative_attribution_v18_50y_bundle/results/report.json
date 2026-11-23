@@ -1,0 +1,142 @@
+{
+  "version": "v18.50y",
+  "title": "Covariant Sensitivity Transport & Time-Derivative Attribution Audit",
+  "classification": "CANONICAL_OBSERVER_PROJECTOR_TRANSPORT_DIAGNOSTIC_NOT_MODEL_PRIVILEGED_MATERIAL_CONNECTION_OR_ACTIVATION_CERTIFICATE",
+  "parent_authentication": {
+    "x_sources": 12,
+    "x_outputs": 11,
+    "x_sendback_sha256": "018e95090db62ed87b601f0dc38563a9fde1d945220d30a38d5031e754f0d4df",
+    "x_completed_ivps_recorded": 44
+  },
+  "inputs": {
+    "x_projector_rows": 3476,
+    "new_physical_10d_ivps": 0,
+    "new_geometric_frame_ivps": 6,
+    "kappa_points": 22,
+    "evolution_points": 79,
+    "seed_families": [
+      "original",
+      "autonomous"
+    ],
+    "horizontal_connection": "K=[Pdot,P], with Pdot from cubic spline on inherited ξ grid",
+    "covariant_sensitivity_rate": "DξE=Eprime-[K,E], Eprime from cubic spline on inherited ξ grid",
+    "five_node_time_derivative": "independent nonuniform local polynomial comparison",
+    "metric": "Frobenius in common inherited 10D chart, transported under changes of coordinates"
+  },
+  "derivative_and_geometry_checks": {
+    "original": {
+      "algebraic": {
+        "projector_derivative_connection_residual_max": 3.562319816442527e-07,
+        "connection_skew_residual_max": 0.0,
+        "radial_rate_invariance_max_abs": 2.6645352591003757e-15,
+        "E_tangency_P_relative_max": 1.5418825108684026e-10,
+        "E_tangency_Q_relative_max": 1.3171243449938131e-11,
+        "covariant_E_rate_offtangent_P_relative_max": 4.320625421403541e-06,
+        "covariant_E_rate_offtangent_Q_relative_max": 7.847350500111487e-07
+      },
+      "stencil": {
+        "parent_A_vs_spline_relative_max": 8.658452627198984e-05,
+        "spline_vs_five_node_Pdot_relative_max": 2.48138124584481e-07,
+        "spline_vs_five_node_A_relative_max": 6.191552918877678e-05,
+        "spline_vs_five_node_covrate_relative_max": 7.070392233206058e-05,
+        "spline_vs_five_node_covrate_relative_p99": 2.218564720312217e-05
+      }
+    },
+    "autonomous": {
+      "algebraic": {
+        "projector_derivative_connection_residual_max": 3.56218166225284e-07,
+        "connection_skew_residual_max": 0.0,
+        "radial_rate_invariance_max_abs": 2.6645352591003757e-15,
+        "E_tangency_P_relative_max": 1.501386727229564e-10,
+        "E_tangency_Q_relative_max": 1.4166823442273774e-11,
+        "covariant_E_rate_offtangent_P_relative_max": 5.121605855604271e-06,
+        "covariant_E_rate_offtangent_Q_relative_max": 5.615443612533833e-07
+      },
+      "stencil": {
+        "parent_A_vs_spline_relative_max": 7.906232401827183e-05,
+        "spline_vs_five_node_Pdot_relative_max": 2.4810660255896734e-07,
+        "spline_vs_five_node_A_relative_max": 5.684355774210429e-05,
+        "spline_vs_five_node_covrate_relative_max": 6.49132682294152e-05,
+        "spline_vs_five_node_covrate_relative_p99": 2.254486541859118e-05
+      }
+    }
+  },
+  "transported_angles": {
+    "original_offset_0": {
+      "raw_angle_final_deg": 9.639431947881574,
+      "horizontal_transport_corrected_angle_final_deg": 8.516920395417989,
+      "frame_orthogonality_max": 1.9135961600933424e-15,
+      "projector_transport_endpoint_frobenius": 1.9333560050020005e-11,
+      "nfev": 1772,
+      "steps": 78,
+      "success": true
+    },
+    "original_offset_0.5": {
+      "raw_angle_final_deg": 9.639478022198285,
+      "horizontal_transport_corrected_angle_final_deg": 8.516607799437976,
+      "frame_orthogonality_max": 2.5609853308250226e-15,
+      "projector_transport_endpoint_frobenius": 3.431604787391965e-11,
+      "nfev": 1748,
+      "steps": 78,
+      "success": true
+    },
+    "original_offset_1": {
+      "raw_angle_final_deg": 9.6395239584614,
+      "horizontal_transport_corrected_angle_final_deg": 8.516295000217752,
+      "frame_orthogonality_max": 2.086741519569093e-15,
+      "projector_transport_endpoint_frobenius": 3.7465517861102887e-11,
+      "nfev": 1811,
+      "steps": 78,
+      "success": true
+    },
+    "autonomous_offset_0": {
+      "raw_angle_final_deg": 9.64058879462913,
+      "horizontal_transport_corrected_angle_final_deg": 8.517670654439222,
+      "frame_orthogonality_max": 2.187949879768112e-15,
+      "projector_transport_endpoint_frobenius": 1.7432835494106257e-11,
+      "nfev": 1808,
+      "steps": 78,
+      "success": true
+    },
+    "autonomous_offset_0.5": {
+      "raw_angle_final_deg": 9.640634813919474,
+      "horizontal_transport_corrected_angle_final_deg": 8.517357764603402,
+      "frame_orthogonality_max": 2.6492801625906183e-15,
+      "projector_transport_endpoint_frobenius": 3.882465578070086e-11,
+      "nfev": 1835,
+      "steps": 78,
+      "success": true
+    },
+    "autonomous_offset_1": {
+      "raw_angle_final_deg": 9.640681090816896,
+      "horizontal_transport_corrected_angle_final_deg": 8.517045122929137,
+      "frame_orthogonality_max": 2.7671513278273202e-15,
+      "projector_transport_endpoint_frobenius": 2.463262677070157e-11,
+      "nfev": 1808,
+      "steps": 78,
+      "success": true
+    }
+  },
+  "gauge_checks": {
+    "max_covariance_relative_residual": 1.0197581040522132e-15,
+    "max_transported_metric_relative_residual": 6.113419709254112e-16,
+    "max_condition_of_gauge": 1.5023845810575196,
+    "max_magnitude_error_when_frame_velocity_omitted": 53.251558591701105
+  },
+  "limitations": [
+    "No new 10D physical IVPs. All tensor fields come from authenticated parent v18.50x.",
+    "The canonical horizontal projector connection is induced by the time-dependent observed kernel P, NOT independently inferred from the original 10D physical tangent generator J.",
+    "The choice of an orthogonal projector and Frobenius reference metric is observer-dependent and is not a certified material metric.",
+    "Under a time-dependent coordinate change, the full connection must be transformed with its W=Sprime Sinverse term; recomputing canonical [Pprime,P] alone is insufficient in general.",
+    "The gauge control is for kappa-independent coordinate changes. Kappa-dependent coordinate transformations require a separate parameter connection.",
+    "Cubic spline vs five-node derivative differences are numerical diagnostics, not interval-certified errors.",
+    "Two seeds carry separately defined turning-relative xi clocks; their near agreement does not establish a common material clock.",
+    "Finite-time tensor rotation and corrected tensor rotation are not proof of a material torsional flip or narrow-band activation."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "pandas": "3.0.3"
+  }
+}
