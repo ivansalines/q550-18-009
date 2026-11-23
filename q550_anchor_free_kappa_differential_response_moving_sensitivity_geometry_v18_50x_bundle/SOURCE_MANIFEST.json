@@ -1,0 +1,18 @@
+{
+  "root": "q550_anchor_free_kappa_differential_response_moving_sensitivity_geometry_v18_50x_bundle",
+  "version": "v18.50x",
+  "files": {
+    "README.md": "4959ea7f531b0dc38ed538622bc3c941378596eac150bbfcd4eab0309cf4a4f7",
+    "SCIENTIFIC_DECISION_RULES.md": "3d15a67f868bda4fc146047ecf79c12f9879bd4247a743d779ecdf0c3a322884",
+    "SCIENTIFIC_REPORT.md": "d88e356ccd71da245cf7c021ea3f066ec7a510ce942fc5c30b347601e2f69a90",
+    "inputs/q550_moving_equidistance_gate_two_reference_transport_v18_50w_bundle_server_sendback.zip": "2edeae031bf6724a5bb7e24003c1819e54f3b5fdc76f361933a6243ad32e224d",
+    "requirements.txt": "baf4a0fd68188cdb3965e253f39c95054dba4fe9d2db8689c3a04de3feec0451",
+    "run_on_server.sh": "fda42f8436c201407fa907cf3a51011ec0f51b0ea1ca7d71857c6710a77547f3",
+    "scripts/pack_sendback.py": "f609d276e6924b7db20ed3376140f20f1c54c43f4a370e0ff20c29eec175d247",
+    "scripts/run_audit.py": "3abd194b6deb20a327749f8efad791e3d66e26e9fab0ec3009439bc2028dd928",
+    "scripts/verify_source_manifest.py": "1bca0612cf828d2c4be0fd95fce531e64641794dc53494ac95ebff617db38de3",
+    "scripts/write_output_manifest.py": "351f549e2050588356a44169f5bb9119bcf2abc71d3414665b4827e87793fb8b",
+    "tests/test_geometry.py": "b56c0e00d9eb540288720e5a7314d1d71fa696fb3376d6afa5842be39de93a4f",
+    "tests/test_outputs.py": "ab55b289bea19fb3aa62a8709d5869be9c1cb46b1850eeec03e53724d8776958"
+  }
+}

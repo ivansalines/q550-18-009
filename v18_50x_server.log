@@ -1,0 +1,92 @@
+v18.50x SOURCE VERIFIED 12
+v18.50x exact projection geometry and finite-weight controls PASS
+AUTHENTICATED MODEL: staging 10D physical solver
+REPLAY START original
+INTEGRATION seed=original 1/22 offset=-2.0000 nfev=602
+INTEGRATION seed=original 2/22 offset=-1.5000 nfev=602
+INTEGRATION seed=original 3/22 offset=-1.0000 nfev=602
+INTEGRATION seed=original 4/22 offset=-0.7500 nfev=602
+INTEGRATION seed=original 5/22 offset=-0.5000 nfev=602
+INTEGRATION seed=original 6/22 offset=+0.0000 nfev=602
+INTEGRATION seed=original 7/22 offset=+0.0833 nfev=602
+INTEGRATION seed=original 8/22 offset=+0.1667 nfev=602
+INTEGRATION seed=original 9/22 offset=+0.2500 nfev=602
+INTEGRATION seed=original 10/22 offset=+0.3333 nfev=602
+INTEGRATION seed=original 11/22 offset=+0.4167 nfev=602
+INTEGRATION seed=original 12/22 offset=+0.5000 nfev=602
+INTEGRATION seed=original 13/22 offset=+0.5833 nfev=602
+INTEGRATION seed=original 14/22 offset=+0.6667 nfev=602
+INTEGRATION seed=original 15/22 offset=+0.7500 nfev=602
+INTEGRATION seed=original 16/22 offset=+0.8333 nfev=602
+INTEGRATION seed=original 17/22 offset=+0.9167 nfev=602
+INTEGRATION seed=original 18/22 offset=+1.0000 nfev=602
+INTEGRATION seed=original 19/22 offset=+1.5000 nfev=602
+INTEGRATION seed=original 20/22 offset=+2.0000 nfev=602
+INTEGRATION seed=original 21/22 offset=+2.5000 nfev=602
+INTEGRATION seed=original 22/22 offset=+3.0000 nfev=602
+FIELD COMPLETE original {'max_3_point_vs_parent_v_gradient': 1.568345453506481e-11, 'max_projector_idempotency': 2.1328130826462468e-15, 'max_projector_symmetry': 0.0, 'max_relative_tangency_P': 1.5418825108684026e-10, 'max_relative_tangency_Q': 1.3171243449938131e-11, 'max_kappa_stencil_relative_in_band': 4.477016871789083e-09, 'max_time_stencil_relative_in_band': 8.658571079556329e-05, 'min_E_norm': 3.8166151088807365, 'max_E_norm': 3.9812198454647274}
+REPLAY START autonomous
+INTEGRATION seed=autonomous 1/22 offset=-2.0000 nfev=602
+INTEGRATION seed=autonomous 2/22 offset=-1.5000 nfev=602
+INTEGRATION seed=autonomous 3/22 offset=-1.0000 nfev=602
+INTEGRATION seed=autonomous 4/22 offset=-0.7500 nfev=602
+INTEGRATION seed=autonomous 5/22 offset=-0.5000 nfev=602
+INTEGRATION seed=autonomous 6/22 offset=+0.0000 nfev=602
+INTEGRATION seed=autonomous 7/22 offset=+0.0833 nfev=602
+INTEGRATION seed=autonomous 8/22 offset=+0.1667 nfev=602
+INTEGRATION seed=autonomous 9/22 offset=+0.2500 nfev=602
+INTEGRATION seed=autonomous 10/22 offset=+0.3333 nfev=602
+INTEGRATION seed=autonomous 11/22 offset=+0.4167 nfev=602
+INTEGRATION seed=autonomous 12/22 offset=+0.5000 nfev=602
+INTEGRATION seed=autonomous 13/22 offset=+0.5833 nfev=602
+INTEGRATION seed=autonomous 14/22 offset=+0.6667 nfev=602
+INTEGRATION seed=autonomous 15/22 offset=+0.7500 nfev=602
+INTEGRATION seed=autonomous 16/22 offset=+0.8333 nfev=602
+INTEGRATION seed=autonomous 17/22 offset=+0.9167 nfev=602
+INTEGRATION seed=autonomous 18/22 offset=+1.0000 nfev=602
+INTEGRATION seed=autonomous 19/22 offset=+1.5000 nfev=602
+INTEGRATION seed=autonomous 20/22 offset=+2.0000 nfev=602
+INTEGRATION seed=autonomous 21/22 offset=+2.5000 nfev=602
+INTEGRATION seed=autonomous 22/22 offset=+3.0000 nfev=602
+FIELD COMPLETE autonomous {'max_3_point_vs_parent_v_gradient': 1.652411540931098e-11, 'max_projector_idempotency': 1.6898743320577184e-15, 'max_projector_symmetry': 0.0, 'max_relative_tangency_P': 1.501386727229564e-10, 'max_relative_tangency_Q': 1.4166823442273774e-11, 'max_kappa_stencil_relative_in_band': 3.2015252721210524e-09, 'max_time_stencil_relative_in_band': 7.905963904362012e-05, 'min_E_norm': 3.816774006818805, 'max_E_norm': 3.9814777804859465}
+v18.50x COMPLETED {
+  "parent_v_consistency_rel": 1.260848506754964e-08,
+  "ridges": {
+    "original": {
+      "qualified_sections": 0,
+      "consecutive_triplets": 0
+    },
+    "autonomous": {
+      "qualified_sections": 0,
+      "consecutive_triplets": 0
+    }
+  },
+  "checks": {
+    "original": {
+      "max_3_point_vs_parent_v_gradient": 1.568345453506481e-11,
+      "max_projector_idempotency": 2.1328130826462468e-15,
+      "max_projector_symmetry": 0.0,
+      "max_relative_tangency_P": 1.5418825108684026e-10,
+      "max_relative_tangency_Q": 1.3171243449938131e-11,
+      "max_kappa_stencil_relative_in_band": 4.477016871789083e-09,
+      "max_time_stencil_relative_in_band": 8.658571079556329e-05,
+      "min_E_norm": 3.8166151088807365,
+      "max_E_norm": 3.9812198454647274
+    },
+    "autonomous": {
+      "max_3_point_vs_parent_v_gradient": 1.652411540931098e-11,
+      "max_projector_idempotency": 1.6898743320577184e-15,
+      "max_projector_symmetry": 0.0,
+      "max_relative_tangency_P": 1.501386727229564e-10,
+      "max_relative_tangency_Q": 1.4166823442273774e-11,
+      "max_kappa_stencil_relative_in_band": 3.2015252721210524e-09,
+      "max_time_stencil_relative_in_band": 7.905963904362012e-05,
+      "min_E_norm": 3.816774006818805,
+      "max_E_norm": 3.9814777804859465
+    }
+  }
+}
+v18.50x 44 IVPs, 3476 measurements and geometric identity tests PASS
+v18.50x full tensor-field archive PASS
+v18.50x OUTPUT MANIFEST WRITTEN 11
+v18.50x SERVER SENDBACK /root/elab1/hysteresis/q550_anchor_free_kappa_differential_response_moving_sensitivity_geometry_v18_50x_bundle_server_sendback.zip bytes 64731362 members 25

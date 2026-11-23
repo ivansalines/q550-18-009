@@ -1,0 +1,17 @@
+{
+  "root": "q550_anchor_free_kappa_differential_response_moving_sensitivity_geometry_v18_50x_bundle",
+  "version": "v18.50x",
+  "file_sha256": {
+    "results/anchor_free_projector_sensitivity_ledger.csv": "13c8cc389a2376fb45ae6cc61a78d97cb6ae515647c7b661ed85c3aaa6591fc6",
+    "results/centerline_radial_transverse_rates.png": "afb4d818de513c7393589159c8d3ba3fbb249d963f1168e019ea094ae10b91c5",
+    "results/differentiation_method_controls.png": "419c6692dd2ca2f020ea2a9dabddf8961c8f155f3d57f81ac9719715a601c046",
+    "results/full_projector_sensitivity_tensors.npz": "d128483333014147cd531e197bb261a4bc35b729f11d8211177a9243baf104c9",
+    "results/integration_completion.csv": "f2e950d1f4a7b2110fc033ed5fd807c7743d9bfa36f81fbcc6fe2eda56f50c28",
+    "results/moving_sensitivity_orientation.png": "ced37de404b6151f01f46377d3110981267ba6fa168cb5a15fc9f798bbf03e24",
+    "results/projector_parameter_sensitivity.png": "d3e29baf24c740dbd834a351019f87adfe74a6cc86d1fe4fc03484f0b006d339",
+    "results/report.json": "7cf35139aca42df2e442a2db740d56b30cca82a42d6f05f7fe50c831a26e8261",
+    "results/sensitivity_tensor_direction_angle.png": "1d640d8801869c5d3966d190023d1ed08414f13a8307c103794c1998fd72ada4",
+    "results/trajectory_checkpoints.csv": "76739f9a627b43392923e46f53a234b8a81c704021ce179ec8c19dc3f789510d",
+    "results/unanchored_moving_ridge_watch.csv": "9e95beffcb643c7f35e23ff992939fb01e241d76bd25c9b2b7a7395242611e50"
+  }
+}

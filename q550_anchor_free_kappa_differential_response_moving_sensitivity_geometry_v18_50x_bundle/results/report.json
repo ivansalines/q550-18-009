@@ -1,0 +1,94 @@
+{
+  "version": "v18.50x",
+  "title": "Anchor-Free \u03ba0 Differential Response & Moving Sensitivity Geometry Audit",
+  "classification": "FIXED_SEED_ANCHOR_FREE_PROJECTOR_DERIVATIVE_DIAGNOSTIC_NOT_MATERIAL_EDGE_OR_ACTIVATION_CERTIFICATE",
+  "parent_authentication": {
+    "w": {
+      "sources": 12,
+      "results": 7
+    },
+    "v": {
+      "sources": 12,
+      "results": 9
+    },
+    "u": {
+      "sha256": "7a15374addc08da44ba2c5dfddff89ca5a16342643d79a015ba54c9ac59b8af4",
+      "source_files": 11,
+      "result_files": 6
+    },
+    "w_zip_sha256": "2edeae031bf6724a5bb7e24003c1819e54f3b5fdc76f361933a6243ad32e224d",
+    "v_zip_sha256": "08b239b6124cdf94e1fdf44ebc34158bf3f65fd82b080049c883bffe8723a752"
+  },
+  "historical_v": {
+    "parent_v_10D_ivps": 44,
+    "parent_v_rows": 3476,
+    "norm_E_vs_3pt_parent_gain_abs_max": 5.014931581115434e-08,
+    "norm_E_vs_3pt_parent_gain_rel_max": 1.260848506754964e-08
+  },
+  "design": {
+    "new_10d_driven_ivps": 44,
+    "kappa_points": 22,
+    "xi_sections": 79,
+    "rows": 3476,
+    "full_10x10_tensors_saved": true,
+    "kappa_auto": 0.16659961041764054,
+    "kappa_original": 0.16666666666666666,
+    "delta_kappa": 6.705624902611507e-05,
+    "replay": "Driven 10D DOP853; same two fixed natural seeds as v18.50v",
+    "time_event": "Turn-relative \u03be from separate inherited events",
+    "kappa_derivative": "Derivative of actual 10x10 projectors; nonuniform 5-node polynomial finite difference; 3-node control",
+    "time_derivative": "3-node nonuniform gradient; cubic spline derivative control",
+    "metric": "Frobenius in inherited shared 10D chart",
+    "ridge_criterion": "In-band strict local maximum of orientation rate >1.05x strongest external control; 3 adjacent times + both seeds for robust interpretation",
+    "no_anchor_subtraction_in_primary_measure": true
+  },
+  "checks": {
+    "original": {
+      "max_3_point_vs_parent_v_gradient": 1.568345453506481e-11,
+      "max_projector_idempotency": 2.1328130826462468e-15,
+      "max_projector_symmetry": 0.0,
+      "max_relative_tangency_P": 1.5418825108684026e-10,
+      "max_relative_tangency_Q": 1.3171243449938131e-11,
+      "max_kappa_stencil_relative_in_band": 4.477016871789083e-09,
+      "max_time_stencil_relative_in_band": 8.658571079556329e-05,
+      "min_E_norm": 3.8166151088807365,
+      "max_E_norm": 3.9812198454647274
+    },
+    "autonomous": {
+      "max_3_point_vs_parent_v_gradient": 1.652411540931098e-11,
+      "max_projector_idempotency": 1.6898743320577184e-15,
+      "max_projector_symmetry": 0.0,
+      "max_relative_tangency_P": 1.501386727229564e-10,
+      "max_relative_tangency_Q": 1.4166823442273774e-11,
+      "max_kappa_stencil_relative_in_band": 3.2015252721210524e-09,
+      "max_time_stencil_relative_in_band": 7.905963904362012e-05,
+      "min_E_norm": 3.816774006818805,
+      "max_E_norm": 3.9814777804859465
+    }
+  },
+  "ridges": {
+    "original": {
+      "qualified_sections": 0,
+      "consecutive_triplets": 0
+    },
+    "autonomous": {
+      "qualified_sections": 0,
+      "consecutive_triplets": 0
+    }
+  },
+  "limits": [
+    "A finite-difference \u03ba derivative is not a certified continuum derivative.",
+    "Numerical \u03be differentiation uses shared IVP samples and is not independently integrated.",
+    "Fixed-seed \u03ba variation does not give natural-state continuation at each \u03ba.",
+    "A common coordinate chart is not a privileged physical material metric.",
+    "Absence of a local internal ridge in finite samples does not exclude later or narrower activation.",
+    "The two seed families have different natural turning origins.",
+    "Projector sensitivity rotation is a property of the chosen projector and metric, not a proven physical material edge."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "pandas": "3.0.3"
+  }
+}
