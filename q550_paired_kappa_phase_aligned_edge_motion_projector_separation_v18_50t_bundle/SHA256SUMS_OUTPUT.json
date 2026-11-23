@@ -1,0 +1,14 @@
+{
+  "root": "q550_paired_kappa_phase_aligned_edge_motion_projector_separation_v18_50t_bundle",
+  "version": "v18.50t",
+  "file_sha256": {
+    "results/paired_kappa_event_aligned_gate.csv": "65b80e20269960d318d2057f3c347b8c737dd1a12c315bc014fe6c58d35aa7ee",
+    "results/paired_kappa_kernel_edges.png": "acc27e50e9561e67d554c700f88aba809c41160b1d7edcd035b81e38aefec90c",
+    "results/paired_kappa_microgap_drift.png": "44df8000d770cd770bff12497f6efca517f385abdf26ae4d25f277071d0e89ff",
+    "results/paired_kappa_raw_chart_control.csv": "b9fce78282e920b6a60c7c33b9f74ed862ef5de10dfb48aaee6e7cb66809df23",
+    "results/paired_kappa_same_phase_10d.csv": "ca11f2399bd848222735b2c334056cab3bfc89610779a203e2a448d00a82082c",
+    "results/phase_aligned_gate_separation.png": "c8d2256802229bc5f250bd31883bc43565540dc2adb0bdd83d45354ed679302c",
+    "results/report.json": "d49715663120a9da61ce68d17dca43a32afbcb1b4c37a104b2e3355a9a412ee3",
+    "results/state_parameter_factorization.png": "9355279155c71628640abeadaaf4e8f8632261ce242ffdca954ac83a53ad286c"
+  }
+}

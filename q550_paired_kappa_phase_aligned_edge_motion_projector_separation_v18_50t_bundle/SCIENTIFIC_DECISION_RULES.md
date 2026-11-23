@@ -1,0 +1,11 @@
+# Scientific decision rules — v18.50t
+
+1. **Do not compare projectors from different branch seed charts.** Both analytic Jacobians must first be transformed into one explicitly documented 10D chart. The same observer normalization weights must be used for both branches.
+2. **Exact structural constraint:** normalization of the 4D observer implies `d.T @ B = 0`, hence `rank(B) <= 3`. Rank three is numerically observed along the sampled states; the nullspace has dimension seven.
+3. **Principal angles, not arbitrary SVD arrows:** compare entire 7D kernel projectors. Use `asin` of orthogonal residuals and cross-check against `||P-Q||_2` to avoid `arccos` conditioning near zero.
+4. **Oscillation criterion:** a single drift or a single interior extremum does not establish oscillation. Demand at least two alternating prominent interior extrema, stable under grid refinement and under the declared chart/observer controls, on a sufficiently long interval. Our scan explicitly checks extrema and decimated-grid persistence.
+5. **Dynamic narrow-band activation criterion:** it requires a **predefined dynamical response and threshold**, an interval sweep of κ₀ with independently prepared/controlled states, onset/off transitions, width measured in κ₀ units, and persistence under solver, metric and phase conventions. Two κ₀ values do not specify a bandwidth or prove activation.
+6. **State-preparation confounding:** differences between two separate trajectories involve both parameter and state-history changes. Crossed-κ₀ Jacobians evaluated at the same state isolate instantaneous parameter effects but do not constitute dynamical counterfactual replays.
+7. **Phase alignment:** common ξ relative to each turn is not identical external clock phase. Event-normalized alignment is a second convention, not a canonical phase transport. Record actual clock offsets.
+8. **Material interpretation:** neither the common diagonal chart nor raw-physical Euclidean coordinates is a certified kinetic material metric. Observer/projector distances are diagnostics, not material edges or a proof of torsional flip, polymer response, or physical memory.
+9. **Provenance:** authenticate the unmodified parent s sendback, verify test and source hashes, write a new output manifest after replay, and never pack transient nested `runtime` genealogies.

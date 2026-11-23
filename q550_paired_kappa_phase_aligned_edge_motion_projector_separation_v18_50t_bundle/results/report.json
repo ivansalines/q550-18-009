@@ -1,0 +1,96 @@
+{
+  "version": "v18.50t",
+  "title": "Paired-κ0 Phase-Aligned Edge Motion & Projector Separation Audit",
+  "classification": "PAIRED_PARAMETER_AND_INITIAL_STATE_SENSITIVE_10D_OBSERVER_PROJECTOR_DIAGNOSTIC_NOT_DYNAMIC_ACTIVATION_BAND_CERTIFICATE",
+  "parent_s": {
+    "sha256": "34629b86fe53116ff6237381f3d002402a4f6c42c266758251ca3e227efdcd9d",
+    "source_count": 11,
+    "result_count": 6,
+    "completed_integrations": 24
+  },
+  "model_kappas": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "chart": {
+    "name": "shared diagonal state chart",
+    "source": "componentwise maximum of both inherited branch seed scales and one",
+    "shared_scale": [
+      1.0,
+      1.0,
+      3.2616190034694674,
+      1.0,
+      1.9651947441684667,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "observer_weights": [
+      0.4097637633145177,
+      0.7568576061702721,
+      0.001465554758842691,
+      0.5425124004276005
+    ],
+    "raw_physical_chart_control": true
+  },
+  "grid": {
+    "broad_points": 129,
+    "broad_end": 0.001092,
+    "event_aligned_points": 65,
+    "raw_chart_points": 17,
+    "event_xi": {
+      "original": [
+        0.0010591159204452,
+        0.0010688314983893
+      ],
+      "autonomous": [
+        0.0010587068207812,
+        0.0010684172645951
+      ]
+    }
+  },
+  "replays": {
+    "natural_orbit_preparations": 2,
+    "natural_driven_10d_integrations": 2,
+    "counterfactual_state_evaluations": "Same 10D states with kappa swapped; no re-integration for changed kappa"
+  },
+  "diagnostics": {
+    "full_pair_max_principal_angle_deg_min": 0.00810547632807062,
+    "full_pair_max_principal_angle_deg_max": 0.008107299520155873,
+    "full_pair_gap_min": 0.00014146724889538783,
+    "full_pair_gap_max": 0.0001414990695999278,
+    "full_pair_gap_start": 0.0001414990695999278,
+    "full_pair_gap_end": 0.00014146724889538783,
+    "full_pair_gap_slope_sign_changes": 0,
+    "prominent_internal_extrema": [],
+    "even_grid_prominent_internal_extrema": [],
+    "max_observer_rank_residual": 3.4596891324012446e-16,
+    "minimum_strong_singular_value": 0.48729809942783536,
+    "max_clock_phase_offset": 2.7096099775025806e-07,
+    "mean_parameter_only_gap": 0.0001810590056107489,
+    "mean_state_only_gap": 7.387006943996548e-05,
+    "raw_chart_full_gap_range": [
+      0.00015634413578328592,
+      0.00015634571270582432
+    ]
+  },
+  "decision_rules": {
+    "oscillation_requires": "At least two alternating, prominent interior extrema persistent on grid decimation and independent chart/control; not asserted from endpoint differences.",
+    "narrow_band_requires": "Independent κ0 parameter sweep with dynamical replay and bandwidth definition; two endpoints cannot establish a narrow-band activator."
+  },
+  "limitations": [
+    "The two natural states are independently prepared and are not a controlled single-state parameter perturbation.",
+    "Turn-relative offsets are an alignment convention; the imposed clock phases may differ.",
+    "Shared diagonal chart is well-defined but not a certified kinetic material metric; raw physical chart is a sensitivity control.",
+    "Parameter-only swap evaluates the Jacobian on the same state and is not a new trajectory under the swapped κ0.",
+    "Finite sampling cannot prove lack or existence of fast oscillations between points.",
+    "No narrow-band activation, universal material edge, torsional flip, or constitutive polymer equivalence is established."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1"
+  }
+}

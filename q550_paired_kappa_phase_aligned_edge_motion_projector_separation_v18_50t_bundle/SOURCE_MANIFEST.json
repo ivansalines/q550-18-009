@@ -1,0 +1,17 @@
+{
+  "root": "q550_paired_kappa_phase_aligned_edge_motion_projector_separation_v18_50t_bundle",
+  "version": "v18.50t",
+  "files": {
+    "README.md": "ee9e64d974375465f9177910978a55c714c2230e6c9d29c8b8d230f6c752baea",
+    "SCIENTIFIC_DECISION_RULES.md": "3fcd14bfd71d9aaec0fbbbdd618225dc9e1047e7d48bf3c3d33fa9001f00c3d6",
+    "SCIENTIFIC_REPORT.md": "0053d7137a33f7150cf4ebb2a63571ce0367cb430160013d5b6698efe241db70",
+    "inputs/q550_principal_angle_conditioning_tangent_integrator_convergence_v18_50s_bundle_server_sendback.zip": "34629b86fe53116ff6237381f3d002402a4f6c42c266758251ca3e227efdcd9d",
+    "requirements.txt": "bde37acf3613d1ddf9809f7e83b90c82490baa4cbdc7788a3f34053a2871efd6",
+    "run_on_server.sh": "d6f46c17bc10fa2d88fa9c4f02f64ef442f2170a660f29b302b6f22d4e2a05ee",
+    "scripts/pack_sendback.py": "6df4705896e57a2c6b4da6e803dc902ebd4947881b1c9834b32020d2f10a6c0a",
+    "scripts/run_audit.py": "3188b1d5c1d37d594e2a98859ee213e74f141f683877b3a658aa9744f6162cad",
+    "scripts/verify_source_manifest.py": "5007438f1b4f85385123185aeaba9a1a5c422c0ce99c5954b968d72e18b27ece",
+    "scripts/write_output_manifest.py": "b246961c7a4d6fcec552b89f3a229f53bb390b80bbaf0f45b9dc30f142e54971",
+    "tests/test_projector_geometry.py": "749ba90ba30c4a56234d6d95ccd18605c12841f7fe2eede9628d8a3916313b62"
+  }
+}
