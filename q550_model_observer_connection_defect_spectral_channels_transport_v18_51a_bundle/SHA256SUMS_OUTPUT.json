@@ -1,0 +1,13 @@
+{
+  "root": "q550_model_observer_connection_defect_spectral_channels_transport_v18_51a_bundle",
+  "version": "v18.51a",
+  "file_sha256": {
+    "results/coupling_and_near_floor.png": "56af10e7f48f73be4472fe6b6d79429fc6ed94c2a75b8e1601c5c6b11c33fb23",
+    "results/dominant_spectral_channel_projectors.npz": "a9422a51dde1808740e3fce2812103bf4ba97ba0d78e9f70e3009c44e16273fd",
+    "results/report.json": "3694a40f26e0984f0843a38ae178250f1c0d84bc3da2bbf2d236abd3658d51d1",
+    "results/spectral_channel_phase_ledger.csv": "99e930f4c343a41b1867c1fc80f1476719d88c4ac68c70c5edf96d5769d1bc37",
+    "results/spectral_channel_strengths.png": "85c099e50e4998bbc2be121d420f1834499ef4a47fefbccaa1110250c0c1660d",
+    "results/spectral_channel_summary.csv": "f04df9069679d8ad3c7a8a8deae0dc15ded051b60e6472e1da56532b0d5fafa3",
+    "results/spectral_plane_rotation_coupling.png": "e93cecc978f3ba5d9865cb05685ecc289cbffbb1388248eb804d74973c0f7bff"
+  }
+}

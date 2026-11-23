@@ -1,0 +1,97 @@
+{
+  "version": "v18.51a",
+  "title": "Model\u2013Observer Connection Defect: Spectral Channels & Transport Audit",
+  "classification": "AUTHENTICATED_SPECTRAL_PROJECTOR_CHANNEL_DIAGNOSTIC_NOT_PHYSICAL_MODE_OR_ENERGY_TRANSFER_CERTIFICATE",
+  "parent": {
+    "source_files": 12,
+    "result_files": 6,
+    "parent_zip_sha256": "6b3b383d9ea5d02e68e29ae42702ce79f14da81418fab4ad0e6819c4bac6e513",
+    "parent_version": "v18.50z"
+  },
+  "samples": 158,
+  "branches": 2,
+  "shared_midpoint_kappa": 0.1666331385421536,
+  "family_interpretation": "Two distinct natural-seed preparations at the same midpoint \u03ba0, NOT two simultaneously evolving \u03ba0 parameters.",
+  "results": {
+    "original": {
+      "seed_family": "original",
+      "samples": 79,
+      "sigma_pair1_start": 3.8613713027922785,
+      "sigma_pair1_end": 4.036347875555924,
+      "sigma_pair2_start": 1.577546971626517,
+      "sigma_pair2_end": 1.532214842023714,
+      "share_pair1_start": 0.8569643695078873,
+      "share_pair1_end": 0.8740499349177072,
+      "pair1_endpoint_max_angle_deg": 9.467830300529398,
+      "pair2_endpoint_max_angle_deg": 9.013987945692252,
+      "pair1_coupling_fraction_start": 0.9216028726078117,
+      "pair1_coupling_fraction_end": 0.916729872586344,
+      "max_sigma3": 7.071102996955772e-09,
+      "max_spline_fd_relative_error": 6.070931649675433e-05,
+      "min_gap_pair1_pair2": 2.2838243311657616,
+      "pair1_monotone_increasing_samples": true,
+      "pair2_monotone_decreasing_samples": true,
+      "max_projector_idempotence_residual": 1.4164281756078445e-15,
+      "max_pair_projector_orthogonality_residual": 4.812624322476689e-16,
+      "max_skew_symmetry_residual": 0.0,
+      "max_pair_degeneracy_residual": 6.884383824526176e-16,
+      "max_rank4_reconstruction_residual": 1.6378219755729914e-09
+    },
+    "autonomous": {
+      "seed_family": "autonomous",
+      "samples": 79,
+      "sigma_pair1_start": 3.8624918848520604,
+      "sigma_pair1_end": 4.037507442038673,
+      "sigma_pair2_start": 1.5774816589957938,
+      "sigma_pair2_end": 1.5321510275081847,
+      "share_pair1_start": 0.8570456339602792,
+      "share_pair1_end": 0.8741223297339314,
+      "pair1_endpoint_max_angle_deg": 9.464151981952412,
+      "pair2_endpoint_max_angle_deg": 9.010610402722964,
+      "pair1_coupling_fraction_start": 0.921576623249067,
+      "pair1_coupling_fraction_end": 0.9166543238667126,
+      "max_sigma3": 7.075838539933413e-09,
+      "max_spline_fd_relative_error": 6.0673297822024997e-05,
+      "min_gap_pair1_pair2": 2.285010225856267,
+      "pair1_monotone_increasing_samples": true,
+      "pair2_monotone_decreasing_samples": true,
+      "max_projector_idempotence_residual": 1.4104745388339648e-15,
+      "max_pair_projector_orthogonality_residual": 4.865171135229341e-16,
+      "max_skew_symmetry_residual": 0.0,
+      "max_pair_degeneracy_residual": 6.635045058131828e-16,
+      "max_rank4_reconstruction_residual": 1.6385160200292308e-09
+    }
+  },
+  "checks": {
+    "all_spectral_gaps_positive": true,
+    "first_pair_stronger_at_all_sections": true,
+    "second_pair_weakens_at_all_sections": true,
+    "rank2_projectors_well_formed": true,
+    "stable_skew_singular_pairing": true,
+    "rank4_explains_reported_defect": true,
+    "derivative_discretizations_agree": true,
+    "weak_third_pair_not_resolved": true,
+    "all_samples_present": true
+  },
+  "definitions": {
+    "defect": "W=K_model_crossblock-K_canonical (skew; 10D shared Euclidean chart)",
+    "channel_projectors": "Q_i=U_i U_i^T for singular pairs i=1,2 of W (rank-2, sign/gauge insensitive)",
+    "coupling_rate": "||Q2 (dQ1/dxi) Q1||_F",
+    "fraction": "coupling rate divided by ||(I-Q1)(dQ1/dxi)Q1||_F",
+    "channel_strength": "duplicated singular intensities \u03c31,\u03c32 of skew W",
+    "quadratic_share": "\u03c3_i\u00b2/(\u03c31\u00b2+\u03c32\u00b2+\u03c33\u00b2); relative squared Frobenius weight, NOT energy",
+    "third_channel": "not identified; near numerical floor and is not tracked as a stable plane"
+  },
+  "limitations": [
+    "This is a post-processing audit of authenticated v18.50z tensors; there are NO new Q550 integrations.",
+    "The K_model comparator is the skew offblock reduction of J10, NOT full nonorthogonal tangent flow.",
+    "All Frobenius norms and spectral planes use the inherited 10D Euclidean chart; no physical kinetic metric is established.",
+    "Differentiation uses 79 nonuniform phases; CubicSpline vs nonuniform three-point gradient is a numerical check, not an interval error bound.",
+    "The tiny third pair is numerically delicate, so its plane orientation is not interpreted.",
+    "Changing the observer/metric can change spectral decomposition. Do not infer material modes, torsional flip, polymer physics, physical band activation, or energy transfer."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1"
+  }
+}

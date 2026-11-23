@@ -1,0 +1,19 @@
+{
+  "root": "q550_model_observer_connection_defect_spectral_channels_transport_v18_51a_bundle",
+  "version": "v18.51a",
+  "files": {
+    "README.md": "c0b527dcb170ca0205757e28b465915df609b8dc97785955dd91d05a9c3770a2",
+    "SCIENTIFIC_DECISION_RULES.md": "ee77fc9b5e9f5b9844e6db47465a79f1a96b45255dbff948b4dee9e43a0b1eb8",
+    "SCIENTIFIC_REPORT.md": "d65ac6bde1b34c730bb52c1d708556ea4c8e2c541a0eea1faebd0600278ffb5d",
+    "inputs/q550_model_generated_tangent_transport_canonical_observer_connection_v18_50z_bundle_server_sendback.zip": "6b3b383d9ea5d02e68e29ae42702ce79f14da81418fab4ad0e6819c4bac6e513",
+    "requirements.txt": "25412683eb8f0b0049e66b26009838e23bc6cb4d4979f9da0f289599b0dab630",
+    "run_on_server.sh": "850f8b684b510ebf3ea23ad0c5880938216fb32507966576aecd5c4397e7ba4a",
+    "scripts/__pycache__/run_audit.cpython-313.pyc": "2668fc6432b0f345f731eab27e24a0fa2a68455a774e8915392437b71c9e4800",
+    "scripts/pack_sendback.py": "daff02cf1eee828adb9462af5baefc04bdfeabe2b324194ec8d57bebcc3ed93d",
+    "scripts/run_audit.py": "577e66d249d60d74825b3e521f30a4298726031116d2166a6287ded30838372e",
+    "scripts/verify_source_manifest.py": "af405d131a2fc5a19f3ce79849ce9ecf22a62a3b048274357e8ebeb9ba10c479",
+    "scripts/write_output_manifest.py": "1e93648820bdab2be64812c430ac2aaae883531c1706cdc4d25470e8e7d392be",
+    "tests/test_geometry.py": "4708b4e7504308c2bc3848f169a377188c1ccb4e3e69b66e457f5d10647add06",
+    "tests/test_results.py": "cb4eb3b256e73c15c845c4ad19d0bac37673bdf55dca86fc7c70d1cf79c3facb"
+  }
+}
