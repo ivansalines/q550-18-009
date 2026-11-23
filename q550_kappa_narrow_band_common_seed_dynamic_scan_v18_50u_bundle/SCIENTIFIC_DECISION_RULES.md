@@ -1,0 +1,11 @@
+# v18.50u — Scientific decision rules
+
+1. **Parameter-sweep validity.** Fifteen documented κ offsets must be tested, including interior points and external flank controls. Two fixed preparations are required. For each non-anchor κ point, a new driven 10D IVP must finish the short window; a Jacobian-only counterfactual does not count as dynamic replay.
+2. **Same-chart validity.** Observer nullspace projectors are calculated in a shared 10D chart, independent of κ and ξ. Require analytic observer rank three and numerical fourth singular value close to zero.
+3. **Exact attribution ledger.** Record the full projector difference and the parameter-only and state-only operator terms. Check exact **matrix** identity; never add their norms.
+4. **Do not infer an activation band from a V-shaped distance-to-anchor.** A gap that grows as κ moves away from its reference does not define a preferred dynamical band. Screen the scalar secant response slope for an *interior* localized excess at least 20% above both outer flanks, separately for both fixed seeds. This is at most a candidate; a physical activation certificate would require an independent dynamical response variable, repeatability across preparation conditions and a defined active/inactive threshold.
+5. **Do not infer oscillation from a monotonic parameter curve.** Neither a single maximum nor two κ endpoints show time-periodic edge motion. A credible oscillation requires repeated, resolved extrema over a wider interval, with checks against sampling aliases.
+6. **Scope limits.** The shared chart is a representation, not a certified material metric. The two reference seeds are not the same physical initial state; compare them separately. The time window is only 0.001092 in turn-relative coordinate, and the κ band is very narrow. A null result does not exclude other ranges, windows or response variables.
+7. **Artifact fidelity.** Keep historic parent ZIP untouched. Use Python 3.13 via `PYTHON_BIN`, save full scripts and report, separate output and source SHA-256 manifests, and exclude temporary ancestor extraction from sendback.
+
+Classification at build time: `CONTROLLED_COMMON_SEED_PARAMETER_SCAN_NOT_DYNAMIC_ACTIVATION_CERTIFICATE`.

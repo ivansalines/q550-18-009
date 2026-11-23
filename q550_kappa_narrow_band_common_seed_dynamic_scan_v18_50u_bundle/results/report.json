@@ -1,0 +1,116 @@
+{
+  "version": "v18.50u",
+  "title": "Narrow-κ0 Band & Fixed-Seed Driven Projector Scan",
+  "classification": "CONTROLLED_COMMON_SEED_PARAMETER_SCAN_NOT_DYNAMIC_ACTIVATION_CERTIFICATE",
+  "parent_t": {
+    "sha256": "1597eae9ea8c93441cdd89eae09b145b513a0a182b1ae917359d512459868b71",
+    "source_count": 11,
+    "result_count": 8
+  },
+  "kappa": {
+    "autonomous": 0.16659961041764054,
+    "original": 0.16666666666666666,
+    "delta": 6.705624902611507e-05,
+    "offsets": [
+      -2.0,
+      -1.0,
+      -0.5,
+      0.0,
+      0.125,
+      0.25,
+      0.375,
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      1.0,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "values": [
+      0.1664654979195883,
+      0.16653255416861443,
+      0.16656608229312747,
+      0.16659961041764054,
+      0.1666079924487688,
+      0.16661637447989708,
+      0.16662475651102535,
+      0.1666331385421536,
+      0.16664152057328185,
+      0.16664990260441012,
+      0.1666582846355384,
+      0.16666666666666666,
+      0.1667001947911797,
+      0.16673372291569277,
+      0.1668007791647189
+    ]
+  },
+  "design": {
+    "common_drive_shape": "beta:2:2",
+    "ramp_xi": 0.24,
+    "relative_event_window": 0.001092,
+    "phase_samples": 21,
+    "fixed_seed_families": 2,
+    "new_10d_driven_ivps": 28,
+    "nfev_new_ivps": 13916,
+    "rows": 630,
+    "parameter_secants": 588,
+    "rtol": 1e-11,
+    "atol": 1e-12,
+    "max_step": 3.4125e-05
+  },
+  "chart": {
+    "shared_scale": [
+      1.0,
+      1.0,
+      3.2616190034694674,
+      1.0,
+      1.9651947441684667,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "observer_weights": [
+      0.4097637633145177,
+      0.7568576061702721,
+      0.001465554758842691,
+      0.5425124004276005
+    ]
+  },
+  "diagnostics": {
+    "max_operator_decomposition_residual": 0.0,
+    "min_third_observer_sv": 0.4870471360977659,
+    "max_fourth_observer_sv": 7.881227869982469e-14,
+    "any_failed_integrations": 0,
+    "band_contrast_checks": {
+      "original": {
+        "scalar_interior_contrast_candidates": [],
+        "flank_max": 2.7029264840690974,
+        "slope_min": 2.700479139510623,
+        "slope_max": 2.7029264840690974
+      },
+      "autonomous": {
+        "scalar_interior_contrast_candidates": [],
+        "flank_max": 2.703040692231051,
+        "slope_min": 2.700592552564317,
+        "slope_max": 2.703040692231051
+      }
+    }
+  },
+  "limitations": [
+    "A parameter sweep over 15 values includes points outside the historic kappa interval; no full Q-range scan.",
+    "Each parameter IVP uses one of two fixed natural seeds and the same imposed clock; no natural state re-preparation at every κ.",
+    "Distance-to-anchor and its scalar secant can show trivial V-shapes even in a smooth family; these are not physical activation scores.",
+    "The observer-kernel projector is evaluated in a shared declared 10D chart, not a uniquely derived material metric.",
+    "No oscillation is certified from this short time window; no bandwidth of material activation is established.",
+    "Finite parameter and time grids cannot exclude narrower or more transient features."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1"
+  }
+}

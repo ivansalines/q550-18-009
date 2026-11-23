@@ -1,0 +1,17 @@
+{
+  "root": "q550_kappa_narrow_band_common_seed_dynamic_scan_v18_50u_bundle",
+  "version": "v18.50u",
+  "files": {
+    "README.md": "4be145d1be1f48981ee12e57799fbcdd3b596f631cba38fcdb03619f12115dc6",
+    "SCIENTIFIC_DECISION_RULES.md": "4fc13368376a82587fd6c7355ac8784868f1d02ab719c3d82febac43aea95940",
+    "SCIENTIFIC_REPORT.md": "8cfe13f58d5ec0d81b79530115d631c1634d9793145bead1002f7793afb8faef",
+    "requirements.txt": "baf4a0fd68188cdb3965e253f39c95054dba4fe9d2db8689c3a04de3feec0451",
+    "run_on_server.sh": "f905ce769c6679c44ab5f41bbecdd9a6afb672284c0814a9d5ec996d76eca98e",
+    "scripts/run_audit.py": "7731991e2236242f794590f40d9f24ca23853c8202fcc8ff286d2bd744310e70",
+    "scripts/verify_source_manifest.py": "ddd040645a943e67fef242570f01ba0471d765e00d5e4ad4b5990cb644153e50",
+    "scripts/write_output_manifest.py": "79d99d2533641a4bbbcd9a6bcd330115b3c2ed2dc7a151f14c31747b0b8deb61",
+    "scripts/pack_sendback.py": "ba8285df9756bcc34f1687eaf4a292186c5815562f4d89f444eb515aea712039",
+    "tests/test_audit_rules.py": "c4378cd261961f0689c239660198157672cb1eb21e095e473e7f9326bed9aeac",
+    "inputs/q550_paired_kappa_phase_aligned_edge_motion_projector_separation_v18_50t_bundle_server_sendback.zip": "1597eae9ea8c93441cdd89eae09b145b513a0a182b1ae917359d512459868b71"
+  }
+}

@@ -1,0 +1,56 @@
+v18.50u source manifest PASS 11
+v18.50u geometry and peak decision rules PASS
+AUTHENTICATED parent t {'sha256': '1597eae9ea8c93441cdd89eae09b145b513a0a182b1ae917359d512459868b71', 'source_count': 11, 'result_count': 8}
+AUTHENTICATED MODEL: staging 10D physical solver
+SCAN original offset=-2.000 kappa=0.166465497920 nfev=497
+SCAN original offset=-1.000 kappa=0.166532554169 nfev=497
+SCAN original offset=-0.500 kappa=0.166566082293 nfev=497
+SCAN original offset=+0.000 kappa=0.166599610418 nfev=497
+SCAN original offset=+0.125 kappa=0.166607992449 nfev=497
+SCAN original offset=+0.250 kappa=0.166616374480 nfev=497
+SCAN original offset=+0.375 kappa=0.166624756511 nfev=497
+SCAN original offset=+0.500 kappa=0.166633138542 nfev=497
+SCAN original offset=+0.625 kappa=0.166641520573 nfev=497
+SCAN original offset=+0.750 kappa=0.166649902604 nfev=497
+SCAN original offset=+0.875 kappa=0.166658284636 nfev=497
+SCAN original offset=+1.000 kappa=0.166666666667 nfev=0
+SCAN original offset=+1.500 kappa=0.166700194791 nfev=497
+SCAN original offset=+2.000 kappa=0.166733722916 nfev=497
+SCAN original offset=+3.000 kappa=0.166800779165 nfev=497
+SCAN autonomous offset=-2.000 kappa=0.166465497920 nfev=497
+SCAN autonomous offset=-1.000 kappa=0.166532554169 nfev=497
+SCAN autonomous offset=-0.500 kappa=0.166566082293 nfev=497
+SCAN autonomous offset=+0.000 kappa=0.166599610418 nfev=0
+SCAN autonomous offset=+0.125 kappa=0.166607992449 nfev=497
+SCAN autonomous offset=+0.250 kappa=0.166616374480 nfev=497
+SCAN autonomous offset=+0.375 kappa=0.166624756511 nfev=497
+SCAN autonomous offset=+0.500 kappa=0.166633138542 nfev=497
+SCAN autonomous offset=+0.625 kappa=0.166641520573 nfev=497
+SCAN autonomous offset=+0.750 kappa=0.166649902604 nfev=497
+SCAN autonomous offset=+0.875 kappa=0.166658284636 nfev=497
+SCAN autonomous offset=+1.000 kappa=0.166666666667 nfev=497
+SCAN autonomous offset=+1.500 kappa=0.166700194791 nfev=497
+SCAN autonomous offset=+2.000 kappa=0.166733722916 nfev=497
+SCAN autonomous offset=+3.000 kappa=0.166800779165 nfev=497
+v18.50u COMPLETED {
+  "max_operator_decomposition_residual": 0.0,
+  "min_third_observer_sv": 0.4870471360977659,
+  "max_fourth_observer_sv": 7.881227869982469e-14,
+  "any_failed_integrations": 0,
+  "band_contrast_checks": {
+    "original": {
+      "scalar_interior_contrast_candidates": [],
+      "flank_max": 2.7029264840690974,
+      "slope_min": 2.700479139510623,
+      "slope_max": 2.7029264840690974
+    },
+    "autonomous": {
+      "scalar_interior_contrast_candidates": [],
+      "flank_max": 2.703040692231051,
+      "slope_min": 2.700592552564317,
+      "slope_max": 2.703040692231051
+    }
+  }
+}
+v18.50u output manifest 6
+v18.50u SEND-BACK PACKAGED /root/elab1/hysteresis/q550_kappa_narrow_band_common_seed_dynamic_scan_v18_50u_bundle_server_sendback.zip members 19 bytes 58673010

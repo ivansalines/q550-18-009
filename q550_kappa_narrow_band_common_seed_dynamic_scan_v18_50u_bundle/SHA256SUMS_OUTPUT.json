@@ -1,0 +1,12 @@
+{
+  "root": "q550_kappa_narrow_band_common_seed_dynamic_scan_v18_50u_bundle",
+  "version": "v18.50u",
+  "file_sha256": {
+    "results/fixed_seed_kappa_dynamic_scan.csv": "506ecc03fd20a098559991a07b40079f827db8c239ed888a33af9cc852a1bde6",
+    "results/kappa_scan_dynamic_vs_instant.png": "525cfb67711822c1f8df34f444d6a335e04359ae73ccde577a0c838f6d8bb584",
+    "results/kappa_scan_state_response.png": "7900a3b4d3724ad02d8869a228613ecb00201e8e3173c7bf68284387a6487dc3",
+    "results/kappa_secant_response_screen.csv": "5f4fad709f21a873c0186eeef99cb8c7554ab5db9984955f4172fe28a8d5f379",
+    "results/kappa_sensitivity_band_screen.png": "936f07aaa40b70a43a8af477374a83e1ccc9cea74bed4e9c5c920f4c4098e0e6",
+    "results/report.json": "d1080ea2aacc021919356b6634482e105b40de282ada321f421f705993255a8d"
+  }
+}
