@@ -1,0 +1,17 @@
+{
+  "version": "v18.51g",
+  "root": "q550_covariant_spectral_projector_drift_time_step_invariance_v18_51g_bundle",
+  "file_sha256": {
+    "results/covariant_spectral_projector_drift.png": "bd7662b27fa0e41587f3bc834308a33a7c02790bc1a177650521d28cb95c4a7f",
+    "results/covariant_spectral_projector_ledger.csv": "ec4f976f432d5b8d435010cd890de1c024bb485d567c5816e2393698463f81c5",
+    "results/endpoint_cross_pair_summary.csv": "badcbfbca2206340fe7e47d8b6f0fbf107f00ebd106a0a8e02084f8b7a4190ff",
+    "results/finite_step_vs_instantaneous_cross_rate.csv": "c76c76a042d3584d2e6dee68f87e76b7d4c837a9c4caee697bc383ba09f0f9b7",
+    "results/instantaneous_covariant_interplane_rate.csv": "adc0018ae48637d846a5cc65672f0355529a14085829f2541277c68740299ca0",
+    "results/kinetic_similarity_covariant_control.csv": "02005ef01dd82257bb4001711af084142cfd021a4cb6ce9578dea10c1d0fa374",
+    "results/report.json": "2d3d228a2f4c7a457063780d347dcab7ca204233be3452181503045d9c986821",
+    "results/rk4_cocycle_step_refinement.csv": "c260e291f10c93eab911652ed2dda29f369aa0240db896f88bbf8ea1133a9630",
+    "results/spectral_covariant_cross_pair_rates.png": "176edb5e705ed177ae3404d2174a8135033e0a3ffd09b0f1932fb9b74c12b570",
+    "results/time_grid_derivative_refinement.csv": "1b9ec30579f1ce6f66c988bf3b076390abbfee0f9fb2c7914d90eeb26cf099e6",
+    "results/time_grid_refinement.png": "ae4a5d7e58a84ca9e430f8406041c052128b78a15c7c8bbed6f01bafba46fa6a"
+  }
+}

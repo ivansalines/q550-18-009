@@ -1,0 +1,138 @@
+SOURCE IDENTITY VERIFIED 13
+v18.51g synthetic spectral derivative, similarity, rotating-frame and RK4 controls PASS
+AUTHENTICATED genuine v18.51e 10D physical generator through v18.51f lineage
+BRANCH original 0.5 min gap 9.496943713294353e-06 max covariant drift 18.35806389246611 max spectral derivative identity 5.88058559597379e-14
+BRANCH original 1.0 min gap 9.49694371300162e-06 max covariant drift 17.332567114783746 max spectral derivative identity 6.680844914642907e-14
+BRANCH original 2.0 min gap 9.496943713548801e-06 max covariant drift 18.779194745238364 max spectral derivative identity 1.1143651729950636e-13
+BRANCH autonomous 0.5 min gap 9.46566101549572e-06 max covariant drift 18.47360288302174 max spectral derivative identity 7.357336280153523e-14
+BRANCH autonomous 1.0 min gap 9.465661014790266e-06 max covariant drift 17.432983085528814 max spectral derivative identity 5.887712895237531e-14
+BRANCH autonomous 2.0 min gap 9.465661015785003e-06 max covariant drift 18.917868158607035 max spectral derivative identity 1.1762403094397408e-13
+ENDPOINT DIRECTED CROSS RATES [
+  {
+    "seed_family": "original",
+    "tau_ref": 0.5,
+    "largest_endpoint_pair": "5->4",
+    "largest_endpoint_rate": 5.920056234163801,
+    "rate_5_to_4": 5.920056234163801,
+    "rate_4_to_5": 3.8980711344496384,
+    "rate_5to4_over_4to5": 1.5187142640483504
+  },
+  {
+    "seed_family": "original",
+    "tau_ref": 1.0,
+    "largest_endpoint_pair": "5->4",
+    "largest_endpoint_rate": 6.302200153096117,
+    "rate_5_to_4": 6.302200153096117,
+    "rate_4_to_5": 3.7295682819300544,
+    "rate_5to4_over_4to5": 1.6897934765346954
+  },
+  {
+    "seed_family": "original",
+    "tau_ref": 2.0,
+    "largest_endpoint_pair": "5->4",
+    "largest_endpoint_rate": 5.672041509876338,
+    "rate_5_to_4": 5.672041509876338,
+    "rate_4_to_5": 4.552846764669581,
+    "rate_5to4_over_4to5": 1.2458230647892192
+  },
+  {
+    "seed_family": "autonomous",
+    "tau_ref": 0.5,
+    "largest_endpoint_pair": "5->4",
+    "largest_endpoint_rate": 5.9460454995103325,
+    "rate_5_to_4": 5.9460454995103325,
+    "rate_4_to_5": 3.9338989661088974,
+    "rate_5to4_over_4to5": 1.5114891233192222
+  },
+  {
+    "seed_family": "autonomous",
+    "tau_ref": 1.0,
+    "largest_endpoint_pair": "5->4",
+    "largest_endpoint_rate": 6.324497981372592,
+    "rate_5_to_4": 6.324497981372592,
+    "rate_4_to_5": 3.765443576392574,
+    "rate_5to4_over_4to5": 1.6796156556491761
+  },
+  {
+    "seed_family": "autonomous",
+    "tau_ref": 2.0,
+    "largest_endpoint_pair": "5->4",
+    "largest_endpoint_rate": 5.680683355990104,
+    "rate_5_to_4": 5.680683355990104,
+    "rate_4_to_5": 4.59606136647521,
+    "rate_5to4_over_4to5": 1.2359894490152787
+  }
+]
+NUMERICAL QUALITY {
+  "worst_projector": {
+    "projector_idempotence": 6.645685563356643e-15,
+    "projector_sum": 5.974040858373781e-15,
+    "projector_commutation": 4.170452584574427e-15,
+    "projector_derivative_idempotence": 1.133442255260606e-11,
+    "spectral_evolution_identity": 1.1762403094397408e-13,
+    "total_drift": 18.917868158607035,
+    "differential_pair_sum": 4.0585525899672875e-15,
+    "positive_pair_min_gap": 9.465661014790266e-06
+  },
+  "fd3_max": 0.0002174859506513344,
+  "fd5_max": 3.893714591053335e-06,
+  "fd3_median": 8.814621014722325e-07,
+  "fd5_median": 4.683861950845036e-08,
+  "coarse_grid_p90": {
+    "1": 2.2426560156978544e-07,
+    "2": 1.0143357099904587e-06,
+    "4": 1.4926698170872495e-05
+  },
+  "rk4_max_error_to_genuine_cocycle_by_substeps": {
+    "1": 9.228759434092303e-13,
+    "2": 9.228569837187147e-13,
+    "4": 9.228782074090299e-13,
+    "8": 9.228281722556199e-13
+  },
+  "rk4_max_mutual_refinement": {
+    "rk4_1_vs_2": 3.3931547881589594e-15,
+    "rk4_2_vs_4": 2.462742325850984e-16,
+    "rk4_4_vs_8": 1.6885059433605126e-16
+  },
+  "max_finite_to_instantaneous_rate_relative_error": 0.009761444924356578,
+  "median_finite_to_instantaneous_rate_relative_error": 4.012795196085828e-05,
+  "tau_covariance": {
+    "M": 2.558931785079021e-16,
+    "B": 1.9565906926753476e-16,
+    "P": 9.159041699547224e-11,
+    "Pdot": 7.001164859260255e-07,
+    "drift": 7.001330801462732e-07,
+    "canonical_rate": 2.254891176889373e-06,
+    "gap_scaled_drift": 1.0061742825689427e-11,
+    "gap_scaled_canonical_rate": 2.134403550567628e-11,
+    "interior_drift": 6.712000459455069e-09,
+    "interior_canonical_rate": 2.243447738692339e-08
+  }
+}
+CHECKS {
+  "authenticated_v18_51f_sources_and_outputs_and_embedded_e": true,
+  "authentic_genuine_10d_physical_generator_two_seed_ivps": true,
+  "six_branches_78_nondegenerate_sections": true,
+  "positive_measured_spectral_gaps": true,
+  "spectral_projector_idempotence": true,
+  "spectral_projector_resolution": true,
+  "spectral_projector_commutes_with_M": true,
+  "projector_derivative_tangent_identity": true,
+  "spectral_projector_differentiated_commutator_identity": true,
+  "spectral_derivatives_sum_to_zero": true,
+  "independent_irregular_grid_finite_differences_finite": true,
+  "fine_grid_better_than_coarse_on_common_nodes": true,
+  "genuine_B_tau_similarity": true,
+  "full_drift_tau_similarity_nondegenerate_interior": true,
+  "common_frame_covariant_norm_invariance_interior": true,
+  "near_identity_spectral_conditioning_gap_scaled_drift": true,
+  "near_identity_spectral_conditioning_gap_scaled_common_rate": true,
+  "time_step_rk4_interpolation_refinement": true,
+  "finite_time_cross_rate_finite": true,
+  "one_third_did_not_enter_scientific_gates": true
+}
+Q550 v18.51g PASS 20/20 checks; no new physical IVP
+v18.51g results schema and count checks PASS
+OUTPUT MANIFEST WRITTEN 11
+SOURCE IDENTITY VERIFIED 13
+SENDBACK PACKED /root/elab1/hysteresis/q550_covariant_spectral_projector_drift_time_step_invariance_v18_51g_bundle_server_sendback.zip bytes 73552776 members 26

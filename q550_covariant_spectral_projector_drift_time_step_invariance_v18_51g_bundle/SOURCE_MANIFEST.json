@@ -1,0 +1,19 @@
+{
+  "root": "q550_covariant_spectral_projector_drift_time_step_invariance_v18_51g_bundle",
+  "version": "v18.51g",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "aa8f9395ff6329f113675cc5050217ee8da5d4ed186ce3137a8feac7f6efbbbb",
+    "README.md": "f4ceca7f3778e09d4326458f336887e3e025d6a7da9fbc2ba38d4c715071b355",
+    "SCIENTIFIC_DECISION_RULES.md": "f56e017209b5c0d483a3fa6d4776093724873e8d2986896f5666fe0822ceeb13",
+    "inputs/q550_finite_time_spectral_pairing_kinetic_similarity_transport_v18_51f_bundle_server_sendback.zip": "7d66df61d21adaf883d8c8e23d3ad7d3dd01a6bdf391f90a69272e0367b2c295",
+    "reference/f_spectral_replay_v18_51f.py": "811c5e1b3aae87c1e69d637eb6045d02548ce3d750635a7f858648ba9514972c",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "run_on_server.sh": "fe26559302ef704df4e960f6f951e6adc0b8f2a6b051c415326c0ae86b5ff9bb",
+    "scripts/pack_sendback.py": "bfd9239259c8325748cb0934559a88fcc3467fd5b601261d4d9dea9ffd8957ff",
+    "scripts/run_audit.py": "37ff4dbd6eed8daa3d87a9dee042027cb2f57373939056f317b22d542b8a19a8",
+    "scripts/verify_source_manifest.py": "a0beda5521906b5dc5a6228dd3b8176f29fab9d1b2a57252f5e35e0b2cdecca4",
+    "scripts/write_output_manifest.py": "c7ba1127197f517cae338f8c65480029ac97a26a2a2a276fe9c8c8fac2e4b021",
+    "tests/test_geometry.py": "40d7a6d3509b193b30e413ac2bf3a6a7c38d2bcef18d4c78e0c03215498ab9de",
+    "tests/test_results.py": "e3aceeb9c0a14417dbf36c2705678c88708c57e705c41a52cb40c12e20795546"
+  }
+}
