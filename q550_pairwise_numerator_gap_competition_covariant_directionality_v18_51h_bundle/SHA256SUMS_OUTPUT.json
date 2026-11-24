@@ -1,0 +1,13 @@
+{
+  "version": "v18.51h",
+  "root": "q550_pairwise_numerator_gap_competition_covariant_directionality_v18_51h_bundle",
+  "file_sha256": {
+    "results/kinetic_common_frame_covariance.csv": "2da3d776c74e7a601d9e7621583ab426b6f0b00137faa4c18521592354718848",
+    "results/kinetic_directionality_convention_sensitivity.png": "cb551c6b67912e155d235428b7fc07cc814ce322f483c464bc6bf72fd78d6f1b",
+    "results/pairwise_directionality_decomposition.csv": "267c834f533d5ddeff70917eae2202555a9b65ee9cc93895d17a01be7afeabd2",
+    "results/pairwise_numerator_cancellation.png": "c7103b2ed0e8405050ee62018aa025b6dccf1224114a4e5cbe7745e838e1af43",
+    "results/pairwise_numerator_gap_ledger.csv": "457015dcf8ac55db360739ebb2069c7c8881fd631cb0a6d121d09057baba9f0a",
+    "results/pairwise_rate_and_shared_gap.png": "47edbad8d556324eedffe27068fb9705c1e002073593faa8c3cc5deb8f58053a",
+    "results/report.json": "9c6ecf8d56788708601dc2eb24c297abd1f3512b9038447653474f3cee35151e"
+  }
+}

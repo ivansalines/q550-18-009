@@ -1,0 +1,307 @@
+{
+  "version": "v18.51h",
+  "title": "Pairwise Numerator\u2013Gap Competition & Covariant Directionality Audit",
+  "classification": "NUMERICAL_PAIRWISE_COVARIANT_SPECTRAL_DIAGNOSTIC_NOT_MATERIAL_TORSION_ENERGY_TRANSFER_OR_MEMORY_CERTIFICATE",
+  "lineage": {
+    "g_archive_sha256": "66394be8e341c526cb364ad4acb48b6f891a2c65ce73d8f0feedd181ff43fb7a",
+    "g": {
+      "source_files": 13,
+      "output_files": 11
+    },
+    "g_checks": 20,
+    "f_embedded_sha256": "7d66df61d21adaf883d8c8e23d3ad7d3dd01a6bdf391f90a69272e0367b2c295",
+    "f": {
+      "source_files": 12,
+      "output_files": 10
+    },
+    "f_checks": 16,
+    "e_embedded_sha256": "630c9881e9298ecd39b53747a76e5b775d09055c4fea7cef24ef02f86c35123b",
+    "e": {
+      "source_files": 16,
+      "output_files": 10
+    },
+    "e_checks": 21,
+    "physical_seed_ivps": 2,
+    "no_new_physical_ivp": true,
+    "historical_lineage": {
+      "c": {
+        "version": "v18.51c",
+        "source_files": 12,
+        "result_files": 8
+      },
+      "b": {
+        "version": "v18.51b",
+        "source_files": 12,
+        "result_files": 7
+      },
+      "a": {
+        "version": "v18.51a",
+        "source_files": 13,
+        "result_files": 7
+      },
+      "z": {
+        "version": "v18.50z",
+        "source_files": 12,
+        "result_files": 6
+      },
+      "y": {
+        "version": "v18.50y",
+        "source_files": 12,
+        "result_files": 8
+      },
+      "x": {
+        "version": "v18.50x",
+        "source_files": 12,
+        "result_files": 11
+      },
+      "parent_sha256": "541acc98b832e67632fb7f9c355cbd3918448249cad2830ac77409a0d92af953",
+      "historical_v18_49h_kinetic_source_sha256": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+      "d": {
+        "archive_sha256": "bb8acf4700f1993fd49c58a42e26e491a69398b09e6b58e0095159b36ea11179",
+        "auth": {
+          "version": "v18.51d",
+          "source_files": 15,
+          "result_files": 7
+        },
+        "parent_checks": 12,
+        "parent_observations": 474
+      }
+    }
+  },
+  "model": {
+    "seeds": [
+      "original",
+      "autonomous"
+    ],
+    "kinetic_tau_refs": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "xi_interval": [
+      0.0,
+      0.05
+    ],
+    "first_resolved_spectral_time": 6.825e-05,
+    "physical_IVPs_inherited_not_new": 2
+  },
+  "counts": {
+    "branches": 6,
+    "positive_sections": 468,
+    "directed_crossblocks": 9360,
+    "directionality_sections": 468,
+    "cross_convention_comparisons": 6240
+  },
+  "mathematics": {
+    "exact_crossblock": "P_i (Pprime_j-[B,P_j]) P_j = sum_{a in j,k in i} lambda_k R_k B R_a/(lambda_a-lambda_k)",
+    "rate": "Frobenius norm of exact crossblock divided by source projector Frobenius norm",
+    "shared_gap": "delta_{ij}=min_{a in j,k in i}|lambda_a-lambda_k|=delta_{ji}",
+    "exact_ratio": "r_(5to4)/r_(4to5) = (norm Q_5to4 / norm Q_4to5) * (norm P4 / norm P5)",
+    "effective_numerator": "delta * norm(Q); an exact bookkeeping identity, NOT an independent physical mechanism",
+    "cancellation": "norm(sum complex weighted rank-1 terms) / sum(norm of each weighted term)",
+    "equal_gap_counterfactual": "replace each |lambda_a-lambda_k| with pair minimum, preserve complex denominator phase; diagnostic only",
+    "kinetic_similarity": "D_tau=diag(I5,tau I5); exact similarity covariance of M,B,P,Q, not Euclidean norm invariance"
+  },
+  "numerical_quality": {
+    "maxima": {
+      "cross_block_identity_error": 1.057476364366776e-10,
+      "parent_g_rate_absolute_error": 2.1945023576108724e-10,
+      "parent_g_rate_relative_error": 8.752506410212058e-11,
+      "max_imaginary_block_residual": 1.7938886236940166e-15,
+      "projector_resolution_error": 5.974040858373781e-15,
+      "pair_gap_symmetry_error": 0.0,
+      "trace_projector_rate_error": 2.989630765171114e-11,
+      "minimum_pair_gap": 9.465661014790266e-06
+    },
+    "kinetic_similarity": {
+      "common_frame_Q_interior_rel": 4.1737221471325385e-09,
+      "common_frame_Q_all_rel": 5.446831646624012e-07,
+      "common_frame_P_interior_rel": 2.1143729461775297e-11,
+      "common_frame_gap_absolute": 3.9517000782751666e-15,
+      "common_frame_rate_interior_absolute": 8.616496849356281e-09,
+      "common_frame_rate_all_absolute": 9.751223863929681e-07
+    }
+  },
+  "persistent_observations": {
+    "raw_5to4_largest_channels": 468,
+    "raw_ratio_min_by_tau": {
+      "0.5": 1.5114891233192638,
+      "1.0": 1.6796156556493262,
+      "2.0": 1.2359894490152665
+    },
+    "raw_ratio_max_by_tau": {
+      "0.5": 2.2094499676227977,
+      "1.0": 2.7429685105387436,
+      "2.0": 2.484228327861561
+    },
+    "endpoint": [
+      {
+        "seed_family": "original",
+        "tau_ref": 0.5,
+        "index": 78,
+        "xi": 0.05,
+        "strongest_channel": "5->4",
+        "gap_min_shared_4_5": 0.005072403469733251,
+        "gap_max_shared_4_5": 0.24968092828910354,
+        "rate_5_to_4": 5.920056234163036,
+        "rate_4_to_5": 3.8980711344496406,
+        "directional_rate_ratio": 1.5187142640481535,
+        "crossblock_norm_ratio_5to4_over_4to5": 1.794564688416403,
+        "source_projector_norm_ratio_P4_over_P5": 0.8462856055572613,
+        "ratio_reconstruction_error": 0.0,
+        "effective_numerator_ratio": 1.794564688416403,
+        "termwise_numerator_sum_ratio": 1.8959705831357958,
+        "weighted_termwise_sum_ratio": 1.8920155291289094,
+        "cancellation_ratio": 0.9484936359072206,
+        "oblique_B_crossblock_ratio": 1.7154867374008025,
+        "equal_gap_counterfactual_directional_ratio": 1.6366372728500422
+      },
+      {
+        "seed_family": "original",
+        "tau_ref": 1.0,
+        "index": 78,
+        "xi": 0.05,
+        "strongest_channel": "5->4",
+        "gap_min_shared_4_5": 0.005072403469733253,
+        "gap_max_shared_4_5": 0.24968092828910327,
+        "rate_5_to_4": 6.302200153096547,
+        "rate_4_to_5": 3.7295682819300175,
+        "directional_rate_ratio": 1.6897934765348273,
+        "crossblock_norm_ratio_5to4_over_4to5": 1.865644567563803,
+        "source_projector_norm_ratio_P4_over_P5": 0.905742447363055,
+        "ratio_reconstruction_error": 0.0,
+        "effective_numerator_ratio": 1.8656445675638027,
+        "termwise_numerator_sum_ratio": 1.9816809758270186,
+        "weighted_termwise_sum_ratio": 1.9775471272563103,
+        "cancellation_ratio": 0.9434134549057432,
+        "oblique_B_crossblock_ratio": 2.1314375291325067,
+        "equal_gap_counterfactual_directional_ratio": 1.6240137795418212
+      },
+      {
+        "seed_family": "original",
+        "tau_ref": 2.0,
+        "index": 78,
+        "xi": 0.05,
+        "strongest_channel": "5->4",
+        "gap_min_shared_4_5": 0.005072403469733704,
+        "gap_max_shared_4_5": 0.24968092828910343,
+        "rate_5_to_4": 5.67204150987613,
+        "rate_4_to_5": 4.552846764669522,
+        "directional_rate_ratio": 1.2458230647891895,
+        "crossblock_norm_ratio_5to4_over_4to5": 1.3544600160083249,
+        "source_projector_norm_ratio_P4_over_P5": 0.9197931648515584,
+        "ratio_reconstruction_error": 0.0,
+        "effective_numerator_ratio": 1.3544600160083247,
+        "termwise_numerator_sum_ratio": 2.0399661238390516,
+        "weighted_termwise_sum_ratio": 2.0357106906253355,
+        "cancellation_ratio": 0.66534995480731,
+        "oblique_B_crossblock_ratio": 2.31525074943583,
+        "equal_gap_counterfactual_directional_ratio": 1.3217657166311787
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 0.5,
+        "index": 78,
+        "xi": 0.05,
+        "strongest_channel": "5->4",
+        "gap_min_shared_4_5": 0.005054754023799036,
+        "gap_max_shared_4_5": 0.24970779350329808,
+        "rate_5_to_4": 5.946045499510328,
+        "rate_4_to_5": 3.9338989661087864,
+        "directional_rate_ratio": 1.5114891233192638,
+        "crossblock_norm_ratio_5to4_over_4to5": 1.7838329821821939,
+        "source_projector_norm_ratio_P4_over_P5": 0.8473265930256727,
+        "ratio_reconstruction_error": 0.0,
+        "effective_numerator_ratio": 1.783832982182194,
+        "termwise_numerator_sum_ratio": 1.884345379824319,
+        "weighted_termwise_sum_ratio": 1.880564959753087,
+        "cancellation_ratio": 0.9485622780169244,
+        "oblique_B_crossblock_ratio": 1.7066982390603234,
+        "equal_gap_counterfactual_directional_ratio": 1.629336523690969
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 1.0,
+        "index": 78,
+        "xi": 0.05,
+        "strongest_channel": "5->4",
+        "gap_min_shared_4_5": 0.005054754023799283,
+        "gap_max_shared_4_5": 0.24970779350329822,
+        "rate_5_to_4": 6.324497981373159,
+        "rate_4_to_5": 3.765443576392575,
+        "directional_rate_ratio": 1.6796156556493262,
+        "crossblock_norm_ratio_5to4_over_4to5": 1.8532211318927243,
+        "source_projector_norm_ratio_P4_over_P5": 0.9063223091644267,
+        "ratio_reconstruction_error": 2.220446049250313e-16,
+        "effective_numerator_ratio": 1.8532211318927243,
+        "termwise_numerator_sum_ratio": 1.9688605816780638,
+        "weighted_termwise_sum_ratio": 1.9649106051278054,
+        "cancellation_ratio": 0.9431579874709791,
+        "oblique_B_crossblock_ratio": 2.1181221470891467,
+        "equal_gap_counterfactual_directional_ratio": 1.613414073467264
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 2.0,
+        "index": 78,
+        "xi": 0.05,
+        "strongest_channel": "5->4",
+        "gap_min_shared_4_5": 0.005054754023798743,
+        "gap_max_shared_4_5": 0.24970779350329816,
+        "rate_5_to_4": 5.680683355990094,
+        "rate_4_to_5": 4.596061366475248,
+        "directional_rate_ratio": 1.2359894490152665,
+        "crossblock_norm_ratio_5to4_over_4to5": 1.3431574207034818,
+        "source_projector_norm_ratio_P4_over_P5": 0.9202119051450529,
+        "ratio_reconstruction_error": 2.220446049250313e-16,
+        "effective_numerator_ratio": 1.3431574207034818,
+        "termwise_numerator_sum_ratio": 2.026286040813433,
+        "weighted_termwise_sum_ratio": 2.0222208558943233,
+        "cancellation_ratio": 0.6641991732942903,
+        "oblique_B_crossblock_ratio": 2.2996454685120242,
+        "equal_gap_counterfactual_directional_ratio": 1.3104039879815115
+      }
+    ]
+  },
+  "limitations": [
+    "Samples only: 78 positive xi sections per branch, no continuous spectral-gap certificate",
+    "At xi=0 the map is identity and the ten eigenvalues are degenerate",
+    "Raw directed Frobenius rates depend on nonorthogonal kinetic-state similarity",
+    "A shared unordered pair gap cannot independently explain 5->4 versus 4->5",
+    "No inference of energy flow, geometric torsion, autonomous kappa activation, or material hysteresis",
+    "Exact numerator/gap splitting is algebraic; termwise phases and cancellations prevent unique source attribution",
+    "No new Q550 physical initial-value problem or independent kappa state was integrated",
+    "The 1/3 heuristic is explicitly retired"
+  ],
+  "checks": {
+    "g_archive_source_output_sha256_and_CRC": true,
+    "f_and_e_embedded_genealogy_source_output_sha256": true,
+    "historical_g_script_exact_identity": true,
+    "g_parent_scientific_controls_pass": true,
+    "genuine_10d_tangent_generator_two_seed_IVPs": true,
+    "six_branches_and_468_positive_sections": true,
+    "9360_directed_pairwise_ledger_rows": true,
+    "positive_pair_gaps_in_all_samples": true,
+    "source_target_shared_gap_symmetry": true,
+    "complete_projector_resolution": true,
+    "projector_derivative_trace_zero": true,
+    "exact_numerator_gap_crossblock_identity": true,
+    "conjugate_complex_pair_real_block": true,
+    "independent_parent_g_rates_replayed": true,
+    "direction_ratio_algebraic_reconstruction": true,
+    "all_5to4_raw_grid_dominance": true,
+    "tau_common_frame_Q_covariance_interior": true,
+    "tau_common_frame_projector_covariance_interior": true,
+    "tau_common_frame_rate_covariance_interior": true,
+    "tau_invariant_complex_pair_gap": true,
+    "no_one_third_acceptance_gate": true,
+    "no_new_physical_ivp_solved": true
+  },
+  "software": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}

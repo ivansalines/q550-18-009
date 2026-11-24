@@ -1,0 +1,20 @@
+{
+  "root": "q550_pairwise_numerator_gap_competition_covariant_directionality_v18_51h_bundle",
+  "version": "v18.51h",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "364395c1a2d88caf4fe18067fe11de856fcccc73fd75f9db95c4ef3be339ae86",
+    "README.md": "fcd712598b819c7f5c375f43c3225d7c5d5b87d18c555773129e99018cc9c3ec",
+    "SCIENTIFIC_DECISION_RULES.md": "6fcfdd884147ca449bd5f38294187bf93318df9f178d601f044cef844956d6eb",
+    "SCIENTIFIC_REPORT.md": "62f68020156dc487bc18dfae794f003188e57520a98e466f1d95e59d93c6d356",
+    "inputs/q550_covariant_spectral_projector_drift_time_step_invariance_v18_51g_bundle_server_sendback.zip": "66394be8e341c526cb364ad4acb48b6f891a2c65ce73d8f0feedd181ff43fb7a",
+    "reference/g_projector_replay_v18_51g.py": "37ff4dbd6eed8daa3d87a9dee042027cb2f57373939056f317b22d542b8a19a8",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "run_on_server.sh": "fe26559302ef704df4e960f6f951e6adc0b8f2a6b051c415326c0ae86b5ff9bb",
+    "scripts/pack_sendback.py": "eb28a844623ae48e6a28ceeabc2af2cb9be5305f6205add0131b1fe6f0dfdf6d",
+    "scripts/run_audit.py": "250de3f86df74378f3e55fee431b25c2a207a10e405947f3369d6cbefc26030a",
+    "scripts/verify_source_manifest.py": "f2139716d5d6b104aed1123876faa64055e93999d5ec3f0e65716ad68f7c4e38",
+    "scripts/write_output_manifest.py": "719c9910ea7e91ee468212cb3e663b29ab7ce67985bc8bea165fc0d532af8b4c",
+    "tests/test_geometry.py": "8e0139bf95e104444e408a5d8d3c59ff1905f6424d6d3b5239458b90f6f8fbf3",
+    "tests/test_results.py": "88edee195bd06587097e31793a7587b3e070649a3cb235bd937990fec5423ece"
+  }
+}
