@@ -1,0 +1,14 @@
+SOURCE IDENTITY VERIFIED 17
+v18.51p SYNTHETIC KINEMATIC/CLOCK/EL FORCE TESTS PASS
+AUTHENTICATED 19 ancestors; stage genuine nonlinear model
+AUTHENTICATED MODEL: staging 10D physical solver
+PHYSICAL IVP original nfev 602 end 0.05
+FORCE original c 1.6736334194327467 1.6737296341560723 qdot defect 6.693700897109113e-16 A clock identity 1.8200646242136923e-10 absolute force |FQ| end 0.40523115432405293
+PHYSICAL IVP autonomous nfev 602 end 0.05
+FORCE autonomous c 1.6736330640059707 1.6737292811373736 qdot defect 6.69794242615733e-16 A clock identity 1.5767532970096927e-10 absolute force |FQ| end 0.40523033466182284
+v18.51p COMPLETED 18 / 18 checks
+QUALITY {'max_clock_qdot_defect': 4.671412562689709e-16, 'max_rankone_A_error': 1.8200646242136923e-10, 'max_acceleration_derivative_defect': 6.567708011915964e-11, 'max_EL_kinetic_identity': 4.44436780859889e-16, 'max_nonlinear_force_Jacobian_E_error': 1.0341309900241122e-06, 'max_nonlinear_force_Jacobian_F_error': 2.091001442837996e-06}
+v18.51p OUTPUT AND INTERPRETATION TESTS PASS
+OUTPUT MANIFEST WRITTEN 6
+SOURCE IDENTITY VERIFIED 17
+SENDBACK PACKED /root/elab1/hysteresis/q550_physical_clock_moving_frame_drift_absolute_generalized_force_reconstruction_v18_51p_bundle_server_sendback.zip members 25 bytes 85542105

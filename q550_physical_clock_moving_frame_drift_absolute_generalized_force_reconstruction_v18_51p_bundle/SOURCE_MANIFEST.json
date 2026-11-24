@@ -1,0 +1,23 @@
+{
+  "root": "q550_physical_clock_moving_frame_drift_absolute_generalized_force_reconstruction_v18_51p_bundle",
+  "version": "v18.51p",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "1e3387c6b2e020b6835c7975cfd71d13bafd2cacfed18534cceb08c0d426ff49",
+    "README.md": "b40b2a2112c80996dc6a70a684b6bc00376123b414d6c70dbfbec01ae5a11f9f",
+    "SCIENTIFIC_DECISION_RULES.md": "34864110b875ba93e4c53c9b6acd6c15eece470d3d8d6ae5b22b81c18b6e9058",
+    "SCIENTIFIC_REPORT.md": "cdc521c348d3ade248fd1d5575ab439215d3bc4fa3565e884101f9869adecf72",
+    "inputs/material_tangent_cauchy_green_tensors_v18_51e.npz": "8bfd80d7554642b1d5872634c32c820a1b2d7c3ab35390299b3263a2729b97ca",
+    "inputs/q550_clock_consistent_kinematic_closure_generalized_force_reconstruction_v18_51o_bundle_server_sendback.zip": "76dcc77007f461b2d3d8f11637c0bb600bfeb0ed0f3218b1f8562c38c97bc6ee",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/x_replay_v18_50x.py": "3abd194b6deb20a327749f8efad791e3d66e26e9fab0ec3009439bc2028dd928",
+    "reference/z_replay_helpers_v18_50z.py": "1e7f51dffcfad9e419a5ac9b396e89e587c862f90dc511f99099446e3175af33",
+    "requirements.txt": "1f96b53c65864a9be015e4997756a15abf17a2a7b896ef212025021809e92cf8",
+    "run_on_server.sh": "f56bdbb80bc8326dcacb99b2428c18ebaf7c4362af3fe9934993cb327f8ae043",
+    "scripts/pack_sendback.py": "b4e13855cc28dea1f957449b65d2583d5d2f382f7fa912a2fbe5176b0cda9f8e",
+    "scripts/run_audit.py": "e728d6894620b80fb1515046227fd131e8091cdb6131b5730920589e2f49b0bc",
+    "scripts/verify_source_manifest.py": "dac3601bc65c594ac94a0489dc85baec4329785bc895e4d5be339d7920818f0e",
+    "scripts/write_output_manifest.py": "ed473058bb3ef9b0386d4f894cf748852e63fc37c3acd7e02cd0c9eccd9d89ee",
+    "tests/test_geometry.py": "b2645b5182f418a79cc84fee434ba5a12ac2563a124e2adeb9d9f0916efde6ca",
+    "tests/test_results.py": "f229328ea4fed24fbf17faf57442526eb4eccc7ac503c03f378ffae981d0a5a3"
+  }
+}

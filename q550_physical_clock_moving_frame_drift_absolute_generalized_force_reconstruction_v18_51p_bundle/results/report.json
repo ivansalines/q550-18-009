@@ -1,0 +1,235 @@
+{
+  "version": "v18.51p",
+  "title": "Physical Clock, Moving-Frame Drift & Absolute Generalized-Force Reconstruction Audit",
+  "classification": "AUTHENTIC_NONLINEAR_CLOCK_AND_ON_TRAJECTORY_KINETIC_FORCE_CONSTRUCTION_WITH_VARIATIONAL_LIMITATIONS",
+  "checks": {
+    "nested_source_hash_chain_authenticated": true,
+    "historical_kinetic_source_verified": true,
+    "cached_e_tensors_byte_identical": true,
+    "two_genuine_nonlinear_10d_ivps": true,
+    "same_historical_kappa_midpoint": true,
+    "historical_79_section_grid_each_seed": true,
+    "authentic_rhs_agrees_with_structural_jet": true,
+    "single_positive_material_clock": true,
+    "nonlinear_position_velocity_clock_closure": true,
+    "cartesian_kinetic_velocity_clock_closure": true,
+    "moving_frame_rank_one_position_from_clock_gradient": true,
+    "kinematic_velocity_block_from_clock_gradient": true,
+    "absolute_acceleration_independent_directional_check": true,
+    "kinetic_Euler_Lagrange_absolute_force_identity": true,
+    "force_jacobian_nonlinear_vs_frozen_tangent_replay": true,
+    "finite_material_clock_integral": true,
+    "force_and_clock_finite": true,
+    "no_unique_off_trajectory_potential_or_action_claimed": true
+  },
+  "summary": {
+    "original": {
+      "event_time": 0.09104762622982329,
+      "kappa": 0.1666331385421536,
+      "mx": 1.0,
+      "nfev": 602,
+      "clock_start": 1.6736334194327467,
+      "clock_end": 1.6737296341560723,
+      "tau_elapsed": 0.083683298394394,
+      "max_rhs_jet_error": 1.5548074936236229e-15,
+      "max_qdot_clock_residual": 6.693700897109113e-16,
+      "max_clock_grad_velocity": 3.281671856067805e-10,
+      "max_tangent_position_reconstruction": 1.8200646242136923e-10,
+      "max_tangent_velocity_reconstruction": 7.512578244174022e-11,
+      "max_force_kinetic_identity": 3.3547058379842023e-16,
+      "max_independent_acceleration_error": 6.567708011915964e-11,
+      "end_generalized_force": [
+        -0.6942122238575964,
+        0.005387672609991091,
+        -0.0027926158490776884,
+        0.005387672609991092,
+        -0.0018345945601814344
+      ],
+      "end_cartesian_force": [
+        0.40157856138504533,
+        0.028661243535639175,
+        -0.038832292068654926,
+        0.023741803881778496,
+        -0.007338966606162668
+      ],
+      "end_clock_position_gradient": [
+        6.026118095461188e-12,
+        3.6650198624355865e-12,
+        1.1761741197183252e-10,
+        4.240388334507885e-11,
+        -3.3177528596751125
+      ],
+      "end_clock_velocity_gradient": [
+        -7.434681634245145e-12,
+        1.2328471973413014e-11,
+        2.8171167353759815e-11,
+        1.1434265161383628e-10,
+        0.0
+      ]
+    },
+    "autonomous": {
+      "event_time": 0.09102271942457762,
+      "kappa": 0.1666331385421536,
+      "mx": 1.0,
+      "nfev": 602,
+      "clock_start": 1.6736330640059707,
+      "clock_end": 1.6737292811373736,
+      "tau_elapsed": 0.0836832806621624,
+      "max_rhs_jet_error": 1.625379681755715e-15,
+      "max_qdot_clock_residual": 6.69794242615733e-16,
+      "max_clock_grad_velocity": 2.89469300552096e-10,
+      "max_tangent_position_reconstruction": 1.5767532970096927e-10,
+      "max_tangent_velocity_reconstruction": 6.627275864896964e-11,
+      "max_force_kinetic_identity": 4.44436780859889e-16,
+      "max_independent_acceleration_error": 5.401370863223912e-11,
+      "end_generalized_force": [
+        -0.6942136012779225,
+        0.005387683703069335,
+        -0.002783358451230473,
+        0.005387683703069338,
+        -0.001834655533986068
+      ],
+      "end_cartesian_force": [
+        0.4015795257789632,
+        0.02866908853682626,
+        -0.03878030474462523,
+        0.02378688546607979,
+        -0.007339210548906946
+      ],
+      "end_clock_position_gradient": [
+        5.765248090867527e-12,
+        6.808562860769983e-12,
+        -8.002696613026626e-11,
+        3.7634820105384084e-11,
+        -3.317751460135996
+      ],
+      "end_clock_velocity_gradient": [
+        -1.385325931503185e-11,
+        1.1820048003141974e-11,
+        -7.127789170615887e-11,
+        -4.309012236485701e-11,
+        0.0
+      ]
+    }
+  },
+  "quality": {
+    "max_clock_qdot_defect": 4.671412562689709e-16,
+    "max_rankone_A_error": 1.8200646242136923e-10,
+    "max_acceleration_derivative_defect": 6.567708011915964e-11,
+    "max_EL_kinetic_identity": 4.44436780859889e-16,
+    "max_nonlinear_force_Jacobian_E_error": 1.0341309900241122e-06,
+    "max_nonlinear_force_Jacobian_F_error": 2.091001442837996e-06
+  },
+  "lineage": [
+    {
+      "version": "v18.51o",
+      "source_count": 15,
+      "result_count": 6
+    },
+    {
+      "version": "v18.51n",
+      "source_count": 21,
+      "result_count": 8
+    },
+    {
+      "version": "v18.51m",
+      "source_count": 19,
+      "result_count": 10
+    },
+    {
+      "version": "v18.51l",
+      "source_count": 18,
+      "result_count": 9
+    },
+    {
+      "version": "v18.51k",
+      "source_count": 17,
+      "result_count": 6
+    },
+    {
+      "version": "v18.51j",
+      "source_count": 16,
+      "result_count": 7
+    },
+    {
+      "version": "v18.51i",
+      "source_count": 15,
+      "result_count": 7
+    },
+    {
+      "version": "v18.51h",
+      "source_count": 14,
+      "result_count": 7
+    },
+    {
+      "version": "v18.51g",
+      "source_count": 13,
+      "result_count": 11
+    },
+    {
+      "version": "v18.51f",
+      "source_count": 12,
+      "result_count": 10
+    },
+    {
+      "version": "v18.51e",
+      "source_count": 16,
+      "result_count": 10
+    },
+    {
+      "version": "v18.51d",
+      "source_count": 15,
+      "result_count": 7
+    },
+    {
+      "version": "v18.51c",
+      "source_count": 12,
+      "result_count": 8
+    },
+    {
+      "version": "v18.51b",
+      "source_count": 12,
+      "result_count": 7
+    },
+    {
+      "version": "v18.51a",
+      "source_count": 13,
+      "result_count": 7
+    },
+    {
+      "version": "v18.50z",
+      "source_count": 12,
+      "result_count": 6
+    },
+    {
+      "version": "v18.50y",
+      "source_count": 12,
+      "result_count": 8
+    },
+    {
+      "version": "v18.50x",
+      "source_count": 12,
+      "result_count": 11
+    },
+    {
+      "version": "v18.50w",
+      "source_count": 12,
+      "result_count": 7
+    }
+  ],
+  "scientific_boundary": {
+    "clock": "c(y,xi) is state-dependent; each trajectory has its own accumulated tau; no universal external clock inferred",
+    "absolute_generalized_force": "on-trajectory kinetic EL residual of genuine original RHS at midpoint kappa; no potential, memory law or global action inferred",
+    "moving_frame": "rank-one A caused by state-dependent clock in flat Cartesian kinetic immersion, not an independent torsion certificate",
+    "variation": "linearized forcing evaluated with current xi driving protocol; off-trajectory force extension not claimed unique",
+    "independence": "genuine nonlinear RHS and state integrated afresh; finite-difference Jacobian uses independent field perturbations"
+  },
+  "environment": {
+    "python": "3.13.16 (main, Oct  1 2026, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  },
+  "sections": 158,
+  "nonlinear_force_jacobian_sections": 6
+}
