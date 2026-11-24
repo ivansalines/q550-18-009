@@ -1,0 +1,156 @@
+SOURCE IDENTITY VERIFIED 16
+v18.51j independent adjoint-gauge, synthetic transport, metric-pullback tests PASS
+AUTHENTICATED H REPLAY original 0.5
+AUTHENTICATED H REPLAY original 1.0
+AUTHENTICATED H REPLAY original 2.0
+AUTHENTICATED H REPLAY autonomous 0.5
+AUTHENTICATED H REPLAY autonomous 1.0
+AUTHENTICATED H REPLAY autonomous 2.0
+INHERITED I REPLAY original 0.5 sections 78
+INHERITED I REPLAY original 1.0 sections 78
+INHERITED I REPLAY original 2.0 sections 78
+INHERITED I REPLAY autonomous 0.5 sections 78
+INHERITED I REPLAY autonomous 1.0 sections 78
+INHERITED I REPLAY autonomous 2.0 sections 78
+BRANCH original 0.5 instant end ratio 1.5968463564527782 finite lag1 endpoint ratio 1.6062206006146362
+BRANCH original 1.0 instant end ratio 1.7062139091516237 finite lag1 endpoint ratio 1.7176829016504316
+BRANCH original 2.0 instant end ratio 1.3288221830835725 finite lag1 endpoint ratio 1.332232426435417
+BRANCH autonomous 0.5 instant end ratio 1.5894104648663103 finite lag1 endpoint ratio 1.598813127677787
+BRANCH autonomous 1.0 instant end ratio 1.6965044662696382 finite lag1 endpoint ratio 1.707970343783598
+BRANCH autonomous 2.0 instant end ratio 1.3235016345114634 finite lag1 endpoint ratio 1.3268403895903975
+V18.51J OBSERVATIONS {
+  "branches": [
+    {
+      "seed_family": "original",
+      "tau_ref": 0.5,
+      "positive_sections": 78,
+      "instantaneous_5to4_exceeds_reverse": 78,
+      "instantaneous_endpoint_ratio": 1.5968463564527782,
+      "instantaneous_endpoint_adjoint_defect": 0.9794776008882385,
+      "instantaneous_min_interference": 24.441950058356092,
+      "instantaneous_max_interference": 46.7809752492169,
+      "finite_lag1_samples": 77,
+      "finite_lag1_5to4_exceeds_reverse": 77,
+      "finite_lag1_endpoint_ratio": 1.6062206006146362,
+      "inverse_time_lag1_endpoint_ratio": 1.6058053325973518
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 1.0,
+      "positive_sections": 78,
+      "instantaneous_5to4_exceeds_reverse": 78,
+      "instantaneous_endpoint_ratio": 1.7062139091516237,
+      "instantaneous_endpoint_adjoint_defect": 0.9875139911078529,
+      "instantaneous_min_interference": 29.843442482835847,
+      "instantaneous_max_interference": 52.14166536741768,
+      "finite_lag1_samples": 77,
+      "finite_lag1_5to4_exceeds_reverse": 77,
+      "finite_lag1_endpoint_ratio": 1.7176829016504316,
+      "inverse_time_lag1_endpoint_ratio": 1.7181532164795632
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 2.0,
+      "positive_sections": 78,
+      "instantaneous_5to4_exceeds_reverse": 78,
+      "instantaneous_endpoint_ratio": 1.3288221830835725,
+      "instantaneous_endpoint_adjoint_defect": 0.9485301620941684,
+      "instantaneous_min_interference": 25.707955299737396,
+      "instantaneous_max_interference": 32.88179292261542,
+      "finite_lag1_samples": 77,
+      "finite_lag1_5to4_exceeds_reverse": 77,
+      "finite_lag1_endpoint_ratio": 1.332232426435417,
+      "inverse_time_lag1_endpoint_ratio": 1.3372689736948027
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 0.5,
+      "positive_sections": 78,
+      "instantaneous_5to4_exceeds_reverse": 78,
+      "instantaneous_endpoint_ratio": 1.5894104648663103,
+      "instantaneous_endpoint_adjoint_defect": 0.9798349279814645,
+      "instantaneous_min_interference": 24.695738073220625,
+      "instantaneous_max_interference": 46.89750673113757,
+      "finite_lag1_samples": 77,
+      "finite_lag1_5to4_exceeds_reverse": 77,
+      "finite_lag1_endpoint_ratio": 1.598813127677787,
+      "inverse_time_lag1_endpoint_ratio": 1.5983977227184771
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 1.0,
+      "positive_sections": 78,
+      "instantaneous_5to4_exceeds_reverse": 78,
+      "instantaneous_endpoint_ratio": 1.6965044662696382,
+      "instantaneous_endpoint_adjoint_defect": 0.9878426120677403,
+      "instantaneous_min_interference": 30.124873963479647,
+      "instantaneous_max_interference": 52.25349668363299,
+      "finite_lag1_samples": 77,
+      "finite_lag1_5to4_exceeds_reverse": 77,
+      "finite_lag1_endpoint_ratio": 1.707970343783598,
+      "inverse_time_lag1_endpoint_ratio": 1.7084488628477508
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 2.0,
+      "positive_sections": 78,
+      "instantaneous_5to4_exceeds_reverse": 78,
+      "instantaneous_endpoint_ratio": 1.3235016345114634,
+      "instantaneous_endpoint_adjoint_defect": 0.9488158138727381,
+      "instantaneous_min_interference": 25.88697950223775,
+      "instantaneous_max_interference": 32.93282765054261,
+      "finite_lag1_samples": 77,
+      "finite_lag1_5to4_exceeds_reverse": 77,
+      "finite_lag1_endpoint_ratio": 1.3268403895903975,
+      "inverse_time_lag1_endpoint_ratio": 1.3318819082661002
+    }
+  ],
+  "instantaneous_5to4_stronger_total": 468,
+  "finite_lag_5to4_stronger_total": 1362
+}
+V18.51J QUALITY {
+  "max_identity": 6.018543665852589e-16,
+  "max_gauge": 4.263256414560601e-14,
+  "max_finite_identity": 5.421010862427522e-19,
+  "max_propagator_composition": 3.516510552737601e-16,
+  "max_inversion": 2.4069538703204923e-16
+}
+V18.51J PULLBACK {
+  "rate_5to4_max_all": 9.687615714071285e-07,
+  "rate_5to4_max_interior": 8.168800746943816e-09,
+  "rate_4to5_max_all": 3.358121205554454e-07,
+  "rate_4to5_max_interior": 2.0708521564216653e-09,
+  "rate_ratio_5to4_over_4to5_max_all": 1.2212268241107438e-06,
+  "rate_ratio_5to4_over_4to5_max_interior": 3.819751182021491e-09,
+  "adjoint_reciprocity_defect_max_all": 8.037001775207386e-08,
+  "adjoint_reciprocity_defect_max_interior": 7.742971819268973e-10,
+  "reciprocity_interference_max_all": 1.8246203982386078e-05,
+  "reciprocity_interference_max_interior": 1.318480720158277e-07
+}
+V18.51J CHECKS {
+  "i_sha256_crc_and_reference_verified": true,
+  "i_nested_h_g_f_e_verified": true,
+  "two_inherited_10D_seed_ivps_no_new_ivp": true,
+  "parent_i_ratio_replay": true,
+  "six_material_kinetic_branches": true,
+  "468_positive_instantaneous_sections": true,
+  "reciprocity_orthogonal_gauge_control": true,
+  "exact_symmetric_antisymmetric_identity": true,
+  "positive_material_time_increments": true,
+  "finite_lag_covariant_projector_crossblock_identity": true,
+  "finite_time_propagator_inverse": true,
+  "finite_time_propagator_composition": true,
+  "metric_similarity_pullback_restricted_rate_interior": true,
+  "metric_similarity_pullback_reciprocity_interior": true,
+  "metric_similarity_pullback_interference_interior": true,
+  "finite_lag_1_2_4_sampled": true,
+  "no_time_reversal_confusion": true,
+  "no_independent_material_energy_transfer_assertion": true,
+  "one_third_not_used_as_gate": true,
+  "finite_interval_no_between_section_certificate": true
+}
+Q550 v18.51j PASS 20 / 20
+v18.51j regenerated 20 scientific controls and result sanity tests PASS
+OUTPUT MANIFEST WRITTEN 7
+SOURCE IDENTITY VERIFIED 16
+SENDBACK PACKED /root/elab1/hysteresis/q550_metric_adjoint_reciprocity_bidirectional_pair_transport_v18_51j_bundle_server_sendback.zip members 25 bytes 77381334

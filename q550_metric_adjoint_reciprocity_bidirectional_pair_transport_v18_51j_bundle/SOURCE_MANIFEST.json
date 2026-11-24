@@ -1,0 +1,22 @@
+{
+  "root": "q550_metric_adjoint_reciprocity_bidirectional_pair_transport_v18_51j_bundle",
+  "version": "v18.51j",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "add6de3f157ad04f3ebfd8c02d2d51acce5231c6fe5a1287bf8984b5a5819f6f",
+    "README.md": "e2c18d26c251b1dbd402a4a4f69d39e9ce2d05fc0d529a984810337a9c0ed8db",
+    "SCIENTIFIC_DECISION_RULES.md": "764670ee7e4094482090a8790793499931e65b6bf40bc8076e7911e87c984733",
+    "SCIENTIFIC_REPORT.md": "e25d184713c0e5191fa0b415dfcf7f9cb01b31a473e065a0b44c8f4f1e75f9a0",
+    "inputs/q550_projector_conditioning_separation_covariant_directionality_v18_51i_bundle_server_sendback.zip": "353d1292ebf95a829accc837464ba90b6d18a91b479f4641ad26d51858d4cba1",
+    "reference/g_projector_replay_v18_51g.py": "37ff4dbd6eed8daa3d87a9dee042027cb2f57373939056f317b22d542b8a19a8",
+    "reference/h_pairwise_replay_v18_51h.py": "250de3f86df74378f3e55fee431b25c2a207a10e405947f3369d6cbefc26030a",
+    "reference/i_projector_replay_v18_51i.py": "15f199d878742fe40e0e7ebe8ce967ee7d3111f4e76fd05278bce08bbbc5cc8b",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "run_on_server.sh": "f56bdbb80bc8326dcacb99b2428c18ebaf7c4362af3fe9934993cb327f8ae043",
+    "scripts/pack_sendback.py": "fb4bb91836e2fe296cdbe40ab93fc8097c34d8f5369c587a7c6701c1b8366df9",
+    "scripts/run_audit.py": "3e6dc42e6a8c66507e9501229bfcac8ccf96d675b6de40709784f36dd2b0f31a",
+    "scripts/verify_source_manifest.py": "3516de2144fae6e98a3c65e65c340e0d1e55e503fd712adb39521590a6d06377",
+    "scripts/write_output_manifest.py": "1e80321ea08dc5f9b4d9634160241aa270b0fef7945bd835e363d9d24402e36d",
+    "tests/test_geometry.py": "0771af48f62710d8c901e86c62a2ee9e78b628eca9a91c0e2807b6dc53ffac4c",
+    "tests/test_results.py": "c9cc6ac2ecd8d068ecc339e0f7532267b7e0b636aab1400e318af3878d064f43"
+  }
+}

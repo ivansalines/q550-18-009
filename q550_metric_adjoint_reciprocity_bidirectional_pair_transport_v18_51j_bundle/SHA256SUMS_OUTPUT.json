@@ -1,0 +1,13 @@
+{
+  "root": "q550_metric_adjoint_reciprocity_bidirectional_pair_transport_v18_51j_bundle",
+  "version": "v18.51j",
+  "file_sha256": {
+    "results/finite_lag_bidirectional_transport_ledger.csv": "45c6081d943502ac16221a03b0c29ac11df3d02f1d78a1da902a488449895991",
+    "results/finite_lag_material_bidirectional_transport.png": "1414c6bdb12c82cdd3f29d7fb61896927717b46f406220cab49135b8a770fd44",
+    "results/metric_adjoint_pair_reciprocity.png": "20272f6e6290ed4b082cfdb6ef2daef523fd510991eea349feca9ce8a9bd0dcf",
+    "results/metric_adjoint_reciprocity_ledger.csv": "6828c0fa1221087745a6eafe442cc66a47f9c27a1d9c89829b8961b46d813ace",
+    "results/passive_kinetic_metric_pullback_controls.csv": "8ca316c7b4e4c8cd29a0768be37e6369bd47513d8412cc2da14bfc761084aa08",
+    "results/reciprocity_interference_identity.png": "5d335eca98bba49ee2c147a0eb0a3ed40cb92fb3d6b89e824da93da8bf07e1ff",
+    "results/report.json": "f74a2e6073311f33565c36b99381446ec05d42a58610ce2c193e07c0ed134ed7"
+  }
+}

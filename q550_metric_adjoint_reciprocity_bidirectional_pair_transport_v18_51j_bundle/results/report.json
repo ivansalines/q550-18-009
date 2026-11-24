@@ -1,0 +1,264 @@
+{
+  "version": "v18.51j",
+  "title": "Metric-Adjoint Reciprocity & Bidirectional Pair Transport Audit",
+  "classification": "NUMERICAL_SAME_METRIC_ADJOINT_RECIPROCITY_AND_FINITE_LAG_TRANSPORT_DIAGNOSTIC_NOT_MATERIAL_FLUX_CERTIFICATE",
+  "genealogy": {
+    "parent_i_archive_sha256": "353d1292ebf95a829accc837464ba90b6d18a91b479f4641ad26d51858d4cba1",
+    "parent_i_sources": 15,
+    "parent_i_outputs": 7,
+    "parent_i_checks": 19,
+    "parent_i_replay_max_direction_ratio_error": 0.0,
+    "ancestral_nested_authentication": {
+      "h_archive_sha256": "bd1d90703b0ddb638c76ece111ac7a224c81d52858c4625931fb5e73b3cdd0fa",
+      "h_source_files": 14,
+      "h_output_files": 7,
+      "parent_h_checks": 22,
+      "nested_g_f_e_verified": {
+        "g_archive_sha256": "66394be8e341c526cb364ad4acb48b6f891a2c65ce73d8f0feedd181ff43fb7a",
+        "g": {
+          "source_files": 13,
+          "output_files": 11
+        },
+        "g_checks": 20,
+        "f_embedded_sha256": "7d66df61d21adaf883d8c8e23d3ad7d3dd01a6bdf391f90a69272e0367b2c295",
+        "f": {
+          "source_files": 12,
+          "output_files": 10
+        },
+        "f_checks": 16,
+        "e_embedded_sha256": "630c9881e9298ecd39b53747a76e5b775d09055c4fea7cef24ef02f86c35123b",
+        "e": {
+          "source_files": 16,
+          "output_files": 10
+        },
+        "e_checks": 21,
+        "physical_seed_ivps": 2,
+        "no_new_physical_ivp": true,
+        "historical_lineage": {
+          "c": {
+            "version": "v18.51c",
+            "source_files": 12,
+            "result_files": 8
+          },
+          "b": {
+            "version": "v18.51b",
+            "source_files": 12,
+            "result_files": 7
+          },
+          "a": {
+            "version": "v18.51a",
+            "source_files": 13,
+            "result_files": 7
+          },
+          "z": {
+            "version": "v18.50z",
+            "source_files": 12,
+            "result_files": 6
+          },
+          "y": {
+            "version": "v18.50y",
+            "source_files": 12,
+            "result_files": 8
+          },
+          "x": {
+            "version": "v18.50x",
+            "source_files": 12,
+            "result_files": 11
+          },
+          "parent_sha256": "541acc98b832e67632fb7f9c355cbd3918448249cad2830ac77409a0d92af953",
+          "historical_v18_49h_kinetic_source_sha256": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+          "d": {
+            "archive_sha256": "bb8acf4700f1993fd49c58a42e26e491a69398b09e6b58e0095159b36ea11179",
+            "auth": {
+              "version": "v18.51d",
+              "source_files": 15,
+              "result_files": 7
+            },
+            "parent_checks": 12,
+            "parent_observations": 474
+          }
+        }
+      },
+      "original_ten_dimensional_ivps_inherited": 2
+    },
+    "physical_seed_ivps_inherited": 2,
+    "new_physical_ivps": 0
+  },
+  "model": {
+    "seeds": [
+      "original",
+      "autonomous"
+    ],
+    "tau_refs": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "positive_sections": 78,
+    "xi_domain": [
+      0.0,
+      0.05
+    ],
+    "no_new_physical_IVP": true
+  },
+  "counts": {
+    "instantaneous_sections": 468,
+    "finite_lag_channels": 1362,
+    "pullback_checks": 312
+  },
+  "quality": {
+    "max_identity": 6.018543665852589e-16,
+    "max_gauge": 4.263256414560601e-14,
+    "max_finite_identity": 5.421010862427522e-19,
+    "max_propagator_composition": 3.516510552737601e-16,
+    "max_inversion": 2.4069538703204923e-16
+  },
+  "pullback_quality": {
+    "rate_5to4_max_all": 9.687615714071285e-07,
+    "rate_5to4_max_interior": 8.168800746943816e-09,
+    "rate_4to5_max_all": 3.358121205554454e-07,
+    "rate_4to5_max_interior": 2.0708521564216653e-09,
+    "rate_ratio_5to4_over_4to5_max_all": 1.2212268241107438e-06,
+    "rate_ratio_5to4_over_4to5_max_interior": 3.819751182021491e-09,
+    "adjoint_reciprocity_defect_max_all": 8.037001775207386e-08,
+    "adjoint_reciprocity_defect_max_interior": 7.742971819268973e-10,
+    "reciprocity_interference_max_all": 1.8246203982386078e-05,
+    "reciprocity_interference_max_interior": 1.318480720158277e-07
+  },
+  "observations": {
+    "branches": [
+      {
+        "seed_family": "original",
+        "tau_ref": 0.5,
+        "positive_sections": 78,
+        "instantaneous_5to4_exceeds_reverse": 78,
+        "instantaneous_endpoint_ratio": 1.5968463564527782,
+        "instantaneous_endpoint_adjoint_defect": 0.9794776008882385,
+        "instantaneous_min_interference": 24.441950058356092,
+        "instantaneous_max_interference": 46.7809752492169,
+        "finite_lag1_samples": 77,
+        "finite_lag1_5to4_exceeds_reverse": 77,
+        "finite_lag1_endpoint_ratio": 1.6062206006146362,
+        "inverse_time_lag1_endpoint_ratio": 1.6058053325973518
+      },
+      {
+        "seed_family": "original",
+        "tau_ref": 1.0,
+        "positive_sections": 78,
+        "instantaneous_5to4_exceeds_reverse": 78,
+        "instantaneous_endpoint_ratio": 1.7062139091516237,
+        "instantaneous_endpoint_adjoint_defect": 0.9875139911078529,
+        "instantaneous_min_interference": 29.843442482835847,
+        "instantaneous_max_interference": 52.14166536741768,
+        "finite_lag1_samples": 77,
+        "finite_lag1_5to4_exceeds_reverse": 77,
+        "finite_lag1_endpoint_ratio": 1.7176829016504316,
+        "inverse_time_lag1_endpoint_ratio": 1.7181532164795632
+      },
+      {
+        "seed_family": "original",
+        "tau_ref": 2.0,
+        "positive_sections": 78,
+        "instantaneous_5to4_exceeds_reverse": 78,
+        "instantaneous_endpoint_ratio": 1.3288221830835725,
+        "instantaneous_endpoint_adjoint_defect": 0.9485301620941684,
+        "instantaneous_min_interference": 25.707955299737396,
+        "instantaneous_max_interference": 32.88179292261542,
+        "finite_lag1_samples": 77,
+        "finite_lag1_5to4_exceeds_reverse": 77,
+        "finite_lag1_endpoint_ratio": 1.332232426435417,
+        "inverse_time_lag1_endpoint_ratio": 1.3372689736948027
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 0.5,
+        "positive_sections": 78,
+        "instantaneous_5to4_exceeds_reverse": 78,
+        "instantaneous_endpoint_ratio": 1.5894104648663103,
+        "instantaneous_endpoint_adjoint_defect": 0.9798349279814645,
+        "instantaneous_min_interference": 24.695738073220625,
+        "instantaneous_max_interference": 46.89750673113757,
+        "finite_lag1_samples": 77,
+        "finite_lag1_5to4_exceeds_reverse": 77,
+        "finite_lag1_endpoint_ratio": 1.598813127677787,
+        "inverse_time_lag1_endpoint_ratio": 1.5983977227184771
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 1.0,
+        "positive_sections": 78,
+        "instantaneous_5to4_exceeds_reverse": 78,
+        "instantaneous_endpoint_ratio": 1.6965044662696382,
+        "instantaneous_endpoint_adjoint_defect": 0.9878426120677403,
+        "instantaneous_min_interference": 30.124873963479647,
+        "instantaneous_max_interference": 52.25349668363299,
+        "finite_lag1_samples": 77,
+        "finite_lag1_5to4_exceeds_reverse": 77,
+        "finite_lag1_endpoint_ratio": 1.707970343783598,
+        "inverse_time_lag1_endpoint_ratio": 1.7084488628477508
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 2.0,
+        "positive_sections": 78,
+        "instantaneous_5to4_exceeds_reverse": 78,
+        "instantaneous_endpoint_ratio": 1.3235016345114634,
+        "instantaneous_endpoint_adjoint_defect": 0.9488158138727381,
+        "instantaneous_min_interference": 25.88697950223775,
+        "instantaneous_max_interference": 32.93282765054261,
+        "finite_lag1_samples": 77,
+        "finite_lag1_5to4_exceeds_reverse": 77,
+        "finite_lag1_endpoint_ratio": 1.3268403895903975,
+        "inverse_time_lag1_endpoint_ratio": 1.3318819082661002
+      }
+    ],
+    "instantaneous_5to4_stronger_total": 468,
+    "finite_lag_5to4_stronger_total": 1362
+  },
+  "mathematics": {
+    "instantaneous": "K_4<-5=U4^T Q_4<-5 U5, K_5<-4=U5^T Q_5<-4 U4",
+    "metric_adjoint": "K_5<-4^T is the adjoint comparison of K_4<-5 in the same declared kinetic Euclidean chart",
+    "S_A": "S=(K_4<-5+K_5<-4^T)/2, A=(K_4<-5-K_5<-4^T)/2",
+    "interference_identity": "||K_4<-5||_F^2 - ||K_5<-4||_F^2 = 4<S,A>_F",
+    "material_transport": "T(b,a)=M(b) M(a)^-1; cross-core=U_i(b)^T P_i(b) T(b,a) U_j(a), same forward time",
+    "reverse_time": "Inverse T(a,b) is recorded separately and is not the opposite-channel forward-time kernel",
+    "metric_pullback": "For tau chart D=diag(I5,tau I5), use D^-1 Q_tau D; G_tau=D^-T D^-1 before Euclidean comparison in tau=1 chart"
+  },
+  "checks": {
+    "i_sha256_crc_and_reference_verified": true,
+    "i_nested_h_g_f_e_verified": true,
+    "two_inherited_10D_seed_ivps_no_new_ivp": true,
+    "parent_i_ratio_replay": true,
+    "six_material_kinetic_branches": true,
+    "468_positive_instantaneous_sections": true,
+    "reciprocity_orthogonal_gauge_control": true,
+    "exact_symmetric_antisymmetric_identity": true,
+    "positive_material_time_increments": true,
+    "finite_lag_covariant_projector_crossblock_identity": true,
+    "finite_time_propagator_inverse": true,
+    "finite_time_propagator_composition": true,
+    "metric_similarity_pullback_restricted_rate_interior": true,
+    "metric_similarity_pullback_reciprocity_interior": true,
+    "metric_similarity_pullback_interference_interior": true,
+    "finite_lag_1_2_4_sampled": true,
+    "no_time_reversal_confusion": true,
+    "no_independent_material_energy_transfer_assertion": true,
+    "one_third_not_used_as_gate": true,
+    "finite_interval_no_between_section_certificate": true
+  },
+  "limitations": [
+    "The comparison is the adjoint of restricted forward-time maps in one declared kinetic state metric; not microscopic reversibility.",
+    "The synthetic metric pullback controls only passive similarity, not arbitrary physically different metrics.",
+    "The five spectral pairs are assigned only for xi>0; no isolated projectors exist at the identity section.",
+    "The finite-lag projections use moving nonorthogonal Riesz projectors; no claim that the output norms are physical energies.",
+    "Finite differences on inherited material tensor samples do not certify a continuous-time transport law.",
+    "No new physical trajectories integrated and no universal material torsion, memory, or one-third rule certified."
+  ],
+  "software": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}
