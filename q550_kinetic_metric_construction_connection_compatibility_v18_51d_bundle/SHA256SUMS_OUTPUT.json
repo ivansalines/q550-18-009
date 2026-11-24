@@ -1,0 +1,13 @@
+{
+  "root": "q550_kinetic_metric_construction_connection_compatibility_v18_51d_bundle",
+  "version": "v18.51d",
+  "file_sha256": {
+    "results/kinetic_metric_secondary_spectrum.png": "8979f12453a050ec356bf6d387f95d1f16e3d045cb90e31197623d890b5b0ef6",
+    "results/kinetic_metric_source_attribution.png": "cfa69f7e8a5f60e2bf09dcf2fabf83b203943e1458a308f34b4d8fa7f31dcbb2",
+    "results/kinetic_metric_spectral_source_ledger.csv": "45a0be08b6055a6b2734271fadfebbf8858089fbe63c0cc6898348e465ebed8b",
+    "results/kinetic_vs_model_gram_source_summary.csv": "e902779ad0433dcaf1f65222dd3b4dc10b3007a28ac9e2e4aaee487c379511d6",
+    "results/moving_kinetic_frame_source.png": "f51f7ef1574561505cd567e172f63b7a08d98bc17758be6b048297f59b37711f",
+    "results/passive_kinetic_chart_controls.csv": "d0957d179e143f0f89c717c852c4eddb5ee995f58a915cbe656471904ed03f72",
+    "results/report.json": "bd23693e665f0c77f0da974dd1344d87436695235deae1d3e775197e3ed2a881"
+  }
+}

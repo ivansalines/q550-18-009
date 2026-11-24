@@ -1,0 +1,16 @@
+{
+  "root": "q550_full_kinetic_tangent_generator_finite_time_cauchy_green_transport_v18_51e_bundle",
+  "version": "v18.51e",
+  "file_sha256": {
+    "results/finite_time_cauchy_green_stretches.png": "aaae88032c77df73b12e393ddc4e6fac2cdd1196d63d9f308b5838261fb9564d",
+    "results/finite_time_cauchy_green_summary.csv": "b3b18e7dcc0f8ea16de46be005863f4beb4763899d265b519cd7b2805266a7e8",
+    "results/full_generator_and_cauchy_green_ledger.csv": "44c6ce4f56d7107bb862077aca2de86b2e5f940b790f63280dc78a80fe4a03c9",
+    "results/full_generator_strain_fraction.png": "228f9e398cfc3b24f97800a51c53494115227d926d2c1ddf79b158922989bdc5",
+    "results/material_tangent_cauchy_green_tensors.npz": "8bfd80d7554642b1d5872634c32c820a1b2d7c3ab35390299b3263a2729b97ca",
+    "results/nonlinear_chart_covariance_controls.csv": "bef4ce2bbc9b2377fd48e720897fd801984d336916ad62cc71720381193cc080",
+    "results/one_third_hypothesis_comparison.png": "33593fdbec1e9c0b9cb080493513e971693eec4322a312fe5ddcbf398640eff3",
+    "results/one_third_hypothesis_ledger.csv": "5703c57ce1e1e198cf1c204318f4e188c8f3d003204dedcd39d9e84f95024f84",
+    "results/one_third_hypothesis_summary.csv": "9d5dc938d62341d91832d5a231a2a6fc3fbd9ca64bc2bff4c55547ae5b5f3aa0",
+    "results/report.json": "a9e5b26be11b55b4b9370b2593c291ce24b7537b3e62f2f1f98b258caf844274"
+  }
+}

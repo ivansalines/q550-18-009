@@ -1,0 +1,145 @@
+SOURCE IDENTITY VERIFIED 15
+v18.51d historical kinetic pullback, metric compatibility, and passive covariance tests PASS
+AUTHENTICATED c,b,a,z,y,x and historical v18.49h kinetic formula
+STAGING original authenticated solver genealogy
+AUTHENTICATED MODEL: staging 10D physical solver
+INTEGRATING seed original
+SEED DONE original nfev 602 jet error 0.0
+INTEGRATING seed autonomous
+SEED DONE autonomous nfev 602 jet error 0.0
+KINETIC BRANCH original 0.5 canon share end 0.30409559260807323 compat max 7.544021253443202e-15
+KINETIC BRANCH original 1.0 canon share end 0.5053836939435219 compat max 1.0117564750718339e-14
+KINETIC BRANCH original 2.0 canon share end 0.8639172369391861 compat max 1.3771330078506003e-14
+KINETIC BRANCH autonomous 0.5 canon share end 0.30207735897343335 compat max 7.610449633812528e-15
+KINETIC BRANCH autonomous 1.0 canon share end 0.5040954576202407 compat max 7.731539143966034e-15
+KINETIC BRANCH autonomous 2.0 canon share end 0.8633980804539713 compat max 1.408818871629698e-14
+v18.51d COMPLETED {
+  "checks": {
+    "lineage_c_b_a_z_y_x_authenticated": true,
+    "historical_kinetic_implementation_hash": true,
+    "two_physical_seed_ivps_completed": true,
+    "kinetic_energy_matches_original": true,
+    "model_jacobian_kinematic_replay": true,
+    "two_seeds_three_tau_79_sections": true,
+    "kinetic_compatible_connection_identity": true,
+    "source_identity": true,
+    "weighted_spectral_ledger_sum": true,
+    "passive_chart_covariance": true,
+    "finite_metric_condition": true,
+    "kinetic_embedding_rate_independent_check": true
+  },
+  "comparisons": [
+    {
+      "seed_family": "original",
+      "tau_ref": 0.5,
+      "sections": 79,
+      "canonical_start": 1.4153299878909862,
+      "canonical_end": 0.30409559260807323,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -0.36890225026844303,
+      "frame_end": 1.06480665766037,
+      "euclidean_b_canonical_start": 0.7372104589225804,
+      "euclidean_b_canonical_end": 0.7987342138948071,
+      "sigma3_max": 2.0134402418693256,
+      "max_G_condition": 10169.080533285338,
+      "max_independent_W_rate_error": 7.784555986977415e-08,
+      "max_metric_rate_error": 7.723285240793051e-09,
+      "max_compatibility_error": 7.544021253443202e-15
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 1.0,
+      "sections": 79,
+      "canonical_start": 1.3650525642469404,
+      "canonical_end": 0.5053836939435219,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -1.1165504606825747,
+      "frame_end": 1.6111667667390526,
+      "euclidean_b_canonical_start": 0.7372104589225804,
+      "euclidean_b_canonical_end": 0.7987342138948071,
+      "sigma3_max": 3.080518329450502,
+      "max_G_condition": 6197.777974849415,
+      "max_independent_W_rate_error": 1.0118676505477812e-07,
+      "max_metric_rate_error": 9.1222802254715e-09,
+      "max_compatibility_error": 1.0117564750718339e-14
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 2.0,
+      "sections": 79,
+      "canonical_start": 0.9841920450818293,
+      "canonical_end": 0.8639172369391861,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -1.6628997463030413,
+      "frame_end": 1.7989825093638545,
+      "euclidean_b_canonical_start": 0.7372104589225804,
+      "euclidean_b_canonical_end": 0.7987342138948071,
+      "sigma3_max": 4.818868596841396,
+      "max_G_condition": 8721.92258982124,
+      "max_independent_W_rate_error": 1.0993509317766638e-07,
+      "max_metric_rate_error": 1.8236048205672074e-08,
+      "max_compatibility_error": 1.3771330078506003e-14
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 0.5,
+      "sections": 79,
+      "canonical_start": 1.414175570454886,
+      "canonical_end": 0.30207735897343335,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -0.3657069335744985,
+      "frame_end": 1.063629574601065,
+      "euclidean_b_canonical_start": 0.7371261070984615,
+      "euclidean_b_canonical_end": 0.7986904961310524,
+      "sigma3_max": 2.0135269614533797,
+      "max_G_condition": 10174.276095278172,
+      "max_independent_W_rate_error": 7.783603870491236e-08,
+      "max_metric_rate_error": 7.723615059107506e-09,
+      "max_compatibility_error": 7.610449633812528e-15
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 1.0,
+      "sections": 79,
+      "canonical_start": 1.36460424226433,
+      "canonical_end": 0.5040954576202407,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -1.1148841133759435,
+      "frame_end": 1.610788655755703,
+      "euclidean_b_canonical_start": 0.7371261070984615,
+      "euclidean_b_canonical_end": 0.7986904961310524,
+      "sigma3_max": 3.0806462132147945,
+      "max_G_condition": 6201.110209012659,
+      "max_independent_W_rate_error": 1.0117602683214947e-07,
+      "max_metric_rate_error": 9.126478925294401e-09,
+      "max_compatibility_error": 7.731539143966034e-15
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 2.0,
+      "sections": 79,
+      "canonical_start": 0.985345950472535,
+      "canonical_end": 0.8633980804539713,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -1.6630162763043066,
+      "frame_end": 1.7996181958503357,
+      "euclidean_b_canonical_start": 0.7371261070984615,
+      "euclidean_b_canonical_end": 0.7986904961310524,
+      "sigma3_max": 4.819128583760439,
+      "max_G_condition": 8726.666787689828,
+      "max_independent_W_rate_error": 1.0992193243837396e-07,
+      "max_metric_rate_error": 1.8232380281465878e-08,
+      "max_compatibility_error": 1.408818871629698e-14
+    }
+  ]
+}
+v18.51d model replay and kinetic spectral attribution semantics tests PASS
+OUTPUT MANIFEST WRITTEN 7
+SOURCE IDENTITY VERIFIED 15
+SENDBACK PACKED /root/elab1/hysteresis/q550_kinetic_metric_construction_connection_compatibility_v18_51d_bundle_server_sendback.zip members 24 bytes 69750401

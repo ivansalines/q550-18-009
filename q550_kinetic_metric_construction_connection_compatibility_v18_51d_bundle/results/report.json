@@ -1,0 +1,201 @@
+{
+  "version": "v18.51d",
+  "title": "Kinetic-Metric Construction & Connection Compatibility Audit",
+  "classification": "KINETIC_PULLBACK_COMPATIBLE_CONNECTION_DIAGNOSTIC_NOT_UNIQUE_PHYSICAL_PHASE_METRIC_OR_MATERIAL_CAUSALITY",
+  "construction": "Authentic Q550 v18.49h 5D kinetic Cartesian configuration Q; Sasaki-type material 10D H=(Q,tau_ref V). G=(DH diag(shared_scale))^T(DH diag(shared_scale)), Gamma=L^-1 Lprime.",
+  "source_split": "Inherited b: generator J drift + P posture - canonical drift; explicit additional frame commutator in Cartesian kinetic embedding.",
+  "metric_weighting_tau_ref": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "kappa_midpoint": 0.1666331385421536,
+  "xi_max": 0.05,
+  "lineage": {
+    "c": {
+      "version": "v18.51c",
+      "source_files": 12,
+      "result_files": 8
+    },
+    "b": {
+      "version": "v18.51b",
+      "source_files": 12,
+      "result_files": 7
+    },
+    "a": {
+      "version": "v18.51a",
+      "source_files": 13,
+      "result_files": 7
+    },
+    "z": {
+      "version": "v18.50z",
+      "source_files": 12,
+      "result_files": 6
+    },
+    "y": {
+      "version": "v18.50y",
+      "source_files": 12,
+      "result_files": 8
+    },
+    "x": {
+      "version": "v18.50x",
+      "source_files": 12,
+      "result_files": 11
+    },
+    "parent_sha256": "541acc98b832e67632fb7f9c355cbd3918448249cad2830ac77409a0d92af953",
+    "historical_v18_49h_kinetic_source_sha256": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a"
+  },
+  "new_physical_10D_ivps": 2,
+  "new_ivp_nfev": {
+    "original": 602,
+    "autonomous": 602
+  },
+  "observations": 474,
+  "passive_chart_controls": 18,
+  "comparisons": [
+    {
+      "seed_family": "original",
+      "tau_ref": 0.5,
+      "sections": 79,
+      "canonical_start": 1.4153299878909862,
+      "canonical_end": 0.30409559260807323,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -0.36890225026844303,
+      "frame_end": 1.06480665766037,
+      "euclidean_b_canonical_start": 0.7372104589225804,
+      "euclidean_b_canonical_end": 0.7987342138948071,
+      "sigma3_max": 2.0134402418693256,
+      "max_G_condition": 10169.080533285338,
+      "max_independent_W_rate_error": 7.784555986977415e-08,
+      "max_metric_rate_error": 7.723285240793051e-09,
+      "max_compatibility_error": 7.544021253443202e-15
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 1.0,
+      "sections": 79,
+      "canonical_start": 1.3650525642469404,
+      "canonical_end": 0.5053836939435219,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -1.1165504606825747,
+      "frame_end": 1.6111667667390526,
+      "euclidean_b_canonical_start": 0.7372104589225804,
+      "euclidean_b_canonical_end": 0.7987342138948071,
+      "sigma3_max": 3.080518329450502,
+      "max_G_condition": 6197.777974849415,
+      "max_independent_W_rate_error": 1.0118676505477812e-07,
+      "max_metric_rate_error": 9.1222802254715e-09,
+      "max_compatibility_error": 1.0117564750718339e-14
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 2.0,
+      "sections": 79,
+      "canonical_start": 0.9841920450818293,
+      "canonical_end": 0.8639172369391861,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -1.6628997463030413,
+      "frame_end": 1.7989825093638545,
+      "euclidean_b_canonical_start": 0.7372104589225804,
+      "euclidean_b_canonical_end": 0.7987342138948071,
+      "sigma3_max": 4.818868596841396,
+      "max_G_condition": 8721.92258982124,
+      "max_independent_W_rate_error": 1.0993509317766638e-07,
+      "max_metric_rate_error": 1.8236048205672074e-08,
+      "max_compatibility_error": 1.3771330078506003e-14
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 0.5,
+      "sections": 79,
+      "canonical_start": 1.414175570454886,
+      "canonical_end": 0.30207735897343335,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -0.3657069335744985,
+      "frame_end": 1.063629574601065,
+      "euclidean_b_canonical_start": 0.7371261070984615,
+      "euclidean_b_canonical_end": 0.7986904961310524,
+      "sigma3_max": 2.0135269614533797,
+      "max_G_condition": 10174.276095278172,
+      "max_independent_W_rate_error": 7.783603870491236e-08,
+      "max_metric_rate_error": 7.723615059107506e-09,
+      "max_compatibility_error": 7.610449633812528e-15
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 1.0,
+      "sections": 79,
+      "canonical_start": 1.36460424226433,
+      "canonical_end": 0.5040954576202407,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -1.1148841133759435,
+      "frame_end": 1.610788655755703,
+      "euclidean_b_canonical_start": 0.7371261070984615,
+      "euclidean_b_canonical_end": 0.7986904961310524,
+      "sigma3_max": 3.0806462132147945,
+      "max_G_condition": 6201.110209012659,
+      "max_independent_W_rate_error": 1.0117602683214947e-07,
+      "max_metric_rate_error": 9.126478925294401e-09,
+      "max_compatibility_error": 7.731539143966034e-15
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 2.0,
+      "sections": 79,
+      "canonical_start": 0.985345950472535,
+      "canonical_end": 0.8633980804539713,
+      "canonical_exceeds_model_end": true,
+      "canonical_exceeds_model_all_samples": true,
+      "model_end": -1.6630162763043066,
+      "frame_end": 1.7996181958503357,
+      "euclidean_b_canonical_start": 0.7371261070984615,
+      "euclidean_b_canonical_end": 0.7986904961310524,
+      "sigma3_max": 4.819128583760439,
+      "max_G_condition": 8726.666787689828,
+      "max_independent_W_rate_error": 1.0992193243837396e-07,
+      "max_metric_rate_error": 1.8232380281465878e-08,
+      "max_compatibility_error": 1.408818871629698e-14
+    }
+  ],
+  "checks": {
+    "lineage_c_b_a_z_y_x_authenticated": true,
+    "historical_kinetic_implementation_hash": true,
+    "two_physical_seed_ivps_completed": true,
+    "kinetic_energy_matches_original": true,
+    "model_jacobian_kinematic_replay": true,
+    "two_seeds_three_tau_79_sections": true,
+    "kinetic_compatible_connection_identity": true,
+    "source_identity": true,
+    "weighted_spectral_ledger_sum": true,
+    "passive_chart_covariance": true,
+    "finite_metric_condition": true,
+    "kinetic_embedding_rate_independent_check": true
+  },
+  "max_errors": {
+    "metric_compatibility": 1.408818871629698e-14,
+    "independent_kinetic_frame_rate": 1.0993509317766638e-07,
+    "independent_metric_time_rate": 1.8236048205672074e-08,
+    "historical_jet_replay": 0.0,
+    "historical_kinetic_energy": 1.6653345369377348e-16
+  },
+  "limitations": [
+    "The tau-time kinetic energy fixes the Cartesian configuration metric. Its Sasaki-type material state extension uses a freely declared tau_ref and is not unique.",
+    "Two Q550 trajectories are recomputed at the same midpoint kappa; they correspond to differently prepared natural seeds, not two concurrent distinct-kappa boundaries.",
+    "The original Q550 driven dynamics is not proven to preserve the kinetic state metric; compatible connection identity is a geometric statement.",
+    "The metric-skew part discards symmetric strain; its spectral-source fractions do not quantify energy.",
+    "Whitening and Cartesian embedding choices affect how matrix rates are attributed; moving-frame contribution is reported explicitly.",
+    "Both original model and observed projector data come from authenticated ancestors; new fitted parameters or new physical laws are not introduced.",
+    "Spline-derived Lprime, dJ and dP are numerical, not interval-certified. No material torsion or hysteresis certification."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8"
+  }
+}

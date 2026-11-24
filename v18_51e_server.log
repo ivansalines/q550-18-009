@@ -1,0 +1,267 @@
+SOURCE IDENTITY VERIFIED 16
+v18.51e synthetic kinetic, finite-time Cauchy–Green, nonlinear-chart and rate identities PASS
+STAGING authenticated solver lineage once for both independent seeds
+AUTHENTICATED MODEL: staging 10D physical solver
+MODEL original: physical nfev=602, tangent nfev=2507, jet replay=0.000e+00, solver RHS=1.555e-15, spline transport=1.156e-13, archived Phi=6.564e-15, endpoint FD=1.7203548504918215e-10
+MODEL autonomous: physical nfev=602, tangent nfev=2507, jet replay=0.000e+00, solver RHS=1.625e-15, spline transport=1.156e-13, archived Phi=6.580e-15, endpoint FD=2.1298757798959987e-10
+KINETIC original tau_ref=0.5: sigma_max=1.115026458, sigma_min=0.896020213, sym_frac_end=0.491805, CG rate max err=2.839e-08
+KINETIC original tau_ref=1: sigma_max=1.103309946, sigma_min=0.898781962, sym_frac_end=0.439789, CG rate max err=5.562e-08
+KINETIC original tau_ref=2: sigma_max=1.219133076, sigma_min=0.803050664, sym_frac_end=0.623219, CG rate max err=7.225e-08
+KINETIC autonomous tau_ref=0.5: sigma_max=1.115025921, sigma_min=0.896020428, sym_frac_end=0.491783, CG rate max err=2.840e-08
+KINETIC autonomous tau_ref=1: sigma_max=1.103308788, sigma_min=0.898781875, sym_frac_end=0.439814, CG rate max err=5.565e-08
+KINETIC autonomous tau_ref=2: sigma_max=1.219134823, sigma_min=0.803045339, sym_frac_end=0.623233, CG rate max err=7.230e-08
+v18.51e COMPLETE {
+  "checks": {
+    "parent_d_source_lineage_authenticated": true,
+    "historical_kinetic_source_byte_exact": true,
+    "two_authentic_physical_seed_ivps": true,
+    "continuous_original_analytic_J_replay": true,
+    "original_physical_rhs_matches_analytic_jet": true,
+    "archived_full_tangent_transport_crosscheck": true,
+    "independent_sampled_J_tangent_comparator": true,
+    "finite_difference_physical_tangent_comparator": true,
+    "two_seeds_three_tau_seventy_nine_sections": true,
+    "full_kinetic_strain_rotation_decomposition": true,
+    "initial_finite_transport_identity": true,
+    "CG_positive_definite_and_symmetric": true,
+    "finite_transport_metric_identity": true,
+    "physical_shared_chart_conjugacy": true,
+    "independent_CG_rate_identity": true,
+    "finite_time_volume_rate_identity": true,
+    "finite_volume_integral_check": true,
+    "nonlinear_chart_covariance": true,
+    "polar_frame_orthogonality": true,
+    "metric_conventions_not_silently_collapsed": true,
+    "one_third_is_exploratory_not_required": true
+  },
+  "endpoints": [
+    {
+      "seed_family": "original",
+      "tau_ref": 0.5,
+      "sections": 79,
+      "xi_max": 0.05,
+      "initial_transport_identity_error": 6.87080619841549e-17,
+      "final_logdet_M": -0.07525748167838331,
+      "integrated_trace_strain": -0.07525748257498963,
+      "final_volume_integral_defect": 8.966063169690841e-10,
+      "final_stretch_max": 1.1150264584325968,
+      "final_stretch_min": 0.8960202125726942,
+      "final_norm_log_stretches": 0.21293780819436686,
+      "final_polar_rotation_distance_F": 0.3747945643036539,
+      "final_symmetric_fraction": 0.49180464672561425,
+      "max_cg_rate_rel_error": 2.8393550386216694e-08,
+      "max_volume_rate_abs_error": 1.3920913310982996e-09,
+      "max_Lprime_spline_rel_error": 1.0387439409472745e-09,
+      "max_chart_error": 5.721832626463263e-16,
+      "max_polar_orth_error": 6.130326072540955e-15,
+      "max_metric_cond": 1203.7296055467373,
+      "max_physical_chart_M_residual": 1.789708766102072e-16,
+      "endpoint_legacy_chart_difference": 0.5665315456553499,
+      "first_three_stretches_end": [
+        1.1150264584325968,
+        1.0611215674635757,
+        1.0560343095908078
+      ]
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 1.0,
+      "sections": 79,
+      "xi_max": 0.05,
+      "initial_transport_identity_error": 1.5289436607152738e-16,
+      "final_logdet_M": -0.07525748167838356,
+      "integrated_trace_strain": -0.07525748257498961,
+      "final_volume_integral_defect": 8.966060532911158e-10,
+      "final_stretch_max": 1.1033099463702338,
+      "final_stretch_min": 0.8987819615104551,
+      "final_norm_log_stretches": 0.17146223444903166,
+      "final_polar_rotation_distance_F": 0.35285257103627954,
+      "final_symmetric_fraction": 0.43978914859124985,
+      "max_cg_rate_rel_error": 5.562437352503963e-08,
+      "max_volume_rate_abs_error": 1.3918630692444367e-09,
+      "max_Lprime_spline_rel_error": 1.065157343361452e-09,
+      "max_chart_error": 5.780522725997393e-16,
+      "max_polar_orth_error": 6.306597282897193e-15,
+      "max_metric_cond": 1427.6405902796153,
+      "max_physical_chart_M_residual": 2.570951186653293e-16,
+      "endpoint_legacy_chart_difference": 0.49934903519327944,
+      "first_three_stretches_end": [
+        1.1033099463702338,
+        1.0433194530776764,
+        1.017424234867073
+      ]
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 2.0,
+      "sections": 79,
+      "xi_max": 0.05,
+      "initial_transport_identity_error": 1.5741925236012176e-16,
+      "final_logdet_M": -0.07525748167838356,
+      "integrated_trace_strain": -0.07525748257498961,
+      "final_volume_integral_defect": 8.966060532911158e-10,
+      "final_stretch_max": 1.2191330760306613,
+      "final_stretch_min": 0.803050663811541,
+      "final_norm_log_stretches": 0.40033810207304277,
+      "final_polar_rotation_distance_F": 0.5022578677341701,
+      "final_symmetric_fraction": 0.6232185046204701,
+      "max_cg_rate_rel_error": 7.225375329732522e-08,
+      "max_volume_rate_abs_error": 1.3918630692444367e-09,
+      "max_Lprime_spline_rel_error": 1.082203539264878e-09,
+      "max_chart_error": 7.8947146444773625e-16,
+      "max_polar_orth_error": 6.960959153209681e-15,
+      "max_metric_cond": 4381.650592921423,
+      "max_physical_chart_M_residual": 3.685100848429561e-16,
+      "endpoint_legacy_chart_difference": 0.5462042729828823,
+      "first_three_stretches_end": [
+        1.2191330760306613,
+        1.1664239842608888,
+        1.0830364761002942
+      ]
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 0.5,
+      "sections": 79,
+      "xi_max": 0.05,
+      "initial_transport_identity_error": 1.266208239989254e-16,
+      "final_logdet_M": -0.07525746426842306,
+      "integrated_trace_strain": -0.07525746516722752,
+      "final_volume_integral_defect": 8.988044614133273e-10,
+      "final_stretch_max": 1.1150259210315325,
+      "final_stretch_min": 0.8960204276743434,
+      "final_norm_log_stretches": 0.21293264089981065,
+      "final_polar_rotation_distance_F": 0.3748060464178632,
+      "final_symmetric_fraction": 0.491783364790487,
+      "max_cg_rate_rel_error": 2.8395758016644708e-08,
+      "max_volume_rate_abs_error": 1.160229246011113e-09,
+      "max_Lprime_spline_rel_error": 1.0553628354863748e-09,
+      "max_chart_error": 5.112624459417978e-16,
+      "max_polar_orth_error": 6.640201297701712e-15,
+      "max_metric_cond": 1204.3468381636599,
+      "max_physical_chart_M_residual": 1.6966835001643738e-16,
+      "endpoint_legacy_chart_difference": 0.5665318232936318,
+      "first_three_stretches_end": [
+        1.1150259210315325,
+        1.061125130399792,
+        1.0560347620470631
+      ]
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 1.0,
+      "sections": 79,
+      "xi_max": 0.05,
+      "initial_transport_identity_error": 1.529279746148854e-16,
+      "final_logdet_M": -0.07525746426842317,
+      "integrated_trace_strain": -0.0752574651672275,
+      "final_volume_integral_defect": 8.98804336513237e-10,
+      "final_stretch_max": 1.103308788286282,
+      "final_stretch_min": 0.8987818752000044,
+      "final_norm_log_stretches": 0.17148509062659528,
+      "final_polar_rotation_distance_F": 0.3528788257163746,
+      "final_symmetric_fraction": 0.43981416710517124,
+      "max_cg_rate_rel_error": 5.5654256126338126e-08,
+      "max_volume_rate_abs_error": 1.1601299920727115e-09,
+      "max_Lprime_spline_rel_error": 1.0862048319646282e-09,
+      "max_chart_error": 6.538854130582537e-16,
+      "max_polar_orth_error": 7.338822937912921e-15,
+      "max_metric_cond": 1428.3710326116895,
+      "max_physical_chart_M_residual": 2.0852663193644179e-16,
+      "endpoint_legacy_chart_difference": 0.49935071178280055,
+      "first_three_stretches_end": [
+        1.103308788286282,
+        1.0433597015296707,
+        1.0174234418566785
+      ]
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 2.0,
+      "sections": 79,
+      "xi_max": 0.05,
+      "initial_transport_identity_error": 1.5449855683021137e-16,
+      "final_logdet_M": -0.07525746426842317,
+      "integrated_trace_strain": -0.0752574651672275,
+      "final_volume_integral_defect": 8.98804336513237e-10,
+      "final_stretch_max": 1.2191348231234476,
+      "final_stretch_min": 0.8030453388711538,
+      "final_norm_log_stretches": 0.40039674667580716,
+      "final_polar_rotation_distance_F": 0.5023136333257124,
+      "final_symmetric_fraction": 0.6232329535017306,
+      "max_cg_rate_rel_error": 7.230330117007228e-08,
+      "max_volume_rate_abs_error": 1.1601299920727115e-09,
+      "max_Lprime_spline_rel_error": 1.106050485297973e-09,
+      "max_chart_error": 1.1033538056523546e-15,
+      "max_polar_orth_error": 6.756931130221454e-15,
+      "max_metric_cond": 4383.883462767152,
+      "max_physical_chart_M_residual": 3.736310801281301e-16,
+      "endpoint_legacy_chart_difference": 0.546209452282427,
+      "first_three_stretches_end": [
+        1.2191348231234476,
+        1.1665126405866388,
+        1.0830203221463977
+      ]
+    }
+  ],
+  "one_third": [
+    {
+      "seed_family": "original",
+      "tau_ref": 0.5,
+      "sections": 79,
+      "endpoint_ratio": 0.28558761388310866,
+      "endpoint_distance_from_one_third": 0.047745719450224655,
+      "endpoint_within_declared_tolerance": false,
+      "fraction_of_sections_near_one_third": 0.05063291139240506
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 1.0,
+      "sections": 79,
+      "endpoint_ratio": 0.31367559484013036,
+      "endpoint_distance_from_one_third": 0.01965773849320296,
+      "endpoint_within_declared_tolerance": true,
+      "fraction_of_sections_near_one_third": 0.0759493670886076
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 2.0,
+      "sections": 79,
+      "endpoint_ratio": 0.48022547881506605,
+      "endpoint_distance_from_one_third": 0.14689214548173274,
+      "endpoint_within_declared_tolerance": false,
+      "fraction_of_sections_near_one_third": 0.0
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 0.5,
+      "sections": 79,
+      "endpoint_ratio": 0.28400616736022344,
+      "endpoint_distance_from_one_third": 0.04932716597310988,
+      "endpoint_within_declared_tolerance": false,
+      "fraction_of_sections_near_one_third": 0.05063291139240506
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 1.0,
+      "sections": 79,
+      "endpoint_ratio": 0.31294947094331493,
+      "endpoint_distance_from_one_third": 0.02038386239001838,
+      "endpoint_within_declared_tolerance": true,
+      "fraction_of_sections_near_one_third": 0.0759493670886076
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 2.0,
+      "sections": 79,
+      "endpoint_ratio": 0.4797673653471857,
+      "endpoint_distance_from_one_third": 0.1464340320138524,
+      "endpoint_within_declared_tolerance": false,
+      "fraction_of_sections_near_one_third": 0.0
+    }
+  ]
+}
+v18.51e complete Q550 full tangent transport results tests PASS
+OUTPUT MANIFEST WRITTEN 10
+SOURCE IDENTITY VERIFIED 16
+SENDBACK PACKED /root/elab1/hysteresis/q550_full_kinetic_tangent_generator_finite_time_cauchy_green_transport_v18_51e_bundle_server_sendback.zip members 28 bytes 71592319

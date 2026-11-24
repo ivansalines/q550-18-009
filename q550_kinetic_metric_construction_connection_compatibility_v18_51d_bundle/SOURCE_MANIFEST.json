@@ -1,0 +1,21 @@
+{
+  "root": "q550_kinetic_metric_construction_connection_compatibility_v18_51d_bundle",
+  "version": "v18.51d",
+  "files": {
+    "KINETIC_METRIC_DERIVATION.md": "6d4eed9cfd8cf7a99b9353c51450678bd5929407b52655fb1c182576aef7ccaa",
+    "README.md": "fb79fd59a0212ce6b818ff877a5fde6f0ef6ea1138cc247ca5d1190f412b8f36",
+    "SCIENTIFIC_DECISION_RULES.md": "3696b3ba1b997f784021338d3560577762f1adcb841a1f8af4df4138a45fe03d",
+    "SCIENTIFIC_REPORT.md": "2447fd42ad4f569f232a0b90f9a4eb7781f6971a9626337da78837c5fc721f23",
+    "inputs/q550_model_gram_metric_spectral_source_robustness_v18_51c_bundle_server_sendback.zip": "541acc98b832e67632fb7f9c355cbd3918448249cad2830ac77409a0d92af953",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/z_replay_helpers_v18_50z.py": "1e7f51dffcfad9e419a5ac9b396e89e587c862f90dc511f99099446e3175af33",
+    "requirements.txt": "e56f03e03d29d734e32e5b4b750412136d7cc73138e94c8c72565b2587096cc4",
+    "run_on_server.sh": "98e5e039712a2a4ac2956a1799f671f16a19b480c91b8270d63c33dacc1f49f4",
+    "scripts/pack_sendback.py": "72f3a4519df79ff1f35f45941b98430e84ff47815a36619f1658ef893745e122",
+    "scripts/run_audit.py": "7115f77e3a0d3f8096eb213dc79eb5dc5d38e4897551bbb8a1c73c6663538738",
+    "scripts/verify_source_manifest.py": "4b751e51a23e60057823eebb32988970aa4065722f99e32b81af7038487b4794",
+    "scripts/write_output_manifest.py": "ce7d9c1dfaedee61bc98c3828c1de698e285766813c54263213ed713ac1e4cc2",
+    "tests/test_geometry.py": "13ae98fa5eaeb7e83d1baae99811328f3f934c223535d4957decaf9f62e75a48",
+    "tests/test_results.py": "cc2c548545b5eb676aa992d6e4256a033fd073d8bafb544c42d91b1f49df25dc"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "root": "q550_full_kinetic_tangent_generator_finite_time_cauchy_green_transport_v18_51e_bundle",
+  "version": "v18.51e",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "6df9731afc6ae66231e7f705fcf285851ccb8d4da1f6d3d5df787d9b8bb69c71",
+    "PREAUDIT_ONE_THIRD_NOTE.md": "f7765950b95f83787905c01d0b16b7c84cbd30c18fbf0843d52d5c0308145947",
+    "README.md": "5faf1ead96ce46a5ff107c74fb647248cb76b2897d1b8d36d09194edb11f60d4",
+    "SCIENTIFIC_DECISION_RULES.md": "7177f7baf32ef7890161f86d2350507c6aff9abea2132420ecfd78ccd4359934",
+    "inputs/q550_kinetic_metric_construction_connection_compatibility_v18_51d_bundle_server_sendback.zip": "bb8acf4700f1993fd49c58a42e26e491a69398b09e6b58e0095159b36ea11179",
+    "reference/d_replay_v18_51d.py": "7115f77e3a0d3f8096eb213dc79eb5dc5d38e4897551bbb8a1c73c6663538738",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/z_replay_helpers_v18_50z.py": "1e7f51dffcfad9e419a5ac9b396e89e587c862f90dc511f99099446e3175af33",
+    "requirements.txt": "156ec9e31c34ee6ac86f1de488fdf72936fbd5c9af57abe58a8305ea1ccaa985",
+    "run_on_server.sh": "081ab9defaa1fe091b34b5c78094a18ff5c1466fe3b116bf53b1258e27e4e878",
+    "scripts/pack_sendback.py": "2778ead6867e39f4a27209ec03c392c07c3513e4a5233e47e62729914eee8cfd",
+    "scripts/run_audit.py": "8a194b142102cdcb625c33ddb656445c87bfc958373e4dfc4aaf437d270b6b28",
+    "scripts/verify_source_manifest.py": "41ed4946fd9ec5203b370e79ad53cf05f3f4e27a904e8aff60740537ca44324f",
+    "scripts/write_output_manifest.py": "7513c3e2acd4a9e17cf91d45e4c8b9ff0249d4110b16c0c83b063883a0979dd0",
+    "tests/test_geometry.py": "cf4173a895060ae025cee527e3afb0e565a401186040b8522209e269f79e78cd",
+    "tests/test_results.py": "b0cc2d0b8721ec7dfd7cb3650145b7f2a08dfe59c191695fab6c9b2a769a43bd"
+  }
+}
