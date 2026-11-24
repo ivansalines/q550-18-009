@@ -1,0 +1,231 @@
+{
+  "version": "v18.51o",
+  "title": "Clock-Consistent Kinematic Closure & Generalized-Force Reconstruction Audit",
+  "classification": "NUMERICAL_AUTHENTIC_FROZEN_TANGENT_SECOND_ORDER_CLOSURE_EFFECTIVE_FORCE_JACOBIAN_ONLY",
+  "parent_sha256": "52c4ce558a34de946f6e0654f399a7a2bf94c99a0e963d86f3c77a8337e83060",
+  "inherited_e_tensor_sha256": "8bfd80d7554642b1d5872634c32c820a1b2d7c3ab35390299b3263a2729b97ca",
+  "inherited_physical_ivps": 2,
+  "new_physical_ivps": 0,
+  "source_lineage": [
+    {
+      "version": "v18.51n",
+      "source_files": 21,
+      "result_files": 8
+    },
+    {
+      "version": "v18.51m",
+      "source_files": 19,
+      "result_files": 10
+    },
+    {
+      "version": "v18.51l",
+      "source_files": 18,
+      "result_files": 9
+    },
+    {
+      "version": "v18.51k",
+      "source_files": 17,
+      "result_files": 6
+    },
+    {
+      "version": "v18.51j",
+      "source_files": 16,
+      "result_files": 7
+    },
+    {
+      "version": "v18.51i",
+      "source_files": 15,
+      "result_files": 7
+    },
+    {
+      "version": "v18.51h",
+      "source_files": 14,
+      "result_files": 7
+    },
+    {
+      "version": "v18.51g",
+      "source_files": 13,
+      "result_files": 11
+    },
+    {
+      "version": "v18.51f",
+      "source_files": 12,
+      "result_files": 10
+    },
+    {
+      "version": "v18.51e",
+      "source_files": 16,
+      "result_files": 10
+    }
+  ],
+  "checks": {
+    "n_through_e_ancestors_byte_authenticated": true,
+    "authentic_historical_kinetic_source": true,
+    "two_seed_three_tau_79_sections": true,
+    "scalar_velocity_to_position_tangent": true,
+    "rank_one_position_coupling_subspace": true,
+    "positive_effective_clock_sensitivity": true,
+    "kinematic_spline_independent_check": true,
+    "second_order_spline_independent_check": true,
+    "moving_coordinate_transform_identity": true,
+    "tau_ref_force_germ_invariance": true,
+    "tau_ref_effective_clock_scaling": true,
+    "static_passive_configuration_chart_covariance": true,
+    "synthetic_clock_only_not_spurious_force": true,
+    "synthetic_conservative_potential_control": true,
+    "synthetic_driven_force_control": true,
+    "nontrivial_position_to_acceleration_coupling": true,
+    "nontrivial_velocity_to_acceleration_coupling": true,
+    "no_new_physical_trajectory_ivps": true,
+    "no_unique_full_nonlinear_force_or_action_claimed": true
+  },
+  "max_residuals": {
+    "scalar_kinematic_block": 1.937522817027566e-15,
+    "non_column5_position_coupling": 5.047774353648235e-10,
+    "velocity_damping_skew": 7.766720640204646e-10,
+    "coordinate_transform_identity": 2.8616250395555787e-16,
+    "kinematic_spline_rate": 7.48815760707473e-09,
+    "acceleration_spline_rate": 9.435220639013126e-06,
+    "metric_weight_force_germ": 2.643781808622253e-12,
+    "effective_clock_weight": 6.332826279481156e-17,
+    "passive_GL5": 2.1023665909035273e-16,
+    "force_derivative_finite": 0.0,
+    "historical_kinematic_jet": 0.0
+  },
+  "summary": [
+    {
+      "seed_family": "original",
+      "tau_ref": 0.5,
+      "sections": 79,
+      "xi_max": 0.05,
+      "a_min": 3.347266838865493,
+      "a_max": 3.3474592683121456,
+      "a_prime_max": 0.007472973417920721,
+      "A_position_norm_at_end": 2.841880681345151,
+      "E_force_position_norm_at_end": 11.314880775257755,
+      "F_force_velocity_norm_at_end": 2.970475259163342,
+      "E_nonsymmetric_fraction_at_end": 0.5914875929235144,
+      "max_first_tangent_rate_residual": 5.043473899503614e-09,
+      "max_second_tangent_rate_residual": 9.432435777104782e-06
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 1.0,
+      "sections": 79,
+      "xi_max": 0.05,
+      "a_min": 1.6736334194327465,
+      "a_max": 1.6737296341560728,
+      "a_prime_max": 0.0037364867089603607,
+      "A_position_norm_at_end": 2.841880681345151,
+      "E_force_position_norm_at_end": 11.314880775259537,
+      "F_force_velocity_norm_at_end": 2.970475259163342,
+      "E_nonsymmetric_fraction_at_end": 0.5914875929234084,
+      "max_first_tangent_rate_residual": 6.196652070197933e-09,
+      "max_second_tangent_rate_residual": 8.475667032040042e-06
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 2.0,
+      "sections": 79,
+      "xi_max": 0.05,
+      "a_min": 0.8368167097163732,
+      "a_max": 0.8368648170780364,
+      "a_prime_max": 0.0018682433544801804,
+      "A_position_norm_at_end": 2.841880681345151,
+      "E_force_position_norm_at_end": 11.314880775259537,
+      "F_force_velocity_norm_at_end": 2.970475259163342,
+      "E_nonsymmetric_fraction_at_end": 0.5914875929234084,
+      "max_first_tangent_rate_residual": 7.468946903287168e-09,
+      "max_second_tangent_rate_residual": 8.018806014543056e-06
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 0.5,
+      "sections": 79,
+      "xi_max": 0.05,
+      "a_min": 3.347266128011942,
+      "a_max": 3.347458562274747,
+      "a_prime_max": 0.007473174656431801,
+      "A_position_norm_at_end": 2.8418598727301423,
+      "E_force_position_norm_at_end": 11.31634092131377,
+      "F_force_velocity_norm_at_end": 2.970455257292884,
+      "E_nonsymmetric_fraction_at_end": 0.591389669118743,
+      "max_first_tangent_rate_residual": 5.049757213702732e-09,
+      "max_second_tangent_rate_residual": 9.435220639013126e-06
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 1.0,
+      "sections": 79,
+      "xi_max": 0.05,
+      "a_min": 1.673633064005971,
+      "a_max": 1.6737292811373734,
+      "a_prime_max": 0.0037365873273550354,
+      "A_position_norm_at_end": 2.8418598727301423,
+      "E_force_position_norm_at_end": 11.316340921313346,
+      "F_force_velocity_norm_at_end": 2.9704552572931426,
+      "E_nonsymmetric_fraction_at_end": 0.5913896691187577,
+      "max_first_tangent_rate_residual": 6.209474437544899e-09,
+      "max_second_tangent_rate_residual": 8.477336851050671e-06
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 2.0,
+      "sections": 79,
+      "xi_max": 0.05,
+      "a_min": 0.8368165320029854,
+      "a_max": 0.8368646405686867,
+      "a_prime_max": 0.0018682936636775177,
+      "A_position_norm_at_end": 2.8418598727301423,
+      "E_force_position_norm_at_end": 11.316340921313346,
+      "F_force_velocity_norm_at_end": 2.9704552572931426,
+      "E_nonsymmetric_fraction_at_end": 0.5913896691187577,
+      "max_first_tangent_rate_residual": 7.48815760707473e-09,
+      "max_second_tangent_rate_residual": 8.019952203729179e-06
+    }
+  ],
+  "synthetic_controls": [
+    {
+      "case": "clock_only",
+      "max_identity_error": 0.0,
+      "clock_only_residual": 0.0
+    },
+    {
+      "case": "conservative",
+      "max_identity_error": 0.0,
+      "clock_only_residual": null
+    },
+    {
+      "case": "drift_and_forcing",
+      "max_identity_error": 1.3854376390519464e-16,
+      "clock_only_residual": null
+    }
+  ],
+  "formal_identification": {
+    "state": "X=(\u03b4Q,\u03b4W_tau), W_tau=tau_ref*V; xi is inherited model clock",
+    "B_blocks": "[[A, alpha I],[C,D]] with alpha(xi)=tr(B_QW)/5",
+    "local_kinematics": "\u03b4Qprime = A \u03b4Q + alpha \u03b4W_tau",
+    "kinematic_transform": "Y=(\u03b4Q,\u03b4U=\u03b4Qprime)=T X, T=[[I,0],[A,alpha I]]",
+    "effective_generator": "Yprime=[[0,I],[E,F]]Y",
+    "effective_force_jacobian_position": "E=A_prime+alpha*C-(alpha_prime/alpha)*A-D*A",
+    "effective_force_jacobian_velocity": "F=A+D+(alpha_prime/alpha)*I",
+    "effective_acceleration_germ": "\u03b4Qsecond=E \u03b4Q+F \u03b4Qprime",
+    "clock_warning": "alpha is a local tangent velocity sensitivity, NOT an independently authenticated d(tau)/d(xi). A is nonzero.",
+    "force_warning": "E,F are the frozen trajectory linearized acceleration coefficients; no nonlinear baseline force, action, or unique split is inferred."
+  },
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8"
+  },
+  "limitations": [
+    "No new original Q550 physical state IVPs were run; source B and M derive from the authenticated v18.51e original full 10D tangent IVPs.",
+    "Numerical differentiations use cubic splines on the 79 historically sampled xi sections, not a continuous independently derived analytic generator derivative.",
+    "The coefficient alpha is the linearized velocity-to-position sensitivity in the moving Cartesian embedding. It alone cannot identify a global clock conversion.",
+    "The observed nonzero A position coupling prevents treating Qprime=alpha V as a complete nonlinear trajectory identity.",
+    "Effective acceleration Jacobians E,F do not determine the absolute generalized force without the base trajectory and its absolute accelerations.",
+    "Neither nonzero E antisymmetry nor F establishes failure of all possible driven, velocity-dependent, non-natural or reparameterized actions.",
+    "No intrinsic material torsion, universally preferred 10D metric, hysteresis, physical direction reversal or observer-independent energy split is certified."
+  ]
+}

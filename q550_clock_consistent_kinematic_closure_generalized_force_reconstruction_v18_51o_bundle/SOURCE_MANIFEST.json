@@ -1,0 +1,21 @@
+{
+  "root": "q550_clock_consistent_kinematic_closure_generalized_force_reconstruction_v18_51o_bundle",
+  "version": "v18.51o",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "2cbb249c23c0dde4d329d11783c113df01ba9f01f4932ce51f0a23fb44c49f8e",
+    "README.md": "026e2f06fa5772fc841da11ef12495d52656ad974c7f6968c358aca2c1c4dc5a",
+    "SCIENTIFIC_DECISION_RULES.md": "8d867c0261580dcce244d4e60bd299b639a46f90df98d320e8cf61879edc8984",
+    "SCIENTIFIC_REPORT.md": "f1108e75fd484bcf375a0b39904944d03c9d1007a25c8bc28834dbaebddd8a4e",
+    "inputs/material_tangent_cauchy_green_tensors_v18_51e.npz": "8bfd80d7554642b1d5872634c32c820a1b2d7c3ab35390299b3263a2729b97ca",
+    "inputs/q550_variational_metric_admissibility_observable_window_dependence_v18_51n_bundle_server_sendback.zip": "52c4ce558a34de946f6e0654f399a7a2bf94c99a0e963d86f3c77a8337e83060",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "requirements.txt": "b4d4671879d33d90228042687b851af90add9dc1d9433d2a161ac674b52c7dfb",
+    "run_on_server.sh": "f56bdbb80bc8326dcacb99b2428c18ebaf7c4362af3fe9934993cb327f8ae043",
+    "scripts/pack_sendback.py": "b4e13855cc28dea1f957449b65d2583d5d2f382f7fa912a2fbe5176b0cda9f8e",
+    "scripts/run_audit.py": "616131044858298b3b92c2f08dcb9a9ea431553485a49d5531056850a2150a34",
+    "scripts/verify_source_manifest.py": "62f7ca2796b0debac4f779f43afa6f3af63a1ec82307d3ef3f60fda3f3ce4751",
+    "scripts/write_output_manifest.py": "f5f923c4090fd915714143d85bc541313c4db6887906aaa1c4cb0c3dc89cceac",
+    "tests/test_geometry.py": "867a0ac7444e4fe921a6d4a1cb813e7519ae558fea4d2d17c6aa19eefc01cd40",
+    "tests/test_results.py": "83fa1eaf445809b92a7e31c34d79cfa34193a6f64e26a55b774251c22ebf9346"
+  }
+}

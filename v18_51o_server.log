@@ -1,0 +1,13 @@
+SOURCE IDENTITY VERIFIED 15
+v18.51o independent synthetic clock / potential / driven-transport / passive gauge tests PASS
+CLOSURE original, tau_ref=0.5: clock a=3.34726683925..3.34745926831, Qprime residual=5.043e-09, Qsecond residual=9.432e-06, E skew fraction end=0.591488
+CLOSURE original, tau_ref=1: clock a=1.67363341962..1.67372963416, Qprime residual=6.197e-09, Qsecond residual=8.476e-06, E skew fraction end=0.591488
+CLOSURE original, tau_ref=2: clock a=0.836816709811..0.836864817078, Qprime residual=7.469e-09, Qsecond residual=8.019e-06, E skew fraction end=0.591488
+CLOSURE autonomous, tau_ref=0.5: clock a=3.34726612839..3.34745856227, Qprime residual=5.050e-09, Qsecond residual=9.435e-06, E skew fraction end=0.591390
+CLOSURE autonomous, tau_ref=1: clock a=1.6736330642..1.67372928114, Qprime residual=6.209e-09, Qsecond residual=8.477e-06, E skew fraction end=0.591390
+CLOSURE autonomous, tau_ref=2: clock a=0.836816532098..0.836864640569, Qprime residual=7.488e-09, Qsecond residual=8.020e-06, E skew fraction end=0.591390
+v18.51o COMPLETE 474 rows 19 / 19 CHECKS
+v18.51o source / second-order tangent / refusal-of-unique-force tests PASS
+OUTPUT MANIFEST WRITTEN 6
+SOURCE IDENTITY VERIFIED 15
+SENDBACK PACKED /root/elab1/hysteresis/q550_clock_consistent_kinematic_closure_generalized_force_reconstruction_v18_51o_bundle_server_sendback.zip members 23 bytes 83900395

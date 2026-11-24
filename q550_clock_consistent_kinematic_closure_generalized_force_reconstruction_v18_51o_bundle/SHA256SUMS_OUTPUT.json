@@ -1,0 +1,12 @@
+{
+  "root": "q550_clock_consistent_kinematic_closure_generalized_force_reconstruction_v18_51o_bundle",
+  "version": "v18.51o",
+  "file_sha256": {
+    "results/clock_kinematic_force_germ_ledger.csv": "d6e016f6063c64d3ad1e966407eaf0f40d27e04404ab544b7df909594665181d",
+    "results/clock_kinematic_force_germ_summary.csv": "f9177950622a3ac7a913a59569d7984b47f9905a7683f051331bc6b8e5fcfeaa",
+    "results/effective_clock_sensitivity.png": "d1005c91562e386f1106cc38db9cce271a9974d56863d775c97db5bebae9c27e",
+    "results/effective_force_linearization.png": "d09ecba62c5ea8f192d7d4ca39967cc7a1e671c25dbf031356d7f468b345a8a9",
+    "results/report.json": "306a706bd88824b2d362efff05ecca68e6d5387be3b1dc32d164c0d32856466b",
+    "results/second_order_tangent_closure.png": "67b84c0f83c3f081a822ebf721e8375c6f9b4c82d45013ce51a24215a0278543"
+  }
+}
