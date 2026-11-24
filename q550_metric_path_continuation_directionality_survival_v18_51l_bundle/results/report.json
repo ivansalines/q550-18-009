@@ -1,0 +1,314 @@
+{
+  "version": "v18.51l",
+  "title": "Metric-Path Continuation & Directionality Survival Audit",
+  "classification": "NUMERICAL_KINETIC_WEIGHT_PATH_DIRECTIONALITY_AND_FLOATING_POLYNOMIAL_POSITIVITY_DIAGNOSTIC_NOT_UNIVERSAL_MATERIAL_LAW",
+  "lineage": {
+    "k_source_archive_sha256": "2900b4bde73e7eb879e55628a43b710b27e1460e5c3edb4c2c460e3b8f82f515",
+    "k_sources_authenticated": 17,
+    "k_results_authenticated": 6,
+    "k_scientific_checks": 22,
+    "j_genealogy": {
+      "parent_j_archive_sha256": "fc465f18c3b4a820538191eaf89aa8f1ecd85eb49aaf5c73927356d44aae6688",
+      "parent_j_manifest_sources": 16,
+      "parent_j_manifest_outputs": 7,
+      "parent_j_checks": 20,
+      "parent_j_inherited_genealogy": {
+        "parent_i_archive_sha256": "353d1292ebf95a829accc837464ba90b6d18a91b479f4641ad26d51858d4cba1",
+        "parent_i_sources": 15,
+        "parent_i_outputs": 7,
+        "parent_i_checks": 19,
+        "parent_i_replay_max_direction_ratio_error": 0.0,
+        "ancestral_nested_authentication": {
+          "h_archive_sha256": "bd1d90703b0ddb638c76ece111ac7a224c81d52858c4625931fb5e73b3cdd0fa",
+          "h_source_files": 14,
+          "h_output_files": 7,
+          "parent_h_checks": 22,
+          "nested_g_f_e_verified": {
+            "g_archive_sha256": "66394be8e341c526cb364ad4acb48b6f891a2c65ce73d8f0feedd181ff43fb7a",
+            "g": {
+              "source_files": 13,
+              "output_files": 11
+            },
+            "g_checks": 20,
+            "f_embedded_sha256": "7d66df61d21adaf883d8c8e23d3ad7d3dd01a6bdf391f90a69272e0367b2c295",
+            "f": {
+              "source_files": 12,
+              "output_files": 10
+            },
+            "f_checks": 16,
+            "e_embedded_sha256": "630c9881e9298ecd39b53747a76e5b775d09055c4fea7cef24ef02f86c35123b",
+            "e": {
+              "source_files": 16,
+              "output_files": 10
+            },
+            "e_checks": 21,
+            "physical_seed_ivps": 2,
+            "no_new_physical_ivp": true,
+            "historical_lineage": {
+              "c": {
+                "version": "v18.51c",
+                "source_files": 12,
+                "result_files": 8
+              },
+              "b": {
+                "version": "v18.51b",
+                "source_files": 12,
+                "result_files": 7
+              },
+              "a": {
+                "version": "v18.51a",
+                "source_files": 13,
+                "result_files": 7
+              },
+              "z": {
+                "version": "v18.50z",
+                "source_files": 12,
+                "result_files": 6
+              },
+              "y": {
+                "version": "v18.50y",
+                "source_files": 12,
+                "result_files": 8
+              },
+              "x": {
+                "version": "v18.50x",
+                "source_files": 12,
+                "result_files": 11
+              },
+              "parent_sha256": "541acc98b832e67632fb7f9c355cbd3918448249cad2830ac77409a0d92af953",
+              "historical_v18_49h_kinetic_source_sha256": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+              "d": {
+                "archive_sha256": "bb8acf4700f1993fd49c58a42e26e491a69398b09e6b58e0095159b36ea11179",
+                "auth": {
+                  "version": "v18.51d",
+                  "source_files": 15,
+                  "result_files": 7
+                },
+                "parent_checks": 12,
+                "parent_observations": 474
+              }
+            }
+          },
+          "original_ten_dimensional_ivps_inherited": 2
+        },
+        "physical_seed_ivps_inherited": 2,
+        "new_physical_ivps": 0
+      },
+      "max_parent_instantaneous_replay_ratio_error": 0.0,
+      "physical_seed_ivps_inherited": 2,
+      "new_physical_ivps": 0
+    },
+    "physical_seed_ivps_inherited": 2,
+    "new_physical_ivps": 0
+  },
+  "counts": {
+    "metric_nodes": 65,
+    "positive_xi_sections_per_seed": 78,
+    "lag_intervals_per_seed": 227,
+    "instantaneous_ledger_rows": 10140,
+    "finite_ledger_rows": 29510,
+    "polynomial_observables": 610,
+    "polynomial_positive_bernstein": 610,
+    "polynomial_unresolved": 0
+  },
+  "path": {
+    "tau_ref_min": 0.5,
+    "tau_ref_max": 2.0,
+    "parameter": "s=tau_ref^2",
+    "frozen_material_history": true,
+    "physical_seed_reintegration": false,
+    "similarity": "D_tau=diag(I5,tau I5); M_tau=D_tau M_1 inv(D_tau); P_tau=D_tau P_1 inv(D_tau)",
+    "metric_gram": "H_i(xi,s)=U_i(xi)^T diag(I5,s I5) U_i(xi)",
+    "direct_crossblock": "K_(i<-j)(tau)=sqrt(H_i(b)) K_(i<-j)(1) invsqrt(H_j(a))",
+    "sign_polynomial": "F(s)=N54(s) det(H4(a,s)) - N45(s) det(H5(a,s)); degree<=4; denominators positive for s>0",
+    "bernstein": "Floating-point Bernstein lower bound on s in [0.25,4] for each fixed sampled material interval, not a validated interval-arithmetic enclosure."
+  },
+  "quality": {
+    "max_baseline_gram_error": 4.5802248474902446e-15,
+    "max_metric_similarity_error": 2.246448208848475e-16,
+    "max_direct_block_error": 1.6986496063574856e-12,
+    "max_rational_polynomial_error": 1.889082301625436e-15,
+    "max_parent_finite_ratio_difference": 1.5660139691675568e-06,
+    "max_parent_instant_ratio_difference": 1.164622386529146e-06,
+    "max_metric_path_gauge_error": 8.881784197001252e-16,
+    "max_aligned_defect_gauge_error": 1.4120718150323341e-07,
+    "max_eigenplane_overlap_step_loss": 1.390823704217059e-05,
+    "min_metric_eigenvalue": 0.25255164760290394,
+    "max_metric_condition": 3.977290716487921,
+    "min_finite_ratio": 1.3268403895923913,
+    "min_instant_ratio": 1.3235016345113788
+  },
+  "observations": {
+    "rows": [
+      {
+        "seed_family": "original",
+        "observable": "instantaneous",
+        "lag_sections": 0,
+        "n_observations": 5070,
+        "n_metric_nodes": 65,
+        "direction_5to4_survival_on_nodes": 5070,
+        "minimum_ratio": 1.3288221830832183,
+        "minimum_margin": 0.27687365140369397,
+        "tau_at_minimum": 2.0,
+        "xi_at_minimum": 0.05,
+        "total_polynomials": 78,
+        "bernstein_positive_polynomials": 78,
+        "polynomial_real_roots_in_range": 0,
+        "smallest_numerical_polynomial_minimum": 2.007529617022732
+      },
+      {
+        "seed_family": "original",
+        "observable": "finite_lag",
+        "lag_sections": 1,
+        "n_observations": 5005,
+        "n_metric_nodes": 65,
+        "direction_5to4_survival_on_nodes": 5005,
+        "minimum_ratio": 1.3322324264078023,
+        "minimum_margin": 0.2792385628741314,
+        "tau_at_minimum": 2.0,
+        "xi_at_minimum": 0.05,
+        "total_polynomials": 77,
+        "bernstein_positive_polynomials": 77,
+        "polynomial_real_roots_in_range": 0,
+        "smallest_numerical_polynomial_minimum": 1.0002700451921888e-10
+      },
+      {
+        "seed_family": "original",
+        "observable": "finite_lag",
+        "lag_sections": 2,
+        "n_observations": 4940,
+        "n_metric_nodes": 65,
+        "direction_5to4_survival_on_nodes": 4940,
+        "minimum_ratio": 1.335736875616732,
+        "minimum_margin": 0.28165899441375924,
+        "tau_at_minimum": 2.0,
+        "xi_at_minimum": 0.05,
+        "total_polynomials": 76,
+        "bernstein_positive_polynomials": 76,
+        "polynomial_real_roots_in_range": 0,
+        "smallest_numerical_polynomial_minimum": 5.225589108366909e-10
+      },
+      {
+        "seed_family": "original",
+        "observable": "finite_lag",
+        "lag_sections": 4,
+        "n_observations": 4810,
+        "n_metric_nodes": 65,
+        "direction_5to4_survival_on_nodes": 4810,
+        "minimum_ratio": 1.343027396009104,
+        "minimum_margin": 0.2866626642452865,
+        "tau_at_minimum": 2.0,
+        "xi_at_minimum": 0.05,
+        "total_polynomials": 74,
+        "bernstein_positive_polynomials": 74,
+        "polynomial_real_roots_in_range": 0,
+        "smallest_numerical_polynomial_minimum": 3.6011585024234944e-09
+      },
+      {
+        "seed_family": "autonomous",
+        "observable": "instantaneous",
+        "lag_sections": 0,
+        "n_observations": 5070,
+        "n_metric_nodes": 65,
+        "direction_5to4_survival_on_nodes": 5070,
+        "minimum_ratio": 1.3235016345113788,
+        "minimum_margin": 0.2731651118670989,
+        "tau_at_minimum": 2.0,
+        "xi_at_minimum": 0.05,
+        "total_polynomials": 78,
+        "bernstein_positive_polynomials": 78,
+        "polynomial_real_roots_in_range": 0,
+        "smallest_numerical_polynomial_minimum": 2.0262539159597575
+      },
+      {
+        "seed_family": "autonomous",
+        "observable": "finite_lag",
+        "lag_sections": 1,
+        "n_observations": 5005,
+        "n_metric_nodes": 65,
+        "direction_5to4_survival_on_nodes": 5005,
+        "minimum_ratio": 1.3268403895923913,
+        "minimum_margin": 0.27549499236418623,
+        "tau_at_minimum": 2.0,
+        "xi_at_minimum": 0.05,
+        "total_polynomials": 77,
+        "bernstein_positive_polynomials": 77,
+        "polynomial_real_roots_in_range": 0,
+        "smallest_numerical_polynomial_minimum": 1.0095752313783129e-10
+      },
+      {
+        "seed_family": "autonomous",
+        "observable": "finite_lag",
+        "lag_sections": 2,
+        "n_observations": 4940,
+        "n_metric_nodes": 65,
+        "direction_5to4_survival_on_nodes": 4940,
+        "minimum_ratio": 1.3302734139003238,
+        "minimum_margin": 0.2778811937056287,
+        "tau_at_minimum": 2.0,
+        "xi_at_minimum": 0.05,
+        "total_polynomials": 76,
+        "bernstein_positive_polynomials": 76,
+        "polynomial_real_roots_in_range": 0,
+        "smallest_numerical_polynomial_minimum": 5.274203956985195e-10
+      },
+      {
+        "seed_family": "autonomous",
+        "observable": "finite_lag",
+        "lag_sections": 4,
+        "n_observations": 4810,
+        "n_metric_nodes": 65,
+        "direction_5to4_survival_on_nodes": 4810,
+        "minimum_ratio": 1.3374216935424768,
+        "minimum_margin": 0.2828191254840748,
+        "tau_at_minimum": 2.0,
+        "xi_at_minimum": 0.05,
+        "total_polynomials": 74,
+        "bernstein_positive_polynomials": 74,
+        "polynomial_real_roots_in_range": 0,
+        "smallest_numerical_polynomial_minimum": 3.634663139774453e-09
+      }
+    ],
+    "all_instant_node_5to4_dominant": true,
+    "all_finite_node_5to4_dominant": true,
+    "bernstein_positive_all_fixed_sample_polynomials": true
+  },
+  "checks": {
+    "k_crc_sha256_and_22_checks": true,
+    "authenticated_nested_j_i_h_g_f_e": true,
+    "exact_historical_replay_two_seeds_no_new_10D_ivps": true,
+    "positive_weight_65_nodes_three_anchors": true,
+    "full_instantaneous_node_count": true,
+    "full_finite_lag_node_count": true,
+    "metric_positive_definite": true,
+    "numerical_similarity_reconstruction": true,
+    "metric_orthonormal_plane_bases": true,
+    "algebraic_direct_operator_crossblock": true,
+    "polynomial_exact_fractional_norm_difference": true,
+    "inherited_instantaneous_anchor_replay": true,
+    "inherited_finite_anchor_replay": true,
+    "inherited_connection_aligned_defect_anchor_replay": true,
+    "independent_pair_O2_gauge_at_nonanchor_weights": true,
+    "positive_metric_path_finite_spectral_overlap": true,
+    "finite_samples_xi_positive": true,
+    "explicit_polynomial_sign_test_for_every_base_observable": true,
+    "no_physical_continuum_xi_certification": true,
+    "one_third_not_used_as_hypothesis": true
+  },
+  "limitations": [
+    "The family tau_ref in [0.5,2] changes the position/velocity weighting of one kinetic state immersion; it is NOT a family of independently derived material laws.",
+    "Similarity preserves eigenvalues by construction. It does not preserve singular values or norm ratios under changed metric.",
+    "Bernstein polynomial positivity is computed from floating-point tangent tensors; not a certified interval arithmetic bound on the original ODE or on numerical rounding errors.",
+    "Only material intervals with sampled positive xi sections and lag counts 1,2,4 are considered. No interpolation in physical xi is certified.",
+    "The 5->4 labels are inherited isolated Riesz spectral right-plane labels. At xi=0 the identity map is tenfold degenerate.",
+    "Gauge-invariance at fixed tau is not material metric-uniqueness. The apparent directionality is not a measured flow of energy or intrinsic torsion.",
+    "No 1/3 law, hysteretic memory, universal reciprocity breaking or microscopic arrow of time is established."
+  ],
+  "software": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}

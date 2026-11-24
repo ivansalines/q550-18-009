@@ -1,0 +1,15 @@
+{
+  "root": "q550_metric_path_continuation_directionality_survival_v18_51l_bundle",
+  "version": "v18.51l",
+  "file_sha256": {
+    "results/metric_path_directional_margin.png": "9d70443636ea211c27f0a3ce9e9817cfe6b7c67102b32210babaa3d6f454c5b9",
+    "results/metric_path_endpoint_directionality.png": "9ab6b6bf6d348d0c9422873be9972987dc9de46a5485917a17891b75635a85cd",
+    "results/metric_path_finite_lag_directionality.csv": "cb8cd52d72a632f289179d8148b4effaa791fe8f76edc3425a059173b5ff4e22",
+    "results/metric_path_instantaneous_directionality.csv": "a21071bc4eb90d91b2de337d24395c9a54b53ab2d38b69f3af9369246720e4a8",
+    "results/metric_path_plane_conditioning.csv": "b367d7e564c49681414b8dd080499f4e8baa286a7feb61eac93cc4bebe0c0385",
+    "results/metric_path_polynomial_sign_bounds.csv": "7e88d2e95475684c0976fcde378e9ae2ce1d5ca85b46934e2f6519e80cda7c95",
+    "results/metric_path_survival_summary.csv": "fb41995eec1248b80d9fbea5397204c936816e88b0628172fa8d18e89ae0ad86",
+    "results/metric_path_worst_case_survival.png": "a5894d3a7085b82897416919aab8287c328e095d02a1e3fc285299348f8c8ff0",
+    "results/report.json": "4d7d2d6ad41af3a0d5d035a6c2eaef2444a8677db4a77b207799f9952fa4de7f"
+  }
+}

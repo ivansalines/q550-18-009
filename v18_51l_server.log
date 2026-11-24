@@ -1,0 +1,194 @@
+SOURCE IDENTITY VERIFIED 18
+v18.51l independent synthetic rational-polynomial, sign-reversal and O(2) gauge tests PASS
+AUTHENTICATED H REPLAY original 0.5
+AUTHENTICATED H REPLAY original 1.0
+AUTHENTICATED H REPLAY original 2.0
+AUTHENTICATED H REPLAY autonomous 0.5
+AUTHENTICATED H REPLAY autonomous 1.0
+AUTHENTICATED H REPLAY autonomous 2.0
+INHERITED I REPLAY original 0.5 sections 78
+INHERITED I REPLAY original 1.0 sections 78
+INHERITED I REPLAY original 2.0 sections 78
+INHERITED I REPLAY autonomous 0.5 sections 78
+INHERITED I REPLAY autonomous 1.0 sections 78
+INHERITED I REPLAY autonomous 2.0 sections 78
+AUTHENTICATED k,j,i,h,g,f,e Q550 MODEL HISTORY 1362 parent finite intervals
+METRIC PATH original nodes 65 finite 14755 minimum ratio 1.3322324264078023
+METRIC PATH autonomous nodes 65 finite 14755 minimum ratio 1.3268403895923913
+Q550 v18.51l observations {
+  "rows": [
+    {
+      "seed_family": "original",
+      "observable": "instantaneous",
+      "lag_sections": 0,
+      "n_observations": 5070,
+      "n_metric_nodes": 65,
+      "direction_5to4_survival_on_nodes": 5070,
+      "minimum_ratio": 1.3288221830832183,
+      "minimum_margin": 0.27687365140369397,
+      "tau_at_minimum": 2.0,
+      "xi_at_minimum": 0.05,
+      "total_polynomials": 78,
+      "bernstein_positive_polynomials": 78,
+      "polynomial_real_roots_in_range": 0,
+      "smallest_numerical_polynomial_minimum": 2.007529617022732
+    },
+    {
+      "seed_family": "original",
+      "observable": "finite_lag",
+      "lag_sections": 1,
+      "n_observations": 5005,
+      "n_metric_nodes": 65,
+      "direction_5to4_survival_on_nodes": 5005,
+      "minimum_ratio": 1.3322324264078023,
+      "minimum_margin": 0.2792385628741314,
+      "tau_at_minimum": 2.0,
+      "xi_at_minimum": 0.05,
+      "total_polynomials": 77,
+      "bernstein_positive_polynomials": 77,
+      "polynomial_real_roots_in_range": 0,
+      "smallest_numerical_polynomial_minimum": 1.0002700451921888e-10
+    },
+    {
+      "seed_family": "original",
+      "observable": "finite_lag",
+      "lag_sections": 2,
+      "n_observations": 4940,
+      "n_metric_nodes": 65,
+      "direction_5to4_survival_on_nodes": 4940,
+      "minimum_ratio": 1.335736875616732,
+      "minimum_margin": 0.28165899441375924,
+      "tau_at_minimum": 2.0,
+      "xi_at_minimum": 0.05,
+      "total_polynomials": 76,
+      "bernstein_positive_polynomials": 76,
+      "polynomial_real_roots_in_range": 0,
+      "smallest_numerical_polynomial_minimum": 5.225589108366909e-10
+    },
+    {
+      "seed_family": "original",
+      "observable": "finite_lag",
+      "lag_sections": 4,
+      "n_observations": 4810,
+      "n_metric_nodes": 65,
+      "direction_5to4_survival_on_nodes": 4810,
+      "minimum_ratio": 1.343027396009104,
+      "minimum_margin": 0.2866626642452865,
+      "tau_at_minimum": 2.0,
+      "xi_at_minimum": 0.05,
+      "total_polynomials": 74,
+      "bernstein_positive_polynomials": 74,
+      "polynomial_real_roots_in_range": 0,
+      "smallest_numerical_polynomial_minimum": 3.6011585024234944e-09
+    },
+    {
+      "seed_family": "autonomous",
+      "observable": "instantaneous",
+      "lag_sections": 0,
+      "n_observations": 5070,
+      "n_metric_nodes": 65,
+      "direction_5to4_survival_on_nodes": 5070,
+      "minimum_ratio": 1.3235016345113788,
+      "minimum_margin": 0.2731651118670989,
+      "tau_at_minimum": 2.0,
+      "xi_at_minimum": 0.05,
+      "total_polynomials": 78,
+      "bernstein_positive_polynomials": 78,
+      "polynomial_real_roots_in_range": 0,
+      "smallest_numerical_polynomial_minimum": 2.0262539159597575
+    },
+    {
+      "seed_family": "autonomous",
+      "observable": "finite_lag",
+      "lag_sections": 1,
+      "n_observations": 5005,
+      "n_metric_nodes": 65,
+      "direction_5to4_survival_on_nodes": 5005,
+      "minimum_ratio": 1.3268403895923913,
+      "minimum_margin": 0.27549499236418623,
+      "tau_at_minimum": 2.0,
+      "xi_at_minimum": 0.05,
+      "total_polynomials": 77,
+      "bernstein_positive_polynomials": 77,
+      "polynomial_real_roots_in_range": 0,
+      "smallest_numerical_polynomial_minimum": 1.0095752313783129e-10
+    },
+    {
+      "seed_family": "autonomous",
+      "observable": "finite_lag",
+      "lag_sections": 2,
+      "n_observations": 4940,
+      "n_metric_nodes": 65,
+      "direction_5to4_survival_on_nodes": 4940,
+      "minimum_ratio": 1.3302734139003238,
+      "minimum_margin": 0.2778811937056287,
+      "tau_at_minimum": 2.0,
+      "xi_at_minimum": 0.05,
+      "total_polynomials": 76,
+      "bernstein_positive_polynomials": 76,
+      "polynomial_real_roots_in_range": 0,
+      "smallest_numerical_polynomial_minimum": 5.274203956985195e-10
+    },
+    {
+      "seed_family": "autonomous",
+      "observable": "finite_lag",
+      "lag_sections": 4,
+      "n_observations": 4810,
+      "n_metric_nodes": 65,
+      "direction_5to4_survival_on_nodes": 4810,
+      "minimum_ratio": 1.3374216935424768,
+      "minimum_margin": 0.2828191254840748,
+      "tau_at_minimum": 2.0,
+      "xi_at_minimum": 0.05,
+      "total_polynomials": 74,
+      "bernstein_positive_polynomials": 74,
+      "polynomial_real_roots_in_range": 0,
+      "smallest_numerical_polynomial_minimum": 3.634663139774453e-09
+    }
+  ],
+  "all_instant_node_5to4_dominant": true,
+  "all_finite_node_5to4_dominant": true,
+  "bernstein_positive_all_fixed_sample_polynomials": true
+}
+Q550 v18.51l quality {
+  "max_baseline_gram_error": 4.5802248474902446e-15,
+  "max_metric_similarity_error": 2.246448208848475e-16,
+  "max_direct_block_error": 1.6986496063574856e-12,
+  "max_rational_polynomial_error": 1.889082301625436e-15,
+  "max_parent_finite_ratio_difference": 1.5660139691675568e-06,
+  "max_parent_instant_ratio_difference": 1.164622386529146e-06,
+  "max_metric_path_gauge_error": 8.881784197001252e-16,
+  "max_aligned_defect_gauge_error": 1.4120718150323341e-07,
+  "max_eigenplane_overlap_step_loss": 1.390823704217059e-05,
+  "min_metric_eigenvalue": 0.25255164760290394,
+  "max_metric_condition": 3.977290716487921,
+  "min_finite_ratio": 1.3268403895923913,
+  "min_instant_ratio": 1.3235016345113788
+}
+Q550 v18.51l checks {
+  "k_crc_sha256_and_22_checks": true,
+  "authenticated_nested_j_i_h_g_f_e": true,
+  "exact_historical_replay_two_seeds_no_new_10D_ivps": true,
+  "positive_weight_65_nodes_three_anchors": true,
+  "full_instantaneous_node_count": true,
+  "full_finite_lag_node_count": true,
+  "metric_positive_definite": true,
+  "numerical_similarity_reconstruction": true,
+  "metric_orthonormal_plane_bases": true,
+  "algebraic_direct_operator_crossblock": true,
+  "polynomial_exact_fractional_norm_difference": true,
+  "inherited_instantaneous_anchor_replay": true,
+  "inherited_finite_anchor_replay": true,
+  "inherited_connection_aligned_defect_anchor_replay": true,
+  "independent_pair_O2_gauge_at_nonanchor_weights": true,
+  "positive_metric_path_finite_spectral_overlap": true,
+  "finite_samples_xi_positive": true,
+  "explicit_polynomial_sign_test_for_every_base_observable": true,
+  "no_physical_continuum_xi_certification": true,
+  "one_third_not_used_as_hypothesis": true
+}
+Q550 v18.51l PASS 20 / 20
+v18.51l persisted results PASS 10140 instantaneous 29510 finite 610 polynomial positivity diagnostics
+OUTPUT MANIFEST WRITTEN 9
+SOURCE IDENTITY VERIFIED 18
+SENDBACK PACKED /root/elab1/hysteresis/q550_metric_path_continuation_directionality_survival_v18_51l_bundle_server_sendback.zip members 29 bytes 80562338

@@ -1,0 +1,10 @@
+# Q550 v18.51l — Scientific decision rules
+
+1. **Lineage.** Authenticate the entire v18.51k server sendback against CRC, its source SHA-256 manifest and output SHA-256 manifest. Its embedded v18.51j and earlier source lineage must remain byte-identical to the historical script references. A checksum mismatch must halt the audit.
+2. **Model fidelity.** Work on both inherited authentic Q550 seed trajectories, without new physical 10D IVPs or new distinct-kappa physical boundary conditions. Never use the old inconsistent `DH_tau @ S` metric convention of v18.51d.
+3. **Path.** Test 65 log-spaced kinetic weights on `0.5≤tau_ref≤2`, explicitly including the 3 historical anchors; track all 78 instantaneous positive sections and all 227 finite intervals per seed, with lag 1,2,4.
+4. **Reproduction and covariance.** Confirm exact algebraic Gram-state reweighting against direct 10D similarity; compare all three historical anchor metrics with the v18.51j/k data under a fixed, declared near-origin replay tolerance `2e-6`. Recompute the discrete common-connection pair lift for each metric, and gauge-test the aligned observable.
+5. **Polynomial diagnostic.** For each of the 610 inherited channel pairs, compute the quartic-or-lower signed polynomial in `s=tau_ref²`, check its direct rational identity, search for real roots and apply Bernstein lower bounds. Any polynomial that fails the positivity test must remain classified as `UNRESOLVED` or `SIGN_CROSSING`; do not silently assume universal survival from the 65-node grid.
+6. **No false physical claim.** Numerical Bernstein positivity of rounded coefficients is not a validated interval enclosure of the original Q550 ODE. Similarity invariance of eigenvalues is not new physics. Norm ratios and their squared margin are not energy fractions or microscopic reversibility tests. The universal 1/3 hypothesis remains excluded.
+
+**The pass/fail checks concern numerical and genealogical correctness, not a preselected result.** A genuine loss of 5→4 dominance should be reported rather than concealed by a failing hard-coded outcome assertion in the main run.

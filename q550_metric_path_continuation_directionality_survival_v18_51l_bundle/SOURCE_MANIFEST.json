@@ -1,0 +1,24 @@
+{
+  "root": "q550_metric_path_continuation_directionality_survival_v18_51l_bundle",
+  "version": "v18.51l",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "69a32f93925074572384382088b4a049b4a0294e8e2ef2f85ad36a69675984aa",
+    "README.md": "368120744f33b2fc402f576c8e263b1e04cae94203872f96e724ba2009f2eec2",
+    "SCIENTIFIC_DECISION_RULES.md": "4e3d03b6ccefd9ea064ae0a214cdf4a7af7fac6301e60d55de1b6251ba711ac6",
+    "SCIENTIFIC_REPORT.md": "2cae0cd0bde446cde1fa06d2d08502100445221cf7abbdcf88334d652e43d29e",
+    "inputs/q550_common_connection_pair_frames_finite_lag_gauge_v18_51k_bundle_server_sendback.zip": "2900b4bde73e7eb879e55628a43b710b27e1460e5c3edb4c2c460e3b8f82f515",
+    "reference/g_projector_replay_v18_51g.py": "37ff4dbd6eed8daa3d87a9dee042027cb2f57373939056f317b22d542b8a19a8",
+    "reference/h_pairwise_replay_v18_51h.py": "250de3f86df74378f3e55fee431b25c2a207a10e405947f3369d6cbefc26030a",
+    "reference/i_projector_replay_v18_51i.py": "15f199d878742fe40e0e7ebe8ce967ee7d3111f4e76fd05278bce08bbbc5cc8b",
+    "reference/j_adjoint_replay_v18_51j.py": "3e6dc42e6a8c66507e9501229bfcac8ccf96d675b6de40709784f36dd2b0f31a",
+    "reference/k_connection_replay_v18_51k.py": "2865089d5ac66f0cf1b18944d4f1c2f0699d53421ff7b94333364d6d5af49862",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "run_on_server.sh": "f56bdbb80bc8326dcacb99b2428c18ebaf7c4362af3fe9934993cb327f8ae043",
+    "scripts/pack_sendback.py": "40b373b4a0c487b1e891823b8a337fddae0648882b8b57cd7220bc26d9a89932",
+    "scripts/run_audit.py": "0e69c4bc0f04d19323ddc5f6b89ca8e82fdab0a6f98967692e03ee39c5a732b1",
+    "scripts/verify_source_manifest.py": "c9c224a98056492daf18827c018747557d0b9e22d27ed2c993b1adf9d553ef20",
+    "scripts/write_output_manifest.py": "64f45d1b27bbb8c2865588737409cc49b837be8d6d3f6304ab2e5a548d1111e5",
+    "tests/test_geometry.py": "8f64c394cf33d702b4cfb8b9806f9b3502c2c275102f12ccb478cbd8b3341de5",
+    "tests/test_results.py": "d9f959df60865f236079f8162b881644f821e1e07088579a4f7a65df3cbe4b59"
+  }
+}
