@@ -1,0 +1,13 @@
+{
+  "root": "q550_spectral_channel_coupling_source_generator_attribution_v18_51b_bundle",
+  "version": "v18.51b",
+  "file_sha256": {
+    "results/connection_source_interplane_transport.png": "1f37d90c6816abe73be3cd718b6dc8828943de08cd8d3b142dfb954d524a67fc",
+    "results/generator_posture_spectral_strength_attribution.png": "c48d6a094f6ed567f9679c6e18cfb019ba437c7d2df78357747586494fcfe878",
+    "results/report.json": "152adf72a4e7d03125cb794eb79f16dc6741e934f367d454e129e6d72c5be564",
+    "results/spectral_generator_attribution_blocks.npz": "c6f114df82be8669abc02ecdbd4a0a5ae47bffa56066f7496f9ad222afc7bf46",
+    "results/spectral_numerator_gap_rate_balance.png": "395d831200e5a56bb025cde2f51c07ca11cff4ab7f6f5aae550a74bf290ddb4e",
+    "results/spectral_source_attribution_phase_ledger.csv": "f38bb4ac1900e3297bc48ce0674573601504910bc4c1a20e60099c182884d23d",
+    "results/spectral_source_attribution_summary.csv": "e6bbf2db17980f3e4d152233b37e2dd3194cbfef9c0c4b495d251ce9592ae0db"
+  }
+}

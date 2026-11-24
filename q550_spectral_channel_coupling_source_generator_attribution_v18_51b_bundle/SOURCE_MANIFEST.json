@@ -1,0 +1,18 @@
+{
+  "root": "q550_spectral_channel_coupling_source_generator_attribution_v18_51b_bundle",
+  "version": "v18.51b",
+  "files": {
+    "README.md": "fca3b43455cb7fc19ce0c8d02581a3077bfb85ffef31e90e32ea200fb80d6267",
+    "SCIENTIFIC_DECISION_RULES.md": "e310879a8f7608d8d5bd6ddbd2be8f7bc9f793960b80c0fb3513ada76249ae3d",
+    "SCIENTIFIC_REPORT.md": "05d63a7ced452ab93c69eb54979496602bfa5e7ded23511b8fe9c0fe6c1b2ee0",
+    "inputs/q550_model_observer_connection_defect_spectral_channels_transport_v18_51a_bundle_server_sendback.zip": "2891d2258e86f736cbeb9e9f74d1663dbc7597a4e052e0aba5a908e024641d91",
+    "requirements.txt": "156ec9e31c34ee6ac86f1de488fdf72936fbd5c9af57abe58a8305ea1ccaa985",
+    "run_on_server.sh": "3a261c179241e3adfd2c86df21999b90a96d2da2519179d4953817fe7cfba3ce",
+    "scripts/pack_sendback.py": "23fb2c9fd223f77c9104ab02708e26f16110daa9709480253501d0ea5efc170e",
+    "scripts/run_audit.py": "1c7699d79faaf255b65d13cc889ffc9eb28db90b7192eb785b1bfeed03a5518c",
+    "scripts/verify_source_manifest.py": "0ec4609bef34acf038417c1a98b693b1e9c9198167768d4cf4e0a6174737c350",
+    "scripts/write_output_manifest.py": "bd2ab1f9f19c6c02b99803ff2a92c6064675a97d424c19ad8cea0fd5b1303640",
+    "tests/test_algebra.py": "18150fa1118c0acdde5e87355b0883c0ee7e85d65d575f1d7b86954dc0535f2f",
+    "tests/test_results.py": "480b95004964162abfe058942ddd8c47216728bc77b04a6877721a0657cb0420"
+  }
+}

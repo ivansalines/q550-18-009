@@ -1,0 +1,33 @@
+SOURCE IDENTITY VERIFIED 12
+v18.51b synthetic spectral gap and model-generator product-rule tests PASS 5.2301904278994285e-11 3.515177917622817e-11
+v18.51b COMPLETED {
+  "rows": 158,
+  "tests": {
+    "both_preparations_present": true,
+    "spectral_eigenprojector_identity": true,
+    "model_generator_product_rule": true,
+    "independent_time_stencils": true,
+    "numerator_gap_log_identity": true,
+    "canonical_source_larger_norm_in_interplane_coupling": true,
+    "first_strength_increasing": true,
+    "second_strength_decreasing": true,
+    "model_larger_strength_source_pair1": true
+  },
+  "original_start": {
+    "model_total_rate": 1.416423631696473,
+    "canonical_observer_rate": 2.962213020002805,
+    "coupling_rate_spectral": 3.777136676155559,
+    "sigma1_rate_generator": 5.288624029762901,
+    "sigma1_rate_posture": -1.577663039184751,
+    "sigma1_rate_canonical": -0.7247301532423313
+  },
+  "original_end": {
+    "model_total_rate": 0.9603160532699959,
+    "canonical_observer_rate": 2.2569441351420965,
+    "coupling_rate_spectral": 2.6423681364233125
+  },
+  "max_id_err": 4.83240296640996e-07
+}
+v18.51b semantic/source decomposition tests PASS
+OUTPUT MANIFEST WRITTEN 7
+SENDBACK PACKED /root/elab1/hysteresis/q550_spectral_channel_coupling_source_generator_attribution_v18_51b_bundle_server_sendback.zip members 21 bytes 68084747
