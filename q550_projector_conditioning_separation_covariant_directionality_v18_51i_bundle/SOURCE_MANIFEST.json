@@ -1,0 +1,21 @@
+{
+  "root": "q550_projector_conditioning_separation_covariant_directionality_v18_51i_bundle",
+  "version": "v18.51i",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "c0a835e37b968bacfb97b041c95425a12d0baa02c20eb497dd449026c31edbb3",
+    "README.md": "36ac88b80be7307449a1302fcb19bdf0dbdd882a4b8920fd67a8ef9628b2beac",
+    "SCIENTIFIC_DECISION_RULES.md": "af7d86c853862ae26519b8c1b133ff2afa6296a17603147520b50784488af2d6",
+    "SCIENTIFIC_REPORT.md": "947d0504e63e44915dcd534155aea74d919ea22144cded136f10c2b394c4f253",
+    "inputs/q550_pairwise_numerator_gap_competition_covariant_directionality_v18_51h_bundle_server_sendback.zip": "bd1d90703b0ddb638c76ece111ac7a224c81d52858c4625931fb5e73b3cdd0fa",
+    "reference/g_projector_replay_v18_51g.py": "37ff4dbd6eed8daa3d87a9dee042027cb2f57373939056f317b22d542b8a19a8",
+    "reference/h_pairwise_replay_v18_51h.py": "250de3f86df74378f3e55fee431b25c2a207a10e405947f3369d6cbefc26030a",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "run_on_server.sh": "fe26559302ef704df4e960f6f951e6adc0b8f2a6b051c415326c0ae86b5ff9bb",
+    "scripts/pack_sendback.py": "2c0a622fd915bc438bb28520c689aab011fda56eabcb36dc0045c2dc06f6b3fd",
+    "scripts/run_audit.py": "15f199d878742fe40e0e7ebe8ce967ee7d3111f4e76fd05278bce08bbbc5cc8b",
+    "scripts/verify_source_manifest.py": "bcb2d568f507b8672203a306ac704acc3729c30bd322e741b7c9e7431a3777da",
+    "scripts/write_output_manifest.py": "56488649dca3d11e1082caf3264464f4a89a7123fd1fbb257b5143e153e22e3f",
+    "tests/test_geometry.py": "f58a46dc1d054a34bb5f0018b6f56bbb3da970fefff9a73c5f34a852f5e5f539",
+    "tests/test_results.py": "c45ccf915623402742a209ca7817c4c536be664ebbd714b98309d06a58dab150"
+  }
+}

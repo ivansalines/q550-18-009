@@ -1,0 +1,141 @@
+SOURCE IDENTITY VERIFIED 15
+Q550 v18.51i synthetic rank-two, frame-gauge, passive-metric, and extension tests PASS
+AUTHENTICATED H REPLAY original 0.5
+AUTHENTICATED H REPLAY original 1.0
+AUTHENTICATED H REPLAY original 2.0
+AUTHENTICATED H REPLAY autonomous 0.5
+AUTHENTICATED H REPLAY autonomous 1.0
+AUTHENTICATED H REPLAY autonomous 2.0
+RESTRICTED original 0.5 5->4 / 4->5 1.596846356452778 survives 78 /78 largest of 20 78
+RESTRICTED original 1.0 5->4 / 4->5 1.7062139091516237 survives 78 /78 largest of 20 78
+RESTRICTED original 2.0 5->4 / 4->5 1.3288221830835725 survives 78 /78 largest of 20 78
+RESTRICTED autonomous 0.5 5->4 / 4->5 1.5894104648663103 survives 78 /78 largest of 20 78
+RESTRICTED autonomous 1.0 5->4 / 4->5 1.6965044662696385 survives 78 /78 largest of 20 78
+RESTRICTED autonomous 2.0 5->4 / 4->5 1.3235016345114634 survives 78 /78 largest of 20 78
+ENDPOINTS [
+  {
+    "seed_family": "original",
+    "tau_ref": 0.5,
+    "number_positive_sections": 78,
+    "restricted_5to4_exceeds_reverse": 78,
+    "restricted_5to4_largest_among_20": 78,
+    "restricted_ratio_min": 1.596846356452778,
+    "restricted_ratio_max": 2.293329538649068,
+    "raw_ratio_end": 1.5187142640481535,
+    "restricted_ratio_end": 1.596846356452778,
+    "extension_ratio_end": 1.1238180061373184,
+    "source_condition_ratio_end": 0.8462856055572613,
+    "min_principal_angle_end_degrees": 37.325976392650254
+  },
+  {
+    "seed_family": "original",
+    "tau_ref": 1.0,
+    "number_positive_sections": 78,
+    "restricted_5to4_exceeds_reverse": 78,
+    "restricted_5to4_largest_among_20": 78,
+    "restricted_ratio_min": 1.7062139091516237,
+    "restricted_ratio_max": 2.7190453415366274,
+    "raw_ratio_end": 1.6897934765348273,
+    "restricted_ratio_end": 1.7062139091516237,
+    "extension_ratio_end": 1.0934411902030812,
+    "source_condition_ratio_end": 0.905742447363055,
+    "min_principal_angle_end_degrees": 32.66232856192437
+  },
+  {
+    "seed_family": "original",
+    "tau_ref": 2.0,
+    "number_positive_sections": 78,
+    "restricted_5to4_exceeds_reverse": 78,
+    "restricted_5to4_largest_among_20": 78,
+    "restricted_ratio_min": 1.3288221830835725,
+    "restricted_ratio_max": 2.0860611249322227,
+    "raw_ratio_end": 1.2458230647891895,
+    "restricted_ratio_end": 1.3288221830835725,
+    "extension_ratio_end": 1.0192936521162361,
+    "source_condition_ratio_end": 0.9197931648515584,
+    "min_principal_angle_end_degrees": 25.72579912092713
+  },
+  {
+    "seed_family": "autonomous",
+    "tau_ref": 0.5,
+    "number_positive_sections": 78,
+    "restricted_5to4_exceeds_reverse": 78,
+    "restricted_5to4_largest_among_20": 78,
+    "restricted_ratio_min": 1.5894104648663103,
+    "restricted_ratio_max": 2.2899911641664032,
+    "raw_ratio_end": 1.5114891233192638,
+    "restricted_ratio_end": 1.5894104648663103,
+    "extension_ratio_end": 1.122323667556975,
+    "source_condition_ratio_end": 0.8473265930256728,
+    "min_principal_angle_end_degrees": 37.23673358765369
+  },
+  {
+    "seed_family": "autonomous",
+    "tau_ref": 1.0,
+    "number_positive_sections": 78,
+    "restricted_5to4_exceeds_reverse": 78,
+    "restricted_5to4_largest_among_20": 78,
+    "restricted_ratio_min": 1.6965044662696385,
+    "restricted_ratio_max": 2.7125680969173596,
+    "raw_ratio_end": 1.6796156556493262,
+    "restricted_ratio_end": 1.6965044662696385,
+    "extension_ratio_end": 1.0923762175337404,
+    "source_condition_ratio_end": 0.9063223091644267,
+    "min_principal_angle_end_degrees": 32.59001663633933
+  },
+  {
+    "seed_family": "autonomous",
+    "tau_ref": 2.0,
+    "number_positive_sections": 78,
+    "restricted_5to4_exceeds_reverse": 78,
+    "restricted_5to4_largest_among_20": 78,
+    "restricted_ratio_min": 1.3235016345114634,
+    "restricted_ratio_max": 2.078817883277044,
+    "raw_ratio_end": 1.2359894490152665,
+    "restricted_ratio_end": 1.3235016345114634,
+    "extension_ratio_end": 1.014851350145309,
+    "source_condition_ratio_end": 0.9202119051450528,
+    "min_principal_angle_end_degrees": 25.67458140946319
+  }
+]
+QUALITY {
+  "max_core_reconstruction_error": 5.64803563625544e-12,
+  "max_factor_error": 1.7763568394002505e-15,
+  "max_direction_ratio_factor_error": 8.881784197001252e-16,
+  "max_parent_h_raw_rate_difference": 0.0,
+  "max_parent_h_ratio_difference": 0.0,
+  "kinetic_common_frame": {
+    "max_restricted_common_interior": 8.168800746943816e-09,
+    "max_raw_common_interior": 8.616496849356281e-09,
+    "max_P_common_interior": 2.1143729461775297e-11,
+    "max_Q_common_interior": 4.1737221471325385e-09,
+    "max_restricted_common_all": 9.687615714071285e-07,
+    "max_Q_common_all": 5.446831646624012e-07
+  }
+}
+CHECKS {
+  "h_complete_sha256_and_crc": true,
+  "h_reference_source_byte_exact": true,
+  "g_f_e_nested_authenticated": true,
+  "historical_two_10d_ivps_inherited": true,
+  "six_kinetic_branches": true,
+  "468_positive_sections": true,
+  "9360_restricted_directed_channels": true,
+  "rank_two_right_eigenspace_all_samples": true,
+  "oblique_crossblock_reconstruction": true,
+  "all_channel_exact_factorization": true,
+  "directional_ratio_three_factor_identity": true,
+  "independent_h_rate_ledger_replay": true,
+  "independent_h_directional_ratio_replay": true,
+  "kinetic_pulled_back_Q_covariance_interior": true,
+  "kinetic_pulled_back_P_covariance_interior": true,
+  "kinetic_pulled_back_restricted_rate_interior": true,
+  "kinetic_pulled_back_raw_rate_interior": true,
+  "no_one_third_acceptance": true,
+  "no_new_original_physical_IVP": true
+}
+Q550 v18.51i PASS 19 / 19
+Q550 v18.51i independent scientific output tests PASS; raw 468 restricted 468 rank1 468
+OUTPUT MANIFEST WRITTEN 7
+SOURCE IDENTITY VERIFIED 15
+SENDBACK PACKED /root/elab1/hysteresis/q550_projector_conditioning_separation_covariant_directionality_v18_51i_bundle_server_sendback.zip members 24 bytes 76864184

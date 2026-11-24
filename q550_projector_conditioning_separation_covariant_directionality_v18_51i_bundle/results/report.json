@@ -1,0 +1,253 @@
+{
+  "version": "v18.51i",
+  "title": "Projector Conditioning Separation & Covariant Directionality Audit",
+  "classification": "NUMERICAL_RESTRICTED_SUBSPACE_DIRECTIONALITY_DIAGNOSTIC_NOT_OBSERVER_INDEPENDENT_MATERIAL_ENERGY_TRANSFER",
+  "lineage": {
+    "h_archive_sha256": "bd1d90703b0ddb638c76ece111ac7a224c81d52858c4625931fb5e73b3cdd0fa",
+    "h_source_files": 14,
+    "h_output_files": 7,
+    "parent_h_checks": 22,
+    "nested_g_f_e_verified": {
+      "g_archive_sha256": "66394be8e341c526cb364ad4acb48b6f891a2c65ce73d8f0feedd181ff43fb7a",
+      "g": {
+        "source_files": 13,
+        "output_files": 11
+      },
+      "g_checks": 20,
+      "f_embedded_sha256": "7d66df61d21adaf883d8c8e23d3ad7d3dd01a6bdf391f90a69272e0367b2c295",
+      "f": {
+        "source_files": 12,
+        "output_files": 10
+      },
+      "f_checks": 16,
+      "e_embedded_sha256": "630c9881e9298ecd39b53747a76e5b775d09055c4fea7cef24ef02f86c35123b",
+      "e": {
+        "source_files": 16,
+        "output_files": 10
+      },
+      "e_checks": 21,
+      "physical_seed_ivps": 2,
+      "no_new_physical_ivp": true,
+      "historical_lineage": {
+        "c": {
+          "version": "v18.51c",
+          "source_files": 12,
+          "result_files": 8
+        },
+        "b": {
+          "version": "v18.51b",
+          "source_files": 12,
+          "result_files": 7
+        },
+        "a": {
+          "version": "v18.51a",
+          "source_files": 13,
+          "result_files": 7
+        },
+        "z": {
+          "version": "v18.50z",
+          "source_files": 12,
+          "result_files": 6
+        },
+        "y": {
+          "version": "v18.50y",
+          "source_files": 12,
+          "result_files": 8
+        },
+        "x": {
+          "version": "v18.50x",
+          "source_files": 12,
+          "result_files": 11
+        },
+        "parent_sha256": "541acc98b832e67632fb7f9c355cbd3918448249cad2830ac77409a0d92af953",
+        "historical_v18_49h_kinetic_source_sha256": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+        "d": {
+          "archive_sha256": "bb8acf4700f1993fd49c58a42e26e491a69398b09e6b58e0095159b36ea11179",
+          "auth": {
+            "version": "v18.51d",
+            "source_files": 15,
+            "result_files": 7
+          },
+          "parent_checks": 12,
+          "parent_observations": 474
+        }
+      }
+    },
+    "original_ten_dimensional_ivps_inherited": 2
+  },
+  "model": {
+    "seeds": [
+      "original",
+      "autonomous"
+    ],
+    "tau_refs": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "xi": [
+      0.0,
+      0.05
+    ],
+    "sections_per_branch_positive": 78,
+    "physical_tangent_ivps_inherited": 2,
+    "no_new_ivp": true
+  },
+  "counts": {
+    "sections": 468,
+    "channels": 9360,
+    "covariance_controls": 624
+  },
+  "mathematics": {
+    "crossblock": "Q_ij=P_i (Pprime_j-[B,P_j]) P_j, from exact inherited v18.51h Riesz decomposition",
+    "frames": "U_j orthonormal spanning range(P_j), with inner product declared in physical kinetic Cartesian chart",
+    "restricted_rate": "||U_i^T Q_ij U_j||_F / sqrt(2)",
+    "oblique_rate": "||Q_ij||_F / ||P_j||_F",
+    "exact_split": "oblique_rate = restricted_rate * (||Q_ij||_F/||K_ij||_F) / (||P_j||_F/sqrt(2))",
+    "reverse_ratio": "raw_54/raw_45=restricted_54/restricted_45 * extension_54/extension_45 * condition_source_4/condition_source_5",
+    "metric_similarity": "For tau, D=diag(I5,tau I5); compare D^-1 Q_tau D and D^-1 P_tau D with tau=1. The pulled-back metric is D^-T D^-1; Euclidean norms in different tau charts are not invariant.",
+    "angles": "Principal angles of right spectral 2-planes within declared kinetic convention, not intrinsic metric invariants."
+  },
+  "quality": {
+    "max_core_reconstruction_error": 5.64803563625544e-12,
+    "max_factor_error": 1.7763568394002505e-15,
+    "max_direction_ratio_factor_error": 8.881784197001252e-16,
+    "max_parent_h_raw_rate_difference": 0.0,
+    "max_parent_h_ratio_difference": 0.0,
+    "kinetic_common_frame": {
+      "max_restricted_common_interior": 8.168800746943816e-09,
+      "max_raw_common_interior": 8.616496849356281e-09,
+      "max_P_common_interior": 2.1143729461775297e-11,
+      "max_Q_common_interior": 4.1737221471325385e-09,
+      "max_restricted_common_all": 9.687615714071285e-07,
+      "max_Q_common_all": 5.446831646624012e-07
+    }
+  },
+  "observations": {
+    "branches": [
+      {
+        "seed_family": "original",
+        "tau_ref": 0.5,
+        "number_positive_sections": 78,
+        "restricted_5to4_exceeds_reverse": 78,
+        "restricted_5to4_largest_among_20": 78,
+        "restricted_ratio_min": 1.596846356452778,
+        "restricted_ratio_max": 2.293329538649068,
+        "raw_ratio_end": 1.5187142640481535,
+        "restricted_ratio_end": 1.596846356452778,
+        "extension_ratio_end": 1.1238180061373184,
+        "source_condition_ratio_end": 0.8462856055572613,
+        "min_principal_angle_end_degrees": 37.325976392650254
+      },
+      {
+        "seed_family": "original",
+        "tau_ref": 1.0,
+        "number_positive_sections": 78,
+        "restricted_5to4_exceeds_reverse": 78,
+        "restricted_5to4_largest_among_20": 78,
+        "restricted_ratio_min": 1.7062139091516237,
+        "restricted_ratio_max": 2.7190453415366274,
+        "raw_ratio_end": 1.6897934765348273,
+        "restricted_ratio_end": 1.7062139091516237,
+        "extension_ratio_end": 1.0934411902030812,
+        "source_condition_ratio_end": 0.905742447363055,
+        "min_principal_angle_end_degrees": 32.66232856192437
+      },
+      {
+        "seed_family": "original",
+        "tau_ref": 2.0,
+        "number_positive_sections": 78,
+        "restricted_5to4_exceeds_reverse": 78,
+        "restricted_5to4_largest_among_20": 78,
+        "restricted_ratio_min": 1.3288221830835725,
+        "restricted_ratio_max": 2.0860611249322227,
+        "raw_ratio_end": 1.2458230647891895,
+        "restricted_ratio_end": 1.3288221830835725,
+        "extension_ratio_end": 1.0192936521162361,
+        "source_condition_ratio_end": 0.9197931648515584,
+        "min_principal_angle_end_degrees": 25.72579912092713
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 0.5,
+        "number_positive_sections": 78,
+        "restricted_5to4_exceeds_reverse": 78,
+        "restricted_5to4_largest_among_20": 78,
+        "restricted_ratio_min": 1.5894104648663103,
+        "restricted_ratio_max": 2.2899911641664032,
+        "raw_ratio_end": 1.5114891233192638,
+        "restricted_ratio_end": 1.5894104648663103,
+        "extension_ratio_end": 1.122323667556975,
+        "source_condition_ratio_end": 0.8473265930256728,
+        "min_principal_angle_end_degrees": 37.23673358765369
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 1.0,
+        "number_positive_sections": 78,
+        "restricted_5to4_exceeds_reverse": 78,
+        "restricted_5to4_largest_among_20": 78,
+        "restricted_ratio_min": 1.6965044662696385,
+        "restricted_ratio_max": 2.7125680969173596,
+        "raw_ratio_end": 1.6796156556493262,
+        "restricted_ratio_end": 1.6965044662696385,
+        "extension_ratio_end": 1.0923762175337404,
+        "source_condition_ratio_end": 0.9063223091644267,
+        "min_principal_angle_end_degrees": 32.59001663633933
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 2.0,
+        "number_positive_sections": 78,
+        "restricted_5to4_exceeds_reverse": 78,
+        "restricted_5to4_largest_among_20": 78,
+        "restricted_ratio_min": 1.3235016345114634,
+        "restricted_ratio_max": 2.078817883277044,
+        "raw_ratio_end": 1.2359894490152665,
+        "restricted_ratio_end": 1.3235016345114634,
+        "extension_ratio_end": 1.014851350145309,
+        "source_condition_ratio_end": 0.9202119051450528,
+        "min_principal_angle_end_degrees": 25.67458140946319
+      }
+    ],
+    "restricted_survival": 468,
+    "largest_restricted_5to4": 468,
+    "raw_survival": 468
+  },
+  "checks": {
+    "h_complete_sha256_and_crc": true,
+    "h_reference_source_byte_exact": true,
+    "g_f_e_nested_authenticated": true,
+    "historical_two_10d_ivps_inherited": true,
+    "six_kinetic_branches": true,
+    "468_positive_sections": true,
+    "9360_restricted_directed_channels": true,
+    "rank_two_right_eigenspace_all_samples": true,
+    "oblique_crossblock_reconstruction": true,
+    "all_channel_exact_factorization": true,
+    "directional_ratio_three_factor_identity": true,
+    "independent_h_rate_ledger_replay": true,
+    "independent_h_directional_ratio_replay": true,
+    "kinetic_pulled_back_Q_covariance_interior": true,
+    "kinetic_pulled_back_P_covariance_interior": true,
+    "kinetic_pulled_back_restricted_rate_interior": true,
+    "kinetic_pulled_back_raw_rate_interior": true,
+    "no_one_third_acceptance": true,
+    "no_new_original_physical_IVP": true
+  },
+  "limitations": [
+    "The restriction removes source projector Frobenius normalization and extension from the full ambient domain; it does not eliminate nonnormal eigenprojector geometry from Q.",
+    "Restricted rates remain inner-product dependent; only after carrying the metric back to a common reference chart can covariance be asserted.",
+    "No unique phase-space kinetic metric is established; tau_ref still denotes a scale convention.",
+    "The right spectral planes are not necessarily orthogonal to one another and the restricted amplitudes are not physical energy fluxes.",
+    "No eigenvalue-gap certificate between sampled xi points, especially near xi=0 spectral degeneracy.",
+    "No new Q550 10D physical IVP integrated, no causal claim of torsion or memory, no model parameter fitted to 1/3."
+  ],
+  "software": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}

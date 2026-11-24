@@ -1,0 +1,13 @@
+{
+  "root": "q550_projector_conditioning_separation_covariant_directionality_v18_51i_bundle",
+  "version": "v18.51i",
+  "file_sha256": {
+    "results/directionality_restricted_vs_oblique.png": "24b695ebbc66a3d92708bc7beaf45c3b4873288ef953e85caa25cbc5071fcf7f",
+    "results/projector_conditioning_directionality.csv": "0caffffb662ab100eb2b1748daf1007565eaee7455baaa8667848d2653b14b43",
+    "results/projector_conditioning_factorization.png": "5d33d2117101308ae769675f1f707c02e3ae59d15f6e8e2326269b1a00452ca7",
+    "results/pulled_back_kinetic_similarity_controls.csv": "3967f79b008a3875fe18c191cccfb742cd921091401279d1193b672697ace365",
+    "results/report.json": "8bd9395cd5921233ff12029b01fac0ae7d017c9b87e53991aa7b865fbeff9f09",
+    "results/spectral_subspace_principal_angles.png": "c8e34f8e998b1c2c79fc9ff49da5efc0104da13888213bf63fee4b9b8b3fc90f",
+    "results/subspace_restricted_channel_ledger.csv": "244f72ff1f15da067971a2cb9a326ed5282ba01e0a46d4d453b8e1c0aecba636"
+  }
+}
