@@ -1,0 +1,239 @@
+{
+  "version": "v18.51k",
+  "title": "Common-Connection Pair Frames & Finite-Lag Gauge Audit",
+  "classification": "NUMERICAL_COMMON_AMBIENT_CONNECTION_PAIR_FRAME_GAUGE_DIAGNOSTIC_NOT_MATERIAL_TORSION_CERTIFICATE",
+  "genealogy": {
+    "parent_j_archive_sha256": "fc465f18c3b4a820538191eaf89aa8f1ecd85eb49aaf5c73927356d44aae6688",
+    "parent_j_manifest_sources": 16,
+    "parent_j_manifest_outputs": 7,
+    "parent_j_checks": 20,
+    "parent_j_inherited_genealogy": {
+      "parent_i_archive_sha256": "353d1292ebf95a829accc837464ba90b6d18a91b479f4641ad26d51858d4cba1",
+      "parent_i_sources": 15,
+      "parent_i_outputs": 7,
+      "parent_i_checks": 19,
+      "parent_i_replay_max_direction_ratio_error": 0.0,
+      "ancestral_nested_authentication": {
+        "h_archive_sha256": "bd1d90703b0ddb638c76ece111ac7a224c81d52858c4625931fb5e73b3cdd0fa",
+        "h_source_files": 14,
+        "h_output_files": 7,
+        "parent_h_checks": 22,
+        "nested_g_f_e_verified": {
+          "g_archive_sha256": "66394be8e341c526cb364ad4acb48b6f891a2c65ce73d8f0feedd181ff43fb7a",
+          "g": {
+            "source_files": 13,
+            "output_files": 11
+          },
+          "g_checks": 20,
+          "f_embedded_sha256": "7d66df61d21adaf883d8c8e23d3ad7d3dd01a6bdf391f90a69272e0367b2c295",
+          "f": {
+            "source_files": 12,
+            "output_files": 10
+          },
+          "f_checks": 16,
+          "e_embedded_sha256": "630c9881e9298ecd39b53747a76e5b775d09055c4fea7cef24ef02f86c35123b",
+          "e": {
+            "source_files": 16,
+            "output_files": 10
+          },
+          "e_checks": 21,
+          "physical_seed_ivps": 2,
+          "no_new_physical_ivp": true,
+          "historical_lineage": {
+            "c": {
+              "version": "v18.51c",
+              "source_files": 12,
+              "result_files": 8
+            },
+            "b": {
+              "version": "v18.51b",
+              "source_files": 12,
+              "result_files": 7
+            },
+            "a": {
+              "version": "v18.51a",
+              "source_files": 13,
+              "result_files": 7
+            },
+            "z": {
+              "version": "v18.50z",
+              "source_files": 12,
+              "result_files": 6
+            },
+            "y": {
+              "version": "v18.50y",
+              "source_files": 12,
+              "result_files": 8
+            },
+            "x": {
+              "version": "v18.50x",
+              "source_files": 12,
+              "result_files": 11
+            },
+            "parent_sha256": "541acc98b832e67632fb7f9c355cbd3918448249cad2830ac77409a0d92af953",
+            "historical_v18_49h_kinetic_source_sha256": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+            "d": {
+              "archive_sha256": "bb8acf4700f1993fd49c58a42e26e491a69398b09e6b58e0095159b36ea11179",
+              "auth": {
+                "version": "v18.51d",
+                "source_files": 15,
+                "result_files": 7
+              },
+              "parent_checks": 12,
+              "parent_observations": 474
+            }
+          }
+        },
+        "original_ten_dimensional_ivps_inherited": 2
+      },
+      "physical_seed_ivps_inherited": 2,
+      "new_physical_ivps": 0
+    },
+    "max_parent_instantaneous_replay_ratio_error": 0.0,
+    "physical_seed_ivps_inherited": 2,
+    "new_physical_ivps": 0
+  },
+  "counts": {
+    "finite_intervals": 1362,
+    "frame_overlap_sections": 924,
+    "moving_chart_controls": 90
+  },
+  "observations": {
+    "branches": [
+      {
+        "seed_family": "original",
+        "tau_ref": 0.5,
+        "finite_intervals": 227,
+        "lag1_intervals": 77,
+        "forward_5to4_stronger": 227,
+        "first_lag1_ratio": 2.2929793855342386,
+        "final_lag1_ratio": 1.6062206006146362,
+        "final_lag1_connection_aligned_defect": 0.978828050103348,
+        "final_lag1_naive_defect": 0.978592437267132,
+        "max_naive_gauge_shift": 0.7268772661221772
+      },
+      {
+        "seed_family": "original",
+        "tau_ref": 1.0,
+        "finite_intervals": 227,
+        "lag1_intervals": 77,
+        "forward_5to4_stronger": 227,
+        "first_lag1_ratio": 2.718483294232779,
+        "final_lag1_ratio": 1.7176829016504316,
+        "final_lag1_connection_aligned_defect": 0.9868676995403425,
+        "final_lag1_naive_defect": 0.9866884862042817,
+        "max_naive_gauge_shift": 0.6878451928601951
+      },
+      {
+        "seed_family": "original",
+        "tau_ref": 2.0,
+        "finite_intervals": 227,
+        "lag1_intervals": 77,
+        "forward_5to4_stronger": 227,
+        "first_lag1_ratio": 2.085420102089754,
+        "final_lag1_ratio": 1.332232426435417,
+        "final_lag1_connection_aligned_defect": 0.9477284091926784,
+        "final_lag1_naive_defect": 0.9473476253728144,
+        "max_naive_gauge_shift": 0.6263490030937564
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 0.5,
+        "finite_intervals": 227,
+        "lag1_intervals": 77,
+        "forward_5to4_stronger": 227,
+        "first_lag1_ratio": 2.289636061217681,
+        "final_lag1_ratio": 1.598813127677787,
+        "final_lag1_connection_aligned_defect": 0.9791919504480382,
+        "final_lag1_naive_defect": 0.9789553783832412,
+        "max_naive_gauge_shift": 0.7141583446234065
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 1.0,
+        "finite_intervals": 227,
+        "lag1_intervals": 77,
+        "forward_5to4_stronger": 227,
+        "first_lag1_ratio": 2.711999920886133,
+        "final_lag1_ratio": 1.707970343783598,
+        "final_lag1_connection_aligned_defect": 0.9872044155557692,
+        "final_lag1_naive_defect": 0.9870249867669157,
+        "max_naive_gauge_shift": 0.682469976656524
+      },
+      {
+        "seed_family": "autonomous",
+        "tau_ref": 2.0,
+        "finite_intervals": 227,
+        "lag1_intervals": 77,
+        "forward_5to4_stronger": 227,
+        "first_lag1_ratio": 2.078173710257802,
+        "final_lag1_ratio": 1.3268403895903975,
+        "final_lag1_connection_aligned_defect": 0.9480281277422004,
+        "final_lag1_naive_defect": 0.9476486010038705,
+        "max_naive_gauge_shift": 0.6144970079653731
+      }
+    ],
+    "overall_forward_5to4_stronger": 1362
+  },
+  "quality": {
+    "max_gauge_rate_error": 1.3322676295501878e-15,
+    "max_aligned_defect_gauge_error": 1.4432899320127035e-15,
+    "max_naive_defect_gauge_change": 0.7268772661221772,
+    "max_interference_error": 5.421010862427522e-19,
+    "max_parent_forward_ratio_difference": 0.0,
+    "max_chart_metric_residual": 2.6182363063449884e-16,
+    "max_chart_crossblock_residual": 6.543127683613306e-16,
+    "max_chart_overlap_residual": 3.4169513268741264e-16,
+    "max_direct_vs_chained_connection_difference": 1.0850544582295302e-06,
+    "min_adjacent_overlap_singular": 0.9999864887773096,
+    "max_connection_composition": 0.0
+  },
+  "checks": {
+    "authenticated_j_parent_source_crc_sha": true,
+    "authenticated_nested_i_h_g_f_e": true,
+    "two_inherited_physical_seed_ivps_no_new": true,
+    "j_instantaneous_parent_replay": true,
+    "six_kinetic_branches": true,
+    "finite_lag_1362_sections": true,
+    "finite_lag_parent_tolerance_replay": true,
+    "positive_time_intervals": true,
+    "adjacent_plane_overlap_nondegenerate": true,
+    "procrustes_connection_orthogonal": true,
+    "connection_transport_composition": true,
+    "aligned_interference_exact_identity": true,
+    "gauge_aligned_defect_invariant": true,
+    "directional_norm_ratio_gauge_invariant": true,
+    "unaligned_endpoint_defect_is_gauge_sensitive": true,
+    "passive_moving_chart_metric_compatible": true,
+    "passive_moving_chart_crossblock_covariant": true,
+    "passive_moving_chart_connection_overlap_covariant": true,
+    "all_parent_finite_pair_ratios_exceed_one": true,
+    "sample_only_no_continuous_certification": true,
+    "no_energy_or_memory_or_torsion_certified": true,
+    "one_third_not_used_as_gate": true
+  },
+  "mathematics": {
+    "ambient_connection": "Common flat kinetic Cartesian Levi-Civita connection; identity parallel map in the declared kinetic Cartesian chart.",
+    "induced_plane_connection": "R_i(k+1,k)=polar(U_i(k+1)^T U_i(k)); R_i(b,a)=product of consecutive R_i.",
+    "connection_aligned_blocks": "X=R_4(b,a)^T K_(4<-5)(b,a); Y=K_(5<-4)(b,a)^T R_5(b,a)",
+    "gauge_transformation": "U_i(k) -> U_i(k) O_i(k), O_i(k) in O(2). X,Y transform by the same O4(a)^T left and O5(a) right factors.",
+    "finite_material_transport": "T(b,a)=M(b) M(a)^-1, with inherited spectral Riesz projections at b.",
+    "metric_chart": "Moving passive nonorthogonal A(xi), G=A^-T A^-1, ambient connection transport C(b,a)=A(b) A(a)^-1."
+  },
+  "limitations": [
+    "The common ambient connection is flat in Cartesian kinetic-state coordinates and is not the dynamical tangent generator.",
+    "The per-plane Procrustes lift is a discrete metric-induced Grassmann connection; direct endpoint polar maps need not coincide with stepwise products.",
+    "Aligned reciprocity is an adjoint comparison of forward-time crossblocks, not microscopic time reversal.",
+    "Different tau_ref choices imply different declared Euclidean state metrics, not necessarily identical restricted strengths.",
+    "The inherited near-degenerate eigenprojectors can shift under independent numerical replays: parent finite-ratio agreement is required within 2e-6, not byte-exact.",
+    "Projector subspaces are not orthogonal and only exist as isolated pairs at xi>0; spectral gaps are not interval certified.",
+    "Results are restricted to sampled xi<=0.05 and lags 1,2,4; no global material memory, energy transfer, or intrinsic torsion is established."
+  ],
+  "software": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}

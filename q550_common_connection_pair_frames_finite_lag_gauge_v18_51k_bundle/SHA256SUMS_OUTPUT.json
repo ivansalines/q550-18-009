@@ -1,0 +1,12 @@
+{
+  "root": "q550_common_connection_pair_frames_finite_lag_gauge_v18_51k_bundle",
+  "version": "v18.51k",
+  "file_sha256": {
+    "results/common_connection_pair_frame_transport.png": "738f05cf532a81a313ffa0746a2f5a84c80adf9aad8789994e37cbbff5d2f41e",
+    "results/connection_adjoint_metric_sensitivity.png": "365250901b2135f920646d26369c8391da334e65dde2c9ba01a7a7b7824dfb06",
+    "results/connection_aligned_finite_lag_ledger.csv": "76d6a90d48923424354bf6f634ed16c44af53cfe54f87b371e8d5819f76fcccc",
+    "results/moving_chart_connection_covariance.csv": "111618c646ccc8b6480bc4f70068f559cf8a35068eba365d4dd7008dd1e3fe84",
+    "results/pair_frame_overlap_conditioning.csv": "a3c711620c2aaa4388a661d7059737ea98d6b2259077f55e4d16351aaff1ce13",
+    "results/report.json": "5769250fd9e8deefefd04275a5a9a4a7006c5730e2c0143dec695c79773c9e4c"
+  }
+}

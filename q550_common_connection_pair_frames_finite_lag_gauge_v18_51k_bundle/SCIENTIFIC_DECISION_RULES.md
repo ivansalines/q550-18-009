@@ -1,0 +1,9 @@
+# Q550 v18.51k — Scientific decision rules
+
+**PASS conditions.** Authenticate parent v18.51j with its nested genealogy; reproduce both inherited seed branches; verify 1362 finite-lag samples, their positive time intervals, and the historic j norm ratios to within `2e-6`; verify nonsingular adjacent right-plane overlaps, orthogonal polar lifts and connection composition; verify the covariant symmetric/antisymmetric interference identity; verify invariance under *independently changing O(2) gauges at every section*; verify the non-invariance of the unaligned endpoint matrix difference; verify moving nonorthogonal-chart covariance with the corresponding transformed metric and common ambient connection. A single failed control must fail the runner.
+
+**Interpretation rules.** A 5→4 strength predominance can only be asserted for sampled intervals and declared metrics. An O(2)-invariant aligned adjoint defect concerns consistent identifications of spectral plane frames and does not imply time-reversal violation or physical energy flow. Changes under `tau_ref` are explicit material-state metric convention sensitivity; *passive* chart covariance must never be misrepresented as robustness against physically different metrics.
+
+**Near-origin caveat.** Projectors are not defined as isolated pair projectors at `xi=0`. Small spectral gaps near `xi=0` make fully independent inherited replays sensitive at order `1e-6`, so comparison with the j output has an explicit `2e-6` tolerance. This tolerance is not loosened without documenting a failing run and its cause.
+
+**Forbidden conclusions.** No novel 10D material dynamics, physical time reversal, intrinsic torsional constitutive law, universal energy-current direction, categorical physical hysteretic memory, or exact continuum certificate has been inferred.

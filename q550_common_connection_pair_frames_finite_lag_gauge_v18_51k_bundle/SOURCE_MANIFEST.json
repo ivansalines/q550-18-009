@@ -1,0 +1,23 @@
+{
+  "root": "q550_common_connection_pair_frames_finite_lag_gauge_v18_51k_bundle",
+  "version": "v18.51k",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "9c9c6543086a73a9a63c3874b07f6d1ea831b7101f60c918e7e9e57fefcc5057",
+    "README.md": "1d784e7cf75fff14b0934d26948aa5bd0bd5b457aa57fa665fb47a43ed99e906",
+    "SCIENTIFIC_DECISION_RULES.md": "d7a91ebb77d70e12a83d39149bb8d4cd1a44832015253ac725b110e838a43136",
+    "SCIENTIFIC_REPORT.md": "8b6faa5f30ed626fa60ebae8bebc39c42097de9bc0944ccbdfe73fd2127d341a",
+    "inputs/q550_metric_adjoint_reciprocity_bidirectional_pair_transport_v18_51j_bundle_server_sendback.zip": "fc465f18c3b4a820538191eaf89aa8f1ecd85eb49aaf5c73927356d44aae6688",
+    "reference/g_projector_replay_v18_51g.py": "37ff4dbd6eed8daa3d87a9dee042027cb2f57373939056f317b22d542b8a19a8",
+    "reference/h_pairwise_replay_v18_51h.py": "250de3f86df74378f3e55fee431b25c2a207a10e405947f3369d6cbefc26030a",
+    "reference/i_projector_replay_v18_51i.py": "15f199d878742fe40e0e7ebe8ce967ee7d3111f4e76fd05278bce08bbbc5cc8b",
+    "reference/j_adjoint_replay_v18_51j.py": "3e6dc42e6a8c66507e9501229bfcac8ccf96d675b6de40709784f36dd2b0f31a",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "run_on_server.sh": "f56bdbb80bc8326dcacb99b2428c18ebaf7c4362af3fe9934993cb327f8ae043",
+    "scripts/pack_sendback.py": "fb4bb91836e2fe296cdbe40ab93fc8097c34d8f5369c587a7c6701c1b8366df9",
+    "scripts/run_audit.py": "2865089d5ac66f0cf1b18944d4f1c2f0699d53421ff7b94333364d6d5af49862",
+    "scripts/verify_source_manifest.py": "5d2790fa355e77afa6c031a5a2c5eb99b14894dcfc111415936fb6c42f212493",
+    "scripts/write_output_manifest.py": "65f072861cfe8e7ca71f2fd4b4d8c55859739579df97344722458e5d4a7f9e76",
+    "tests/test_geometry.py": "ca27ef68862f12c88709a9e18736e35a085c2f741a7319edbe33e323748fdfb6",
+    "tests/test_results.py": "a81970f4e649f68ef24651378509313fdbecc93b5fe8afeeae63f5304fabf577"
+  }
+}

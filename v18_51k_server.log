@@ -1,0 +1,62 @@
+SOURCE IDENTITY VERIFIED 17
+v18.51k synthetic common-connection, independent O(2) gauge and passive-chart tests PASS
+AUTHENTICATED H REPLAY original 0.5
+AUTHENTICATED H REPLAY original 1.0
+AUTHENTICATED H REPLAY original 2.0
+AUTHENTICATED H REPLAY autonomous 0.5
+AUTHENTICATED H REPLAY autonomous 1.0
+AUTHENTICATED H REPLAY autonomous 2.0
+INHERITED I REPLAY original 0.5 sections 78
+INHERITED I REPLAY original 1.0 sections 78
+INHERITED I REPLAY original 2.0 sections 78
+INHERITED I REPLAY autonomous 0.5 sections 78
+INHERITED I REPLAY autonomous 1.0 sections 78
+INHERITED I REPLAY autonomous 2.0 sections 78
+BRANCH original 0.5 lag1 count 77 endpoint ratio 1.6062206006146362 endpoint aligned defect 0.978828050103348
+BRANCH original 1.0 lag1 count 77 endpoint ratio 1.7176829016504316 endpoint aligned defect 0.9868676995403425
+BRANCH original 2.0 lag1 count 77 endpoint ratio 1.332232426435417 endpoint aligned defect 0.9477284091926784
+BRANCH autonomous 0.5 lag1 count 77 endpoint ratio 1.598813127677787 endpoint aligned defect 0.9791919504480382
+BRANCH autonomous 1.0 lag1 count 77 endpoint ratio 1.707970343783598 endpoint aligned defect 0.9872044155557692
+BRANCH autonomous 2.0 lag1 count 77 endpoint ratio 1.3268403895903975 endpoint aligned defect 0.9480281277422004
+Q550 v18.51k quality {
+  "max_gauge_rate_error": 1.3322676295501878e-15,
+  "max_aligned_defect_gauge_error": 1.4432899320127035e-15,
+  "max_naive_defect_gauge_change": 0.7268772661221772,
+  "max_interference_error": 5.421010862427522e-19,
+  "max_parent_forward_ratio_difference": 0.0,
+  "max_chart_metric_residual": 2.6182363063449884e-16,
+  "max_chart_crossblock_residual": 6.543127683613306e-16,
+  "max_chart_overlap_residual": 3.4169513268741264e-16,
+  "max_direct_vs_chained_connection_difference": 1.0850544582295302e-06,
+  "min_adjacent_overlap_singular": 0.9999864887773096,
+  "max_connection_composition": 0.0
+}
+Q550 v18.51k checks {
+  "authenticated_j_parent_source_crc_sha": true,
+  "authenticated_nested_i_h_g_f_e": true,
+  "two_inherited_physical_seed_ivps_no_new": true,
+  "j_instantaneous_parent_replay": true,
+  "six_kinetic_branches": true,
+  "finite_lag_1362_sections": true,
+  "finite_lag_parent_tolerance_replay": true,
+  "positive_time_intervals": true,
+  "adjacent_plane_overlap_nondegenerate": true,
+  "procrustes_connection_orthogonal": true,
+  "connection_transport_composition": true,
+  "aligned_interference_exact_identity": true,
+  "gauge_aligned_defect_invariant": true,
+  "directional_norm_ratio_gauge_invariant": true,
+  "unaligned_endpoint_defect_is_gauge_sensitive": true,
+  "passive_moving_chart_metric_compatible": true,
+  "passive_moving_chart_crossblock_covariant": true,
+  "passive_moving_chart_connection_overlap_covariant": true,
+  "all_parent_finite_pair_ratios_exceed_one": true,
+  "sample_only_no_continuous_certification": true,
+  "no_energy_or_memory_or_torsion_certified": true,
+  "one_third_not_used_as_gate": true
+}
+Q550 v18.51k PASS 22 / 22
+v18.51k persisted results verification PASS 1362 intervals 90 moving-chart controls
+OUTPUT MANIFEST WRITTEN 6
+SOURCE IDENTITY VERIFIED 17
+SENDBACK PACKED /root/elab1/hysteresis/q550_common_connection_pair_frames_finite_lag_gauge_v18_51k_bundle_server_sendback.zip members 25 bytes 77829602
