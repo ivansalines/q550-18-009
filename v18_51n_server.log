@@ -1,0 +1,94 @@
+SOURCE IDENTITY VERIFIED 21
+v18.51n independent geometry / rank / gauge tests PASS
+AUTHENTICATED NESTED SOURCES [('v18.51m', 19, 10), ('v18.51l', 18, 9), ('v18.51k', 17, 6), ('v18.51j', 16, 7), ('v18.51i', 15, 7), ('v18.51h', 14, 7), ('v18.51g', 13, 11), ('v18.51f', 12, 10), ('v18.51e', 16, 10)]
+AUTHENTICATED H REPLAY original 0.5
+AUTHENTICATED H REPLAY original 1.0
+AUTHENTICATED H REPLAY original 2.0
+AUTHENTICATED H REPLAY autonomous 0.5
+AUTHENTICATED H REPLAY autonomous 1.0
+AUTHENTICATED H REPLAY autonomous 2.0
+INHERITED I REPLAY original 0.5 sections 78
+INHERITED I REPLAY original 1.0 sections 78
+INHERITED I REPLAY original 2.0 sections 78
+INHERITED I REPLAY autonomous 0.5 sections 78
+INHERITED I REPLAY autonomous 1.0 sections 78
+INHERITED I REPLAY autonomous 2.0 sections 78
+WINDOW original position_past_h0.010 sampled raw well-resolved 57
+WINDOW original position_past_h0.025 sampled raw well-resolved 50
+WINDOW original position_future_h0.010 sampled raw well-resolved 76
+WINDOW original position_future_h0.025 sampled raw well-resolved 73
+WINDOW original position_bilateral_h0.010 sampled raw well-resolved 78
+WINDOW original position_bilateral_h0.025 sampled raw well-resolved 78
+WINDOW original position_bilateral_h0.050 sampled raw well-resolved 78
+WINDOW original velocity_past_h0.025 sampled raw well-resolved 50
+WINDOW original velocity_future_h0.025 sampled raw well-resolved 73
+WINDOW autonomous position_past_h0.010 sampled raw well-resolved 57
+WINDOW autonomous position_past_h0.025 sampled raw well-resolved 50
+WINDOW autonomous position_future_h0.010 sampled raw well-resolved 76
+WINDOW autonomous position_future_h0.025 sampled raw well-resolved 73
+WINDOW autonomous position_bilateral_h0.010 sampled raw well-resolved 78
+WINDOW autonomous position_bilateral_h0.025 sampled raw well-resolved 78
+WINDOW autonomous position_bilateral_h0.050 sampled raw well-resolved 78
+WINDOW autonomous velocity_past_h0.025 sampled raw well-resolved 50
+WINDOW autonomous velocity_future_h0.025 sampled raw well-resolved 73
+BILATERAL REGRESSION parent vs Gauss-Legendre max abs: 8.35897442047484e-06
+v18.51n OBSERVATIONS {
+  "n_directional_rows_instantaneous": 4034,
+  "n_directional_rows_finite_lag": 11724,
+  "n_profiles": 9,
+  "n_kinetic_random_hessian_samples": 32,
+  "bipolar_full_window_regression_max_abs": 8.35897442047484e-06,
+  "raw_well_resolved_counts": {
+    "past": 214,
+    "future": 298,
+    "bilateral": 468
+  },
+  "regularized_directionality_by_window": {
+    "past": {
+      "forward": 0,
+      "reverse": 312
+    },
+    "future": {
+      "forward": 0,
+      "reverse": 312
+    },
+    "bilateral": {
+      "forward": 0,
+      "reverse": 468
+    }
+  },
+  "gauge_test_error": 4.440892098500626e-16,
+  "legacy_channel_replay_max_abs_ratio_error": 0.0,
+  "kinetic_mass_hessian": {
+    "authenticated_T_reconstruction_max_abs_error": 1.3322676295501878e-15,
+    "finite_difference_kinetic_hessian_max_relative_error": 8.676475318314623e-09,
+    "sampled_mass_hessian_min_eigenvalue": 0.023696794998378016,
+    "kinetic_dof": 5,
+    "configuration_mass_hessian_exists": true,
+    "unique_10d_phase_state_metric_from_T_alone": false,
+    "full_Euler_Lagrange_force_decomposition_authenticated": false
+  }
+}
+v18.51n CHECKS {
+  "m_parent_and_e_nested_sha256_authenticated": true,
+  "inherited_m_checked_pass": true,
+  "historical_kinetic_source_exact_sha256": true,
+  "no_new_physical_ivp": true,
+  "replay_of_inherited_pair_blocks": true,
+  "historical_kinetic_energy_quadratic_identity": true,
+  "historical_kinetic_hessian_finite_difference": true,
+  "historical_kinetic_configuration_mass_SPD": true,
+  "regularized_metrics_numerically_positive": true,
+  "adversarial_internal_gauge_norm_invariance": true,
+  "same_physical_material_map_under_all_metric_profiles": true,
+  "causal_past_future_and_bilateral_windows_recorded": true,
+  "finite_window_edge_limits_explicit": true,
+  "no_unique_full_material_metric_inferred": true,
+  "variational_force_admissibility_not_unjustifiably_certified": true,
+  "directional_ranking_not_assumed": true
+}
+Q550 v18.51n PASS 16 / 16
+v18.51n measured output / finite-lag / noncertification tests PASS
+OUTPUT MANIFEST WRITTEN 8
+SOURCE IDENTITY VERIFIED 21
+SENDBACK PACKED /root/elab1/hysteresis/q550_variational_metric_admissibility_observable_window_dependence_v18_51n_bundle_server_sendback.zip members 31 bytes 82304107

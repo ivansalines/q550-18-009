@@ -1,0 +1,27 @@
+{
+  "root": "q550_variational_metric_admissibility_observable_window_dependence_v18_51n_bundle",
+  "version": "v18.51n",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "a3305280eb3455e055a48498f59f89e6c15cafd6dd12d5c4eedfaaa2834bd9ec",
+    "README.md": "3689c5bb98387443da7dfefb9d1e6f8945fe0db154d8943867b7480b9213dca9",
+    "SCIENTIFIC_DECISION_RULES.md": "e0eb85ba89d1d35b6fc534fbb5ae10ff9fb8ba5573dd0c1162fb26f8fe7054f6",
+    "SCIENTIFIC_REPORT.md": "6076594afd81c017256377aeb085bf26e9efb9fb4a8d528bba8394f6ef38a1c5",
+    "inputs/q550_independent_material_metric_construction_directionality_challenge_v18_51m_bundle_server_sendback.zip": "02e84cecc270f4ee77020c14c2e19b677962abc0fd1293298b16693077e59140",
+    "reference/g_projector_replay_v18_51g.py": "37ff4dbd6eed8daa3d87a9dee042027cb2f57373939056f317b22d542b8a19a8",
+    "reference/h_pairwise_replay_v18_51h.py": "250de3f86df74378f3e55fee431b25c2a207a10e405947f3369d6cbefc26030a",
+    "reference/i_projector_replay_v18_51i.py": "15f199d878742fe40e0e7ebe8ce967ee7d3111f4e76fd05278bce08bbbc5cc8b",
+    "reference/j_adjoint_replay_v18_51j.py": "3e6dc42e6a8c66507e9501229bfcac8ccf96d675b6de40709784f36dd2b0f31a",
+    "reference/k_connection_replay_v18_51k.py": "2865089d5ac66f0cf1b18944d4f1c2f0699d53421ff7b94333364d6d5af49862",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/l_metric_path_replay_v18_51l.py": "0e69c4bc0f04d19323ddc5f6b89ca8e82fdab0a6f98967692e03ee39c5a732b1",
+    "reference/m_observability_replay_v18_51m.py": "42a2f46864b22e4fce71544bb80b9c0dc1c1c96f289e22a9441064396abdd8d0",
+    "requirements.txt": "b544dbed4477c3ea4f9ef0b056651ed53290383bb24e4e55f46b28860f45d16e",
+    "run_on_server.sh": "f56bdbb80bc8326dcacb99b2428c18ebaf7c4362af3fe9934993cb327f8ae043",
+    "scripts/pack_sendback.py": "40b373b4a0c487b1e891823b8a337fddae0648882b8b57cd7220bc26d9a89932",
+    "scripts/run_audit.py": "9f43db4f7558417270091fa289737379b7f16c7d788a56c4b2b4b1f179cfd849",
+    "scripts/verify_source_manifest.py": "0aa661de797c27a0b63889f5eb1029a7702ad2cee293caea0813e935ec9538a9",
+    "scripts/write_output_manifest.py": "7cb1e98243e6e9e412538b53408aa19cc0882a036bd1b831dae13328f198c2f1",
+    "tests/test_geometry.py": "5a2ee0c50f4aebabbc4e7c296f6a7b1695d40a0c74af3eacdc0e9d8529d4e69d",
+    "tests/test_results.py": "957346b1e109079d5d5716c9e1aee2ca1ea8bebb20f9811fb35e4dda5182828d"
+  }
+}

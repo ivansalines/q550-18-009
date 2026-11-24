@@ -1,0 +1,159 @@
+{
+  "version": "v18.51n",
+  "title": "Variational Metric Admissibility & Observable-Window Dependence Audit",
+  "classification": "KINETIC_CONFIGURATION_HESSIAN_VERIFIED__FULL_STATE_VARIATIONAL_METRIC_UNDETERMINED__OBSERVABILITY_WINDOW_DEPENDENT_DIAGNOSTIC",
+  "evidence_scope": "Frozen genuine v18.51e material tangent trajectories, 2 seed families, xi in [0,0.05]; no new physical IVP.",
+  "inherited_model": "H=(Q,V) in authenticated physical Cartesian tau=1 state; 5 Riesz pairs unchanged",
+  "metric_definitions": {
+    "configuration_kinetic_mass": "d\u00b2T/d(qdot)\u00b2=diag(rho1\u00b2,rho1\u00b2,rho2\u00b2,rho2\u00b2,m_x x\u00b2(1-x)\u00b2)",
+    "historical_T": "T=1/2 [rho1\u00b2(v1\u00b2+w1\u00b2)+rho2\u00b2(v2\u00b2+w2\u00b2)+m_x x\u00b2(1-x)\u00b2 vz\u00b2]",
+    "state_lift": "H_tau=(Q,tau_ref*V), Sasaki-type pullback; no unique position/velocity weight from T alone",
+    "past_causal": "integral on [xi_min,xi_i] with normalized Gaussian kernel, depends only on already available history",
+    "future_predictive": "integral on [xi_i,xi_max] using future trajectory; not available as a causal observation at xi_i",
+    "bilateral_noncausal": "integral on [xi_min,xi_max], depends on both past and future",
+    "regularization": "G_epsilon=G+epsilon*c*I, c=mean section trace(G)/10, declared protocol choice not model action",
+    "spectral_pair_blocks": "unchanged oblique Riesz cross-plane maps, restricted source/target inner product norms"
+  },
+  "kinetic_hessian": {
+    "authenticated_T_reconstruction_max_abs_error": 1.3322676295501878e-15,
+    "finite_difference_kinetic_hessian_max_relative_error": 8.676475318314623e-09,
+    "sampled_mass_hessian_min_eigenvalue": 0.023696794998378016,
+    "kinetic_dof": 5,
+    "configuration_mass_hessian_exists": true,
+    "unique_10d_phase_state_metric_from_T_alone": false,
+    "full_Euler_Lagrange_force_decomposition_authenticated": false
+  },
+  "ancestor_verification": [
+    {
+      "version": "v18.51m",
+      "source_hashes": 19,
+      "output_hashes": 10,
+      "sha256": "02e84cecc270f4ee77020c14c2e19b677962abc0fd1293298b16693077e59140"
+    },
+    {
+      "version": "v18.51l",
+      "source_hashes": 18,
+      "output_hashes": 9,
+      "sha256": "f4db5c4039836f23a01b08ac1ebba1c5dffd0f8207af718e35078f0560713f0b"
+    },
+    {
+      "version": "v18.51k",
+      "source_hashes": 17,
+      "output_hashes": 6,
+      "sha256": "2900b4bde73e7eb879e55628a43b710b27e1460e5c3edb4c2c460e3b8f82f515"
+    },
+    {
+      "version": "v18.51j",
+      "source_hashes": 16,
+      "output_hashes": 7,
+      "sha256": "fc465f18c3b4a820538191eaf89aa8f1ecd85eb49aaf5c73927356d44aae6688"
+    },
+    {
+      "version": "v18.51i",
+      "source_hashes": 15,
+      "output_hashes": 7,
+      "sha256": "353d1292ebf95a829accc837464ba90b6d18a91b479f4641ad26d51858d4cba1"
+    },
+    {
+      "version": "v18.51h",
+      "source_hashes": 14,
+      "output_hashes": 7,
+      "sha256": "bd1d90703b0ddb638c76ece111ac7a224c81d52858c4625931fb5e73b3cdd0fa"
+    },
+    {
+      "version": "v18.51g",
+      "source_hashes": 13,
+      "output_hashes": 11,
+      "sha256": "66394be8e341c526cb364ad4acb48b6f891a2c65ce73d8f0feedd181ff43fb7a"
+    },
+    {
+      "version": "v18.51f",
+      "source_hashes": 12,
+      "output_hashes": 10,
+      "sha256": "7d66df61d21adaf883d8c8e23d3ad7d3dd01a6bdf391f90a69272e0367b2c295"
+    },
+    {
+      "version": "v18.51e",
+      "source_hashes": 16,
+      "output_hashes": 10,
+      "sha256": "630c9881e9298ecd39b53747a76e5b775d09055c4fea7cef24ef02f86c35123b"
+    }
+  ],
+  "inherited_model_lineage": {
+    "l_archive_sha256": "f4db5c4039836f23a01b08ac1ebba1c5dffd0f8207af718e35078f0560713f0b",
+    "l_sources_verified": 18,
+    "l_results_verified": 9,
+    "parent_passed_checks": 20,
+    "inherited_physical_seed_ivps": 2,
+    "new_physical_seed_ivps": 0
+  },
+  "observations": {
+    "n_directional_rows_instantaneous": 4034,
+    "n_directional_rows_finite_lag": 11724,
+    "n_profiles": 9,
+    "n_kinetic_random_hessian_samples": 32,
+    "bipolar_full_window_regression_max_abs": 8.35897442047484e-06,
+    "raw_well_resolved_counts": {
+      "past": 214,
+      "future": 298,
+      "bilateral": 468
+    },
+    "regularized_directionality_by_window": {
+      "past": {
+        "forward": 0,
+        "reverse": 312
+      },
+      "future": {
+        "forward": 0,
+        "reverse": 312
+      },
+      "bilateral": {
+        "forward": 0,
+        "reverse": 468
+      }
+    },
+    "gauge_test_error": 4.440892098500626e-16,
+    "legacy_channel_replay_max_abs_ratio_error": 0.0,
+    "kinetic_mass_hessian": {
+      "authenticated_T_reconstruction_max_abs_error": 1.3322676295501878e-15,
+      "finite_difference_kinetic_hessian_max_relative_error": 8.676475318314623e-09,
+      "sampled_mass_hessian_min_eigenvalue": 0.023696794998378016,
+      "kinetic_dof": 5,
+      "configuration_mass_hessian_exists": true,
+      "unique_10d_phase_state_metric_from_T_alone": false,
+      "full_Euler_Lagrange_force_decomposition_authenticated": false
+    }
+  },
+  "checks": {
+    "m_parent_and_e_nested_sha256_authenticated": true,
+    "inherited_m_checked_pass": true,
+    "historical_kinetic_source_exact_sha256": true,
+    "no_new_physical_ivp": true,
+    "replay_of_inherited_pair_blocks": true,
+    "historical_kinetic_energy_quadratic_identity": true,
+    "historical_kinetic_hessian_finite_difference": true,
+    "historical_kinetic_configuration_mass_SPD": true,
+    "regularized_metrics_numerically_positive": true,
+    "adversarial_internal_gauge_norm_invariance": true,
+    "same_physical_material_map_under_all_metric_profiles": true,
+    "causal_past_future_and_bilateral_windows_recorded": true,
+    "finite_window_edge_limits_explicit": true,
+    "no_unique_full_material_metric_inferred": true,
+    "variational_force_admissibility_not_unjustifiably_certified": true,
+    "directional_ranking_not_assumed": true
+  },
+  "limitations": [
+    "No authentic potential, generalized force/work, unique Lagrangian or Helmholtz inverse-variational certificate is derived.",
+    "Formal natural-Lagrangian structure diagnostic assumes xi clock and Q_prime=V; it does not exclude time-dependent or forced variational dynamics.",
+    "Source trajectory interpolation and Gaussian quadrature do not enclose exact continuous original ODE.",
+    "Early/late one-sided observability windows can be rank-deficient or poorly conditioned; raw metrics are excluded from robust comparison under the declared resolution rule.",
+    "Regularization and observation output selection change the metric and can change norm ranking; no physical arrow or torsion is inferred.",
+    "Cross-pair 5->4 versus 4->5 compares channels in the same forward temporal direction, not microscopic time reversal."
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}

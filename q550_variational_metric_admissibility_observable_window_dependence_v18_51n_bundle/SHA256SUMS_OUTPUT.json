@@ -1,0 +1,14 @@
+{
+  "root": "q550_variational_metric_admissibility_observable_window_dependence_v18_51n_bundle",
+  "version": "v18.51n",
+  "file_sha256": {
+    "results/causal_vs_bilateral_directionality.png": "6e0f777ec303961964b643e448ef3f6b557026b692b80fdbcfed1beabcf488bc",
+    "results/formal_natural_cartesian_lagrangian_diagnostic.csv": "d70888731ac9f5ab6ff8536f6d376a31fd566fd80e6bcadd3ff8e205f160d155",
+    "results/report.json": "ba83f6ee9a3d33495eb2edb628b3292419b536db7388e6d2da32b3f547a4d8ae",
+    "results/window_directionality_finite_lag.csv": "44a806b93d3921bb4b79b7329c8f573c5d99fbca95ada6741933b84f0aacf4ca",
+    "results/window_directionality_instantaneous.csv": "56a74d70421695696cdf6d0047b21c6f84e0d4cfdc57d3f8ef50788a231171ca",
+    "results/window_directionality_summary.csv": "5e6bf50dacfd5b400f9a0577d7efc2c044340745ce0a49147bbf4357e4f2bffe",
+    "results/window_metric_conditioning.csv": "fa5f8bc9de41786b80ffb28eb63de9b319d7a23f183d6bb347f2bf2bb0b36742",
+    "results/window_metric_conditioning.png": "badaef2df594a6ecb542acc0c04f27d75b987a60ff66b1898ee99fd53204d85c"
+  }
+}
