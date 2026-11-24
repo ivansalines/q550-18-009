@@ -1,0 +1,18 @@
+{
+  "root": "q550_model_gram_metric_spectral_source_robustness_v18_51c_bundle",
+  "version": "v18.51c",
+  "files": {
+    "README.md": "b8f99631ade26a34a44a3da8a31be6aa67c0fc56ce2ad848f022b1539260dcc5",
+    "SCIENTIFIC_DECISION_RULES.md": "e5200f25304eb8f1c0f15f48fad2a434d5dc02c7994f4483e2b9ac2c2ffc22a3",
+    "SCIENTIFIC_REPORT.md": "1e6b98db70dd4aad3fd1c68d42a45733a96b22b83b004caca2a090eef2d6d973",
+    "inputs/q550_spectral_channel_coupling_source_generator_attribution_v18_51b_bundle_server_sendback.zip": "4238f28ec762fa893f7d2e06d796d9e8634dd7cd616a38afc4213a11e04d0000",
+    "requirements.txt": "156ec9e31c34ee6ac86f1de488fdf72936fbd5c9af57abe58a8305ea1ccaa985",
+    "run_on_server.sh": "ef9864ca75d505903e4cbfd659312e83ead633f7e05fb320da38bf84f75874fa",
+    "scripts/pack_sendback.py": "213fe8ad477dd9aa8a9de0e8fa869e6e141fce603bea1a6a6c4c1fc4de795f2d",
+    "scripts/run_audit.py": "8c2ccf03abafb399b6b742c58c377b1ec292375f7a76943b9ddd6212823bba2f",
+    "scripts/verify_source_manifest.py": "8a55f628df8b834596c72ccd18138c2f151a26c00f12820481a20f38d7911c4f",
+    "scripts/write_output_manifest.py": "877e6f1dff8af10d460a5c127002975895005f94c552b4df3d49262ad3d5f2a0",
+    "tests/test_metric_algebra.py": "8a6a24ef0716bbd01d2ae944d8ef19ee472b8802232f0027583156be1ccb462b",
+    "tests/test_results.py": "bac2067212a1333b42b788af80c1ead98b08c6fdfe9a3a0d55dcd21e06bb8386"
+  }
+}

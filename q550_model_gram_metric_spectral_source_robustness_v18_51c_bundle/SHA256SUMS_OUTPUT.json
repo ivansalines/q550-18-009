@@ -1,0 +1,14 @@
+{
+  "root": "q550_model_gram_metric_spectral_source_robustness_v18_51c_bundle",
+  "version": "v18.51c",
+  "file_sha256": {
+    "results/metric_attribution_comparison.png": "b8cb2f4d477926e7ff70a241325d7119508877e15131cb67af48495e99c0b153",
+    "results/metric_spectral_channel_emergence.png": "684b4e670a323e617a557a12bad0798c77975563f59f28b3cc6bcf47e1a15438",
+    "results/metric_spectral_source_phase_ledger.csv": "799987a31f26ea8339782624ddd21be64894873b8eebe825be7e13fe0ec861f6",
+    "results/metric_spectral_source_summary.csv": "75e4fc6ea8b94604b66554cdf79b47cf353670ac02379178cea52b06e4e851df",
+    "results/moving_metric_source_ledger.png": "d659788d9d44dbca65ae1cf6ecfe9b9ff2984af81c3fb1a54438f64c3251594f",
+    "results/passive_chart_covariance_control.csv": "2d881cf5aa3b2631616006794a58d116612cdc02d8959e21585e170ad9982e32",
+    "results/report.json": "4de909cbe41c7d113da5c16741fc464e40e39000da4d28e4dcc4fee121e97fda",
+    "results/weighted_spectral_channel_projectors.npz": "fd2f47a4f0c8e485208dfecf3c00b5685eb2603e947e34917683cefbfa277312"
+  }
+}
