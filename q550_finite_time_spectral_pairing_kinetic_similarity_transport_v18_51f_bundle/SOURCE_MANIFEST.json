@@ -1,0 +1,18 @@
+{
+  "root": "q550_finite_time_spectral_pairing_kinetic_similarity_transport_v18_51f_bundle",
+  "version": "v18.51f",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "74324e7f04789399c8fb438e8299f26242f05518e93cba6a870c7c256c141f4d",
+    "README.md": "0901eb92895b15e28f061fa7925622ade6c18eae0a8870ad2b27d4b3a6d292cf",
+    "SCIENTIFIC_DECISION_RULES.md": "6e89a90ef776f9b9fc497f267a48d2716cc2bd4a64a4a285b4e45f4c20c22baf",
+    "inputs/q550_full_kinetic_tangent_generator_finite_time_cauchy_green_transport_v18_51e_bundle_server_sendback.zip": "630c9881e9298ecd39b53747a76e5b775d09055c4fea7cef24ef02f86c35123b",
+    "requirements.txt": "156ec9e31c34ee6ac86f1de488fdf72936fbd5c9af57abe58a8305ea1ccaa985",
+    "run_on_server.sh": "081ab9defaa1fe091b34b5c78094a18ff5c1466fe3b116bf53b1258e27e4e878",
+    "scripts/pack_sendback.py": "426055c32c44cbcdcc48019568b6786e14d68e995d4e9e6a40cdb3b7f68e3292",
+    "scripts/run_audit.py": "811c5e1b3aae87c1e69d637eb6045d02548ce3d750635a7f858648ba9514972c",
+    "scripts/verify_source_manifest.py": "fb14b48acd51ae460ee8aa578fd851855141548540d6e148d517744087a899a4",
+    "scripts/write_output_manifest.py": "3daa59baa84ea1c79ca0428ab5fc9ad5fd4f2ed5e1ec95ae87696a9bca6b269e",
+    "tests/test_geometry.py": "3dd720e2836724ba0904bb810123556d891a46d5df5506294bb372e0bb5aa35d",
+    "tests/test_results.py": "619244204b0ba0e5e189b7fd67edae91956ff727273bb2f876ab84e0e62388dc"
+  }
+}

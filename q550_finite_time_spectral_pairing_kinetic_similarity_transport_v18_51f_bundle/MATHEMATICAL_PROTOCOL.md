@@ -1,0 +1,12 @@
+# v18.51f — Mathematical protocol
+
+Let `M_tau(xi) = L_tau(xi) F(xi) L_tau(0)^-1` be the **actual** 10D finite-time transport, with `F` supplied by the authenticated full original Q550 tangent IVP in v18.51e. The historical kinetic tangent embedding is `H_tau=(Q,tau_ref V)`.
+
+1. For every `xi>0`, compute left and right eigenvectors of the **real** `M_tau`, and identify `lambda_j` with `Im(lambda_j)>0`. Use the conjugate eigenvector for the partner. At `xi=0`, `M=I`: all ten eigenvalues coincide. Exclude this point from spectral pair continuity claims.
+2. Construct rank-2 **real, generally oblique Riesz projectors** `P_j = v_j w_j^H/(w_j^H v_j) + conjugate`, satisfying `P_j^2=P_j`, `sum_j P_j=I`, `P_j P_k=0` for distinct j,k and `[M,P_j]=0`. Check finite residuals.
+3. Track pair labels between sections via global minimum-distance assignment of eigenvalues (Hungarian algorithm). Report pair gaps and eigenvalue condition numbers to expose near collisions and non-normality. A label may change if a pair collision or crossing invalidates continuation; the result is finite-grid, not an interval certificate.
+4. Analyze phases `arg(lambda_j)` and moduli `abs(lambda_j)`; `arg(lambda_j)/xi` and `log(abs(lambda_j))/xi` are finite-time spectral descriptors, not Floquet exponents. For real M with exactly 5 complex conjugate pairs, check `det M = prod_j |lambda_j|^2`.
+5. The constant physical-cartesian scaling `D_tau=diag(I_5,tau_ref I_5)` yields **exactly** `M_tau=D_tau M_1 D_tau^-1`. Therefore eigenvalues are the same, but the real projectors map by `P_j,tau=D_tau P_j,1 D_tau^-1` and the Euclidean singular values and Cauchy-Green tensor generally change. This is a similarity identity, not an independent physical conservation law.
+6. Inter-section cocycle `T_i=M_i M_(i-1)^-1`. Measure oblique spectral leakage `ell_{jk}=||P_j(xi) T_i P_k(xi_prev)||_F / ||T_i P_k(xi_prev)||_F`. Individual `ell_jk` do NOT sum to unit energy transfer fractions. For the self-channel, compare orthonormal subspaces associated with `Re v, Im v` before and after application of `T_i`, via principal angles. The subspaces and angles are not metric-invariant under nonorthogonal D_tau.
+7. Compare independent seed eigenspectra at the same xi. Both use the **same** inherited midpoint κ; there is no two-κ boundary certificate.
+8. No new solver integration is performed in v18.51f because v18.51e already archived the continuous-jet genuine physical full-10D tangent transports at every section. The full reproducible parent, not a copied table, is included.

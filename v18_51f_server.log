@@ -1,0 +1,32 @@
+SOURCE IDENTITY VERIFIED 12
+v18.51f SYNTHETIC RIESZ / NONORTHOGONAL / SIMILARITY CONTROLS PASS
+AUTHENTICATED v18.51e full 10D parent: source 16 results 10
+BRANCH original 0.5 five pairs 78 min spectral gap 9.496943713294353e-06 max eigenvector kappa 2.401603416637898 max oblique leakage 0.00643340277466875
+BRANCH original 1.0 five pairs 78 min spectral gap 9.496943713001618e-06 max eigenvector kappa 2.2520378454949244 max oblique leakage 0.00684258511332322
+BRANCH original 2.0 five pairs 78 min spectral gap 9.496943713548801e-06 max eigenvector kappa 3.402639518354048 max oblique leakage 0.006210185933300409
+BRANCH autonomous 0.5 five pairs 78 min spectral gap 9.46566101549572e-06 max eigenvector kappa 2.401609444930751 max oblique leakage 0.006462317324105766
+BRANCH autonomous 1.0 five pairs 78 min spectral gap 9.465661014790266e-06 max eigenvector kappa 2.255685018914393 max oblique leakage 0.0068674563851378045
+BRANCH autonomous 2.0 five pairs 78 min spectral gap 9.465661015785001e-06 max eigenvector kappa 3.4089084814673387 max oblique leakage 0.006219831288475403
+CONTROL RESULTS {
+  "authenticated_v18_51e_source_and_outputs": true,
+  "two_authentic_parent_10d_seed_ivps": true,
+  "all_78_positive_sections_have_5_complex_pairs": true,
+  "spectral_pair_gap_nonzero": true,
+  "riesz_projector_idempotence": true,
+  "riesz_projector_resolution_of_identity": true,
+  "riesz_projector_disjointness": true,
+  "riesz_projector_commutation": true,
+  "conjugate_symmetry": true,
+  "volume_from_five_complex_pairs": true,
+  "exact_kinetic_tau_similarity": true,
+  "tau_eigenvalue_covariance": true,
+  "tau_riesz_projector_covariance": true,
+  "tau_cauchy_green_consistent_but_not_similar": true,
+  "xi_zero_degeneracy_recorded_not_mislabeled": true,
+  "finite_and_bounded_nonnormality": true
+}
+v18.51f SCIENTIFIC CONTROLS PASS 16
+v18.51f OUTPUT / ROW COUNTS / SCIENTIFIC GATES PASS
+OUTPUT MANIFEST WRITTEN 10
+SOURCE IDENTITY VERIFIED 12
+SENDBACK PACKED /root/elab1/hysteresis/q550_finite_time_spectral_pairing_kinetic_similarity_transport_v18_51f_bundle_server_sendback.zip members 24 bytes 72522790

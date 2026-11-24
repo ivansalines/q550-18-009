@@ -1,0 +1,346 @@
+{
+  "version": "v18.51f",
+  "title": "Finite-Time Spectral Pairing & Kinetic Similarity Transport Audit",
+  "classification": "NUMERICAL_FINITE_TIME_SPECTRAL_PAIRING_AND_SIMILARITY_DIAGNOSTIC_NOT_INTRINSIC_TORSION_OR_MEMORY_CERTIFICATE",
+  "kappa_midpoint": 0.1666331385421536,
+  "xi_max": 0.05,
+  "sections_per_seed": 79,
+  "spectral_sections_per_seed": 78,
+  "metric_conventions": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "seed_families": [
+    "original",
+    "autonomous"
+  ],
+  "lineage": {
+    "parent_archive_sha256": "630c9881e9298ecd39b53747a76e5b775d09055c4fea7cef24ef02f86c35123b",
+    "parent_root": "q550_full_kinetic_tangent_generator_finite_time_cauchy_green_transport_v18_51e_bundle",
+    "parent_source_count": 16,
+    "parent_output_count": 10,
+    "original_solver_lineage": {
+      "c": {
+        "version": "v18.51c",
+        "source_files": 12,
+        "result_files": 8
+      },
+      "b": {
+        "version": "v18.51b",
+        "source_files": 12,
+        "result_files": 7
+      },
+      "a": {
+        "version": "v18.51a",
+        "source_files": 13,
+        "result_files": 7
+      },
+      "z": {
+        "version": "v18.50z",
+        "source_files": 12,
+        "result_files": 6
+      },
+      "y": {
+        "version": "v18.50y",
+        "source_files": 12,
+        "result_files": 8
+      },
+      "x": {
+        "version": "v18.50x",
+        "source_files": 12,
+        "result_files": 11
+      },
+      "parent_sha256": "541acc98b832e67632fb7f9c355cbd3918448249cad2830ac77409a0d92af953",
+      "historical_v18_49h_kinetic_source_sha256": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+      "d": {
+        "archive_sha256": "bb8acf4700f1993fd49c58a42e26e491a69398b09e6b58e0095159b36ea11179",
+        "auth": {
+          "version": "v18.51d",
+          "source_files": 15,
+          "result_files": 7
+        },
+        "parent_checks": 12,
+        "parent_observations": 474
+      }
+    },
+    "parent_checks_passed": 21,
+    "source_of_tensors": "v18.51e original+autonomous 10D model IVPs and continuous tangent integrations",
+    "no_new_ivps": true
+  },
+  "fundamental_distinctions": {
+    "at_zero": "M(0)=I, tenfold eigenvalue degeneracy: no unique 5+5 decomposition at xi=0",
+    "complex_pairs": "Five conjugate pairs for xi>0, not five independent physical rotating materials",
+    "projectors": "Real rank-2 Riesz projectors are oblique; not orthogonal spectral energy fractions",
+    "metric": "tau_ref changes the state metric and singular stretches but is a constant similarity of M",
+    "phase": "arg(lambda)/xi is finite-time modal phase rate, not Floquet frequency",
+    "transport": "incremental M_i M_(i-1)^-1 is a cocycle; cross-plane leakage is not transferred physical energy",
+    "time_horizon": "short finite time from one common midpoint kappa; no material return or hysteresis certification",
+    "one_third": "Not tested further; prior heuristic did not pass metric-convention robustness"
+  },
+  "counts": {
+    "branches": 6,
+    "positive_time_sections": 468,
+    "pair_records": 2340,
+    "interplane_cocycle_records": 11550,
+    "similarity_records": 312,
+    "cross_seed_records": 1170
+  },
+  "similarity": {
+    "max_material_similarity_relative_error": 2.558931785079021e-16,
+    "max_eigenvalue_similarity_absolute_error": 4.702747998499123e-15,
+    "max_riesz_projector_similarity_relative_error": 9.159041699547224e-11,
+    "max_cauchy_green_reconstruction_error": 4.565435390375122e-16
+  },
+  "branches": [
+    {
+      "seed_family": "original",
+      "tau_ref": 0.5,
+      "sections_total": 79,
+      "sections_nondegenerate": 78,
+      "first_nondegenerate_xi": 6.825e-05,
+      "last_xi": 0.05,
+      "complex_pairs_at_each_positive_section": true,
+      "minimum_pair_separation": 9.496943713294353e-06,
+      "max_pair_condition": 2.401603416637898,
+      "max_projector_idempotence_error": 5.647693374963182e-15,
+      "max_projector_resolution_error": 5.661275310997669e-15,
+      "max_projector_disjointness_error": 1.4980796697720165e-14,
+      "max_projector_commutation_error": 3.7083862069020014e-15,
+      "max_conjugate_pair_error": 0,
+      "max_determinant_product_error": 9.880984919163893e-15,
+      "endpoint_volume": 0.9275046401291636,
+      "endpoint_max_modulus": 1.000014871368311,
+      "endpoint_min_modulus": 0.9875313018829898,
+      "endpoint_max_oblique_leakage": 0.00643340277466875,
+      "max_oblique_leakage": 0.00643340277466875,
+      "max_transported_subspace_angle_deg": 0.2930464303072339,
+      "endpoint_eigenpair_angles_rad": [
+        0.040406453177682544,
+        0.07629603089691603,
+        0.09293198365918269,
+        0.12412282494972264,
+        0.12925517291758243
+      ],
+      "endpoint_eigenpair_moduli": [
+        1.000014871368311,
+        0.9875313018829898,
+        0.9989485942531452,
+        0.9881091562033135,
+        0.9879902365814831
+      ]
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 1.0,
+      "sections_total": 79,
+      "sections_nondegenerate": 78,
+      "first_nondegenerate_xi": 6.825e-05,
+      "last_xi": 0.05,
+      "complex_pairs_at_each_positive_section": true,
+      "minimum_pair_separation": 9.496943713001618e-06,
+      "max_pair_condition": 2.2520378454949244,
+      "max_projector_idempotence_error": 3.1018349040148102e-15,
+      "max_projector_resolution_error": 5.884133953310172e-15,
+      "max_projector_disjointness_error": 1.7460895297417956e-14,
+      "max_projector_commutation_error": 2.547074324635871e-15,
+      "max_conjugate_pair_error": 0,
+      "max_determinant_product_error": 1.2878587085651816e-14,
+      "endpoint_volume": 0.9275046401291633,
+      "endpoint_max_modulus": 1.0000148713683112,
+      "endpoint_min_modulus": 0.9875313018829904,
+      "endpoint_max_oblique_leakage": 0.00684258511332322,
+      "max_oblique_leakage": 0.00684258511332322,
+      "max_transported_subspace_angle_deg": 0.2975907289008424,
+      "endpoint_eigenpair_angles_rad": [
+        0.04040645317768211,
+        0.07629603089691603,
+        0.09293198365918219,
+        0.12412282494972245,
+        0.12925517291758215
+      ],
+      "endpoint_eigenpair_moduli": [
+        1.0000148713683112,
+        0.9875313018829904,
+        0.9989485942531467,
+        0.9881091562033159,
+        0.9879902365814821
+      ]
+    },
+    {
+      "seed_family": "original",
+      "tau_ref": 2.0,
+      "sections_total": 79,
+      "sections_nondegenerate": 78,
+      "first_nondegenerate_xi": 6.825e-05,
+      "last_xi": 0.05,
+      "complex_pairs_at_each_positive_section": true,
+      "minimum_pair_separation": 9.496943713548801e-06,
+      "max_pair_condition": 3.402639518354048,
+      "max_projector_idempotence_error": 3.2023980038071276e-15,
+      "max_projector_resolution_error": 5.974040858373781e-15,
+      "max_projector_disjointness_error": 1.8783967021223973e-14,
+      "max_projector_commutation_error": 3.0272363048938676e-15,
+      "max_conjugate_pair_error": 0,
+      "max_determinant_product_error": 9.325873406851315e-15,
+      "endpoint_volume": 0.9275046401291633,
+      "endpoint_max_modulus": 1.000014871368309,
+      "endpoint_min_modulus": 0.9875313018829893,
+      "endpoint_max_oblique_leakage": 0.006210185933300409,
+      "max_oblique_leakage": 0.006210185933300409,
+      "max_transported_subspace_angle_deg": 0.29886446498411434,
+      "endpoint_eigenpair_angles_rad": [
+        0.040406453177681774,
+        0.07629603089691687,
+        0.09293198365918154,
+        0.12412282494972225,
+        0.12925517291758246
+      ],
+      "endpoint_eigenpair_moduli": [
+        1.000014871368309,
+        0.9875313018829893,
+        0.9989485942531461,
+        0.9881091562033152,
+        0.9879902365814833
+      ]
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 0.5,
+      "sections_total": 79,
+      "sections_nondegenerate": 78,
+      "first_nondegenerate_xi": 6.825e-05,
+      "last_xi": 0.05,
+      "complex_pairs_at_each_positive_section": true,
+      "minimum_pair_separation": 9.46566101549572e-06,
+      "max_pair_condition": 2.401609444930751,
+      "max_projector_idempotence_error": 6.645685563356643e-15,
+      "max_projector_resolution_error": 4.999027017368533e-15,
+      "max_projector_disjointness_error": 1.3635552296456738e-14,
+      "max_projector_commutation_error": 2.5952267876884825e-15,
+      "max_conjugate_pair_error": 0,
+      "max_determinant_product_error": 1.0103029524088925e-14,
+      "endpoint_volume": 0.9275046562769826,
+      "endpoint_max_modulus": 1.000014961517506,
+      "endpoint_min_modulus": 0.9875313209158211,
+      "endpoint_max_oblique_leakage": 0.006462317324105766,
+      "max_oblique_leakage": 0.006462317324105766,
+      "max_transported_subspace_angle_deg": 0.2941292938344462,
+      "endpoint_eigenpair_angles_rad": [
+        0.0404063248330646,
+        0.07629566637784116,
+        0.0929245748100743,
+        0.12414555188423049,
+        0.12925988160463497
+      ],
+      "endpoint_eigenpair_moduli": [
+        1.000014961517506,
+        0.9875313209158211,
+        0.9989487199432033,
+        0.9881121326339837,
+        0.9879870367010127
+      ]
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 1.0,
+      "sections_total": 79,
+      "sections_nondegenerate": 78,
+      "first_nondegenerate_xi": 6.825e-05,
+      "last_xi": 0.05,
+      "complex_pairs_at_each_positive_section": true,
+      "minimum_pair_separation": 9.465661014790266e-06,
+      "max_pair_condition": 2.255685018914393,
+      "max_projector_idempotence_error": 2.982519884066288e-15,
+      "max_projector_resolution_error": 4.805212786175223e-15,
+      "max_projector_disjointness_error": 1.516723044906562e-14,
+      "max_projector_commutation_error": 2.7827002713441807e-15,
+      "max_conjugate_pair_error": 0,
+      "max_determinant_product_error": 9.880984919163893e-15,
+      "endpoint_volume": 0.9275046562769825,
+      "endpoint_max_modulus": 1.0000149615175054,
+      "endpoint_min_modulus": 0.9875313209158231,
+      "endpoint_max_oblique_leakage": 0.0068674563851378045,
+      "max_oblique_leakage": 0.0068674563851378045,
+      "max_transported_subspace_angle_deg": 0.2988815337073028,
+      "endpoint_eigenpair_angles_rad": [
+        0.04040632483306435,
+        0.07629566637784078,
+        0.09292457481007417,
+        0.12414555188423038,
+        0.12925988160463509
+      ],
+      "endpoint_eigenpair_moduli": [
+        1.0000149615175054,
+        0.9875313209158231,
+        0.9989487199432031,
+        0.9881121326339847,
+        0.9879870367010127
+      ]
+    },
+    {
+      "seed_family": "autonomous",
+      "tau_ref": 2.0,
+      "sections_total": 79,
+      "sections_nondegenerate": 78,
+      "first_nondegenerate_xi": 6.825e-05,
+      "last_xi": 0.05,
+      "complex_pairs_at_each_positive_section": true,
+      "minimum_pair_separation": 9.465661015785001e-06,
+      "max_pair_condition": 3.4089084814673387,
+      "max_projector_idempotence_error": 3.5813517781777354e-15,
+      "max_projector_resolution_error": 5.736941787703296e-15,
+      "max_projector_disjointness_error": 1.801559777029945e-14,
+      "max_projector_commutation_error": 4.170452584574427e-15,
+      "max_conjugate_pair_error": 0,
+      "max_determinant_product_error": 1.099120794378905e-14,
+      "endpoint_volume": 0.9275046562769825,
+      "endpoint_max_modulus": 1.0000149615175047,
+      "endpoint_min_modulus": 0.9875313209158222,
+      "endpoint_max_oblique_leakage": 0.006219831288475403,
+      "max_oblique_leakage": 0.006219831288475403,
+      "max_transported_subspace_angle_deg": 0.30082432872678805,
+      "endpoint_eigenpair_angles_rad": [
+        0.04040632483306393,
+        0.07629566637784148,
+        0.09292457481007435,
+        0.12414555188423064,
+        0.12925988160463484
+      ],
+      "endpoint_eigenpair_moduli": [
+        1.0000149615175047,
+        0.9875313209158222,
+        0.998948719943202,
+        0.9881121326339836,
+        0.9879870367010133
+      ]
+    }
+  ],
+  "original_autonomous_max_eigenvalue_difference": 2.2653116292722032e-05,
+  "original_autonomous_max_phase_difference_rad": 2.272693450838803e-05,
+  "checks": {
+    "authenticated_v18_51e_source_and_outputs": true,
+    "two_authentic_parent_10d_seed_ivps": true,
+    "all_78_positive_sections_have_5_complex_pairs": true,
+    "spectral_pair_gap_nonzero": true,
+    "riesz_projector_idempotence": true,
+    "riesz_projector_resolution_of_identity": true,
+    "riesz_projector_disjointness": true,
+    "riesz_projector_commutation": true,
+    "conjugate_symmetry": true,
+    "volume_from_five_complex_pairs": true,
+    "exact_kinetic_tau_similarity": true,
+    "tau_eigenvalue_covariance": true,
+    "tau_riesz_projector_covariance": true,
+    "tau_cauchy_green_consistent_but_not_similar": true,
+    "xi_zero_degeneracy_recorded_not_mislabeled": true,
+    "finite_and_bounded_nonnormality": true
+  },
+  "software": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}

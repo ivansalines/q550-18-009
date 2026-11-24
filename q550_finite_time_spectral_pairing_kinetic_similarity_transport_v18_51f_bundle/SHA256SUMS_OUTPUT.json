@@ -1,0 +1,16 @@
+{
+  "root": "q550_finite_time_spectral_pairing_kinetic_similarity_transport_v18_51f_bundle",
+  "version": "v18.51f",
+  "file_sha256": {
+    "results/kinetic_similarity_covariance.csv": "27793a503a1c6732be61da7e2d9cc0456e0227b563a43eb0777f59f7011221ec",
+    "results/original_autonomous_pair_comparison.csv": "1392d3f44f42f68139ad0ffa759a59e3dbbf99dbee3faf0e1c49b5fcbb787c0d",
+    "results/report.json": "d05fb2a20e40c25cfde927f89fef76bcd341ea1a4a2fded0366210aeef45f071",
+    "results/spectral_branch_summary.csv": "cb6104528ecf2c915e7ea8af01617841a5b34690f76b090648bba571f71430a9",
+    "results/spectral_interplane_leakage.png": "f66eac5fb95daa9793975928ae112a6e5f6e6878d559cfc6ca077a7755ce644b",
+    "results/spectral_pair_ledger.csv": "509ae31eb2934921337bb6a53de7288945be5249cf28e92f32d2bdff7540130d",
+    "results/spectral_pair_moduli.png": "c1c0e5d25e041aa6525f3723d41c9a51b9a7dda52ee3cd07009ffef6ac913778",
+    "results/spectral_pair_phases.png": "55baab9e4487f44c78f15ee46dfb339cce5c3c082497eac1f3c7b0ae7e31a343",
+    "results/spectral_pair_transport_cross_coupling.csv": "6b9663c6175a91c0042b3ea20c9ff2babd12007b8856446c463f4d6dd985bc9e",
+    "results/spectral_sections_ledger.csv": "0c7616dc17407bf60adb318a97895f66b0310d8a0e288b8e08428088df0a44d1"
+  }
+}
