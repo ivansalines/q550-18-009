@@ -1,0 +1,51 @@
+SOURCE IDENTITY VERIFIED 13
+Q550 v18.51q synthetic local projection, seed-factorial, midpoint controls PASS
+AUTHENTICATING P and full historical chain
+AUTHENTICATED MODEL: staging 10D physical solver
+HISTORICAL KAPPAS {'original': 0.16666666666666666, 'autonomous': 0.16659961041764054, 'midpoint': 0.1666331385421536} Delta 6.705624902611507e-05 ancestors 19
+IVP seed=original kappa=autonomous budget=reference nfev=1217
+IVP seed=original kappa=autonomous budget=standard nfev=602
+IVP seed=original kappa=midpoint budget=reference nfev=1217
+IVP seed=original kappa=midpoint budget=standard nfev=602
+IVP seed=original kappa=original budget=reference nfev=1217
+IVP seed=original kappa=original budget=standard nfev=602
+IVP seed=autonomous kappa=autonomous budget=reference nfev=1217
+IVP seed=autonomous kappa=autonomous budget=standard nfev=602
+IVP seed=autonomous kappa=midpoint budget=reference nfev=1217
+IVP seed=autonomous kappa=midpoint budget=standard nfev=602
+IVP seed=autonomous kappa=original budget=reference nfev=1217
+IVP seed=autonomous kappa=original budget=standard nfev=602
+REAL PHYSICAL IVPS COMPLETE 12
+V18.51q CHECKS 16 / 16 PASS
+SUMMARY {
+  "original": {
+    "end_Q_gap": 2.0304439687418563e-07,
+    "max_Q_gap": 2.0304439687418563e-07,
+    "max_V_gap": 4.827223913900224e-06,
+    "end_Q_gap_over_numerical_proxy": 2549973.5775607815,
+    "resolved_count": 128,
+    "sections": 129,
+    "first_resolved_xi": 0.000390625,
+    "end_phase_equivalent_xi_lag": -2.0113369400800722e-08,
+    "end_orthogonal_fraction": 0.9898641824459183,
+    "end_material_clock_diff": -5.009881398621019e-15,
+    "end_midpoint_second_diff_Q": 9.381425616536535e-15
+  },
+  "autonomous": {
+    "end_Q_gap": 2.030435753989994e-07,
+    "max_Q_gap": 2.030435753989994e-07,
+    "max_V_gap": 4.827203822530598e-06,
+    "end_Q_gap_over_numerical_proxy": 2549968.106787757,
+    "resolved_count": 128,
+    "sections": 129,
+    "first_resolved_xi": 0.000390625,
+    "end_phase_equivalent_xi_lag": -2.0109373936831385e-08,
+    "end_orthogonal_fraction": 0.9898682919915324,
+    "end_material_clock_diff": -5.009881398621019e-15,
+    "end_midpoint_second_diff_Q": 1.6119753971346022e-15
+  }
+}
+Q550 v18.51q independent output replay tests PASS
+OUTPUT MANIFEST WRITTEN 9
+SOURCE IDENTITY VERIFIED 13
+SENDBACK PACKED /root/elab1/hysteresis/q550_paired_kappa0_shadowing_phase_lag_error_budget_v18_51q_bundle_server_sendback.zip bytes 86139741

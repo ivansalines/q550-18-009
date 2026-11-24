@@ -1,0 +1,15 @@
+{
+  "root": "q550_paired_kappa0_shadowing_phase_lag_error_budget_v18_51q_bundle",
+  "version": "v18.51q",
+  "file_sha256": {
+    "results/kappa_parameter_sensitivity_and_curvature.png": "b1c4f01804774896d47ecbb19ea861b85b01f8ed0da5684605b916d07c45a0e0",
+    "results/paired_clock_error_ledger.csv": "36b3803676b1403b6fae87562c1579a01c765706c89ac3dc01b08229d598ed1a",
+    "results/paired_kappa_physical_state_tensors.npz": "ae4945657ef9ee517afd11bcd48914748c2e3132c0f80c028dbc79121b02e036",
+    "results/paired_kappa_shadow_phase_lag_ledger.csv": "ad961f1076c57e09a170b66beccb185bd216020529432e5e68b31e626d65ba81",
+    "results/paired_kappa_shadowing_error_budget.png": "e4c733d78112d044bab5a11ea160b353f188e647f6c9cf0f6d1a32f2a2904e67",
+    "results/phase_lag_and_material_clock_difference.png": "75ecb2df8b4bca5b2a6e49d99e62564d4fde41902d62ad2b49237513c8198737",
+    "results/report.json": "eb9a0a7f1e15110a14e91970ecc47e2bb23a826e1595d078e0addc7a0644fa52",
+    "results/seed_kappa_factorial_ledger.csv": "14806f8c5ce64a373f818a75652894d0a2a0052f08badaa5830d4f2a0b9e3d96",
+    "results/solver_replay_error_budget.csv": "997da6d3f57c57160081fe415e0b7af8c0a5fb80657c1a7e83d372d435fdfdd1"
+  }
+}

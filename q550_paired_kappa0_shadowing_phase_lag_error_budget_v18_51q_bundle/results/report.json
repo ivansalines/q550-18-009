@@ -1,0 +1,183 @@
+{
+  "version": "v18.51q",
+  "title": "Paired-kappa0 Shadowing, Phase-Lag & Error-Budget Audit",
+  "classification": "AUTHENTIC_NONLINEAR_PAIRED_KAPPA_LOCAL_SENSITIVITY_AND_PHASE_LAG_NUMERICAL_DIAGNOSTIC",
+  "checks": {
+    "authenticated_p_parent_input_output_hashes": true,
+    "authenticated_historical_chain_through_v1850w": true,
+    "historical_two_kappas_distinct_from_midpoint": true,
+    "same_seed_same_initial_condition_across_kappa": true,
+    "two_independent_seed_preparations": true,
+    "two_seeds_three_kappas_two_numerical_budgets": true,
+    "genuine_nonlinear_clock_qdot_closure": true,
+    "all_material_clocks_positive": true,
+    "finite_solver_refinement_discrepancies": true,
+    "parameter_pair_nonidentical_after_initial_section": true,
+    "no_fabricated_initial_shadowing_difference": true,
+    "midpoint_parameter_curvature_computed": true,
+    "phase_projection_identity": true,
+    "source_and_parameter_factorial_saved": true,
+    "no_interval_or_global_shadowing_certificate_claimed": true,
+    "phase_lag_is_local_projection_not_phase_lock_claim": true
+  },
+  "kappas": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054,
+    "midpoint": 0.1666331385421536
+  },
+  "kappa_delta": 6.705624902611507e-05,
+  "endpoint_xi": 0.05,
+  "sections_per_branch": 129,
+  "physical_ivps": 12,
+  "seeds": [
+    "original",
+    "autonomous"
+  ],
+  "parameter_branches": [
+    "autonomous",
+    "midpoint",
+    "original"
+  ],
+  "solver_budgets": {
+    "reference": {
+      "rtol": 2e-12,
+      "atol": 2e-13,
+      "max_step": 0.000625
+    },
+    "standard": {
+      "rtol": 2e-10,
+      "atol": 2e-11,
+      "max_step": 0.00125
+    }
+  },
+  "summary": {
+    "original": {
+      "end_Q_gap": 2.0304439687418563e-07,
+      "max_Q_gap": 2.0304439687418563e-07,
+      "max_V_gap": 4.827223913900224e-06,
+      "end_Q_gap_over_numerical_proxy": 2549973.5775607815,
+      "resolved_count": 128,
+      "sections": 129,
+      "first_resolved_xi": 0.000390625,
+      "end_phase_equivalent_xi_lag": -2.0113369400800722e-08,
+      "end_orthogonal_fraction": 0.9898641824459183,
+      "end_material_clock_diff": -5.009881398621019e-15,
+      "end_midpoint_second_diff_Q": 9.381425616536535e-15
+    },
+    "autonomous": {
+      "end_Q_gap": 2.030435753989994e-07,
+      "max_Q_gap": 2.030435753989994e-07,
+      "max_V_gap": 4.827203822530598e-06,
+      "end_Q_gap_over_numerical_proxy": 2549968.106787757,
+      "resolved_count": 128,
+      "sections": 129,
+      "first_resolved_xi": 0.000390625,
+      "end_phase_equivalent_xi_lag": -2.0109373936831385e-08,
+      "end_orthogonal_fraction": 0.9898682919915324,
+      "end_material_clock_diff": -5.009881398621019e-15,
+      "end_midpoint_second_diff_Q": 1.6119753971346022e-15
+    }
+  },
+  "integrations": [
+    {
+      "seed_family": "original",
+      "kappa_branch": "autonomous",
+      "kappa": 0.16659961041764054,
+      "nfev_reference": 1217,
+      "nfev_standard": 602,
+      "steps_reference": 81,
+      "steps_standard": 40,
+      "max_clock_kinematic_defect": 6.206284710817035e-16,
+      "max_Q_standard_reference_difference": 3.883549586975354e-15,
+      "max_V_standard_reference_difference": 1.7352499693589605e-15,
+      "max_tau_standard_reference_difference": 2.7755575615628914e-17
+    },
+    {
+      "seed_family": "original",
+      "kappa_branch": "midpoint",
+      "kappa": 0.1666331385421536,
+      "nfev_reference": 1217,
+      "nfev_standard": 602,
+      "steps_reference": 81,
+      "steps_standard": 40,
+      "max_clock_kinematic_defect": 4.668814064527445e-16,
+      "max_Q_standard_reference_difference": 6.1392547602830595e-15,
+      "max_V_standard_reference_difference": 3.0995434830100262e-15,
+      "max_tau_standard_reference_difference": 6.938893903907228e-18
+    },
+    {
+      "seed_family": "original",
+      "kappa_branch": "original",
+      "kappa": 0.16666666666666666,
+      "nfev_reference": 1217,
+      "nfev_standard": 602,
+      "steps_reference": 81,
+      "steps_standard": 40,
+      "max_clock_kinematic_defect": 4.705413518905862e-16,
+      "max_Q_standard_reference_difference": 3.0894835821514154e-15,
+      "max_V_standard_reference_difference": 1.6432730820058842e-15,
+      "max_tau_standard_reference_difference": 6.938893903907228e-18
+    },
+    {
+      "seed_family": "autonomous",
+      "kappa_branch": "autonomous",
+      "kappa": 0.16659961041764054,
+      "nfev_reference": 1217,
+      "nfev_standard": 602,
+      "steps_reference": 81,
+      "steps_standard": 40,
+      "max_clock_kinematic_defect": 4.72593707031359e-16,
+      "max_Q_standard_reference_difference": 1.719334136123624e-15,
+      "max_V_standard_reference_difference": 8.460345997408357e-16,
+      "max_tau_standard_reference_difference": 6.938893903907228e-18
+    },
+    {
+      "seed_family": "autonomous",
+      "kappa_branch": "midpoint",
+      "kappa": 0.1666331385421536,
+      "nfev_reference": 1217,
+      "nfev_standard": 602,
+      "steps_reference": 81,
+      "steps_standard": 40,
+      "max_clock_kinematic_defect": 6.242994038681411e-16,
+      "max_Q_standard_reference_difference": 1.8444932222049644e-15,
+      "max_V_standard_reference_difference": 9.077816247565566e-16,
+      "max_tau_standard_reference_difference": 2.0816681711721685e-17
+    },
+    {
+      "seed_family": "autonomous",
+      "kappa_branch": "original",
+      "kappa": 0.16666666666666666,
+      "nfev_reference": 1217,
+      "nfev_standard": 602,
+      "steps_reference": 81,
+      "steps_standard": 40,
+      "max_clock_kinematic_defect": 4.683347982793474e-16,
+      "max_Q_standard_reference_difference": 3.862914082543424e-15,
+      "max_V_standard_reference_difference": 1.90772326236097e-15,
+      "max_tau_standard_reference_difference": 1.3877787807814457e-17
+    }
+  ],
+  "parent_sha256": "6a1713b8d415056012dff3266d0ef717b478e51783cbf004c2fa34b3f6f289f1",
+  "lineage_count": 19,
+  "quality": {
+    "max_clock_closure": 6.242994038681411e-16,
+    "max_Q_coarse_fine": 6.1392547602830595e-15,
+    "max_V_coarse_fine": 3.0995434830100262e-15,
+    "max_tau_coarse_fine": 2.7755575615628914e-17
+  },
+  "limitations": {
+    "parameter_distance": "The two historical kappa0 values are very close. Small observed pair separation alone does not certify dynamically significant shadowing.",
+    "error": "DOP853 tolerance/max-step comparisons give numerical discrepancy proxies, not certified absolute integration error bounds.",
+    "phase": "Q-velocity-aligned shift is a local linear phase-equivalent coordinate shift; it is not a global optimal lag, nor proof of orbit conjugacy.",
+    "factorial": "Same-seed kappa comparisons distinguish parameter response from independent seed preparation; cross-seed comparisons require explicit matching.",
+    "domain": "Only the inherited event-relative xi interval [0,0.05] and historical beta:2:2 forcing protocol are tested.",
+    "physicality": "No material memory, global phase locking, or independent-kappa persistent torus is certified."
+  },
+  "environment": {
+    "python": "3.13.16 (main, Oct  1 2026, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}

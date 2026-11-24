@@ -1,0 +1,19 @@
+{
+  "root": "q550_paired_kappa0_shadowing_phase_lag_error_budget_v18_51q_bundle",
+  "version": "v18.51q",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "169bcd2f3e3aba9caa0f3b9716074ae8640e6257dd142b9dd6543e773c648d34",
+    "README.md": "e0a737fa3446c396c3fb05f462660db52c3b0b9d2a33290b936123b0c29ed502",
+    "SCIENTIFIC_DECISION_RULES.md": "8c3d737bc7da4c6d7ca3be2e3acf4ad06b0aaaf7c93ee115500b005e9b408e25",
+    "SCIENTIFIC_REPORT.md": "7018165321daf6be703cd3e7d467f519d183c4ef90638597933111aeb9ef6164",
+    "inputs/q550_physical_clock_moving_frame_drift_absolute_generalized_force_reconstruction_v18_51p_bundle_server_sendback.zip": "6a1713b8d415056012dff3266d0ef717b478e51783cbf004c2fa34b3f6f289f1",
+    "requirements.txt": "1f96b53c65864a9be015e4997756a15abf17a2a7b896ef212025021809e92cf8",
+    "run_on_server.sh": "f56bdbb80bc8326dcacb99b2428c18ebaf7c4362af3fe9934993cb327f8ae043",
+    "scripts/pack_sendback.py": "05a402458e4f18b96144694700683a177325e8f6264ef0646f6f554cd16807d3",
+    "scripts/run_audit.py": "66695f8bc49c17ebdfaf8c37c1bd717d314eea89fadcfb97dcf1d30345bb14e9",
+    "scripts/verify_source_manifest.py": "ce4500784101888cdcaa23b4d4f38729132d42b4471b4bc1a5ace6911ac59ddb",
+    "scripts/write_output_manifest.py": "a818950426ea8d5814dedd4e9583663bde15eadea343e67fab0700d3b04f8e86",
+    "tests/test_geometry.py": "cda30c4f5ee09512a0315336533d5fb5fb2413c4587133ae185dcc9529792409",
+    "tests/test_results.py": "65e7fe41859f08abeba2839ffc681aa5ac9c304cdce3faca9c3cad0e5c3cf067"
+  }
+}
