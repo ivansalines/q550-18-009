@@ -1,0 +1,25 @@
+{
+  "root": "q550_independent_material_metric_construction_directionality_challenge_v18_51m_bundle",
+  "version": "v18.51m",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "029a165842cd1d14509ed5550fea7ead6d846bc567c00274d12831ade2f95bdf",
+    "README.md": "5b0a2502d55dcd8cd78d31fa864f36d9c10953e7b027790cc183ca1ae99ffbf5",
+    "SCIENTIFIC_DECISION_RULES.md": "cf50037e909a12dd8da024d86b4a2178d1145d2a9daf726b1ca90fffd5442946",
+    "SCIENTIFIC_REPORT.md": "3dcd66cda7a22119f5d5dbc70b7cf98cf42c8e2bb10d8755ae25e6af5afe2235",
+    "inputs/q550_metric_path_continuation_directionality_survival_v18_51l_bundle_server_sendback.zip": "f4db5c4039836f23a01b08ac1ebba1c5dffd0f8207af718e35078f0560713f0b",
+    "reference/g_projector_replay_v18_51g.py": "37ff4dbd6eed8daa3d87a9dee042027cb2f57373939056f317b22d542b8a19a8",
+    "reference/h_pairwise_replay_v18_51h.py": "250de3f86df74378f3e55fee431b25c2a207a10e405947f3369d6cbefc26030a",
+    "reference/i_projector_replay_v18_51i.py": "15f199d878742fe40e0e7ebe8ce967ee7d3111f4e76fd05278bce08bbbc5cc8b",
+    "reference/j_adjoint_replay_v18_51j.py": "3e6dc42e6a8c66507e9501229bfcac8ccf96d675b6de40709784f36dd2b0f31a",
+    "reference/k_connection_replay_v18_51k.py": "2865089d5ac66f0cf1b18944d4f1c2f0699d53421ff7b94333364d6d5af49862",
+    "reference/l_metric_path_replay_v18_51l.py": "0e69c4bc0f04d19323ddc5f6b89ca8e82fdab0a6f98967692e03ee39c5a732b1",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "run_on_server.sh": "f56bdbb80bc8326dcacb99b2428c18ebaf7c4362af3fe9934993cb327f8ae043",
+    "scripts/pack_sendback.py": "40b373b4a0c487b1e891823b8a337fddae0648882b8b57cd7220bc26d9a89932",
+    "scripts/run_audit.py": "42a2f46864b22e4fce71544bb80b9c0dc1c1c96f289e22a9441064396abdd8d0",
+    "scripts/verify_source_manifest.py": "1692724a044409e48381ae31e71cc0d104a570118b195bdb0e50129542e3f9eb",
+    "scripts/write_output_manifest.py": "5dd4796293575322afda254f8d4ee8592a07de1dd0b6eaae0e394cc0f2db0000",
+    "tests/test_geometry.py": "5fff4c63ce22681eebc1f2dfbdbab0d2e6c8819113a2597156ec4f792e68b0d9",
+    "tests/test_results.py": "a64247cd0d527f73d96ee6a23714a5f7689349221a1a333e4754656f5349d00e"
+  }
+}

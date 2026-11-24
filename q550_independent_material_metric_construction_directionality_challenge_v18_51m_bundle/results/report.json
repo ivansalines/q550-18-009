@@ -1,0 +1,108 @@
+{
+  "version": "v18.51m",
+  "title": "Independent Material-Metric Construction & Directionality Challenge Audit",
+  "classification": "MODEL_DYNAMICAL_OBSERVABILITY_METRIC_COUNTEREXAMPLE_TO_NORM_DIRECTIONALITY_INVARIANCE_NOT_PHYSICAL_DIRECTION_REVERSAL",
+  "metric_definition": {
+    "kinetic_cartesian_state": "H=(Q,V) at tau_ref=1, with Q and V each five physical Cartesian coordinates",
+    "primary_observable": "C_Q=[I5,0]; physical configuration displacement",
+    "secondary_observable": "C_V=[0,I5]; physical Cartesian tau-velocity",
+    "full_flow": "T(xi_u,xi_i)=M(xi_u) inv(M(xi_i)); M is the inherited authenticated full Q550 10D tangent propagator",
+    "gram": "G_i=integral w_i(xi_u) T(u,i)^T C^T C T(u,i) dxi_u over [0,0.05]",
+    "window": "normalized Gaussian exp(-(xi_u-xi_i)^2/(2h^2)) or uniform window; trapezoid on authenticated irregular xi samples",
+    "primary_h": 0.025,
+    "secondary_h_values": [
+      0.025,
+      0.05
+    ],
+    "right_planes": "E4,E5 original isolated real Riesz spectral planes of M; unchanged by metric challenge",
+    "metric_crossblock": "K_{target<-source}(G)=sqrt(U_target^T G_b U_target) K_E invsqrt(U_source^T G_a U_source)",
+    "bridge": "G_lambda=(1-lambda)I +lambda G_observability/c, where c=mean_{i>0}(trace G_i)/10; root of quartic signed squared norm difference",
+    "caveats": [
+      "Metric measures finite-window dynamical observability, not Hessian of model energy, not constitutive stress, not a unique material metric.",
+      "Physical time window and output channel are declared observer protocols; Gaussian window is generally noncausal.",
+      "Both direction channels use the same *forward time* tangent map. Their norm ratio can reverse without the physical orbit or propagator reversing.",
+      "The metric is applied to the same unchanged spectral planes and same oblique Riesz projectors, with restriction norms; it is not a new generator or a metric-orthogonal spectral redefinition."
+    ]
+  },
+  "lineage": {
+    "l_archive_sha256": "f4db5c4039836f23a01b08ac1ebba1c5dffd0f8207af718e35078f0560713f0b",
+    "l_sources_verified": 18,
+    "l_results_verified": 9,
+    "parent_passed_checks": 20,
+    "inherited_physical_seed_ivps": 2,
+    "new_physical_seed_ivps": 0
+  },
+  "counts": {
+    "positive_xi_sections_per_seed": 78,
+    "finite_lags_per_seed": 227,
+    "metric_profiles": 7,
+    "instantaneous_rows": 1092,
+    "finite_rows": 3178,
+    "bridge_roots": 610
+  },
+  "observations": {
+    "n_metric_profiles": 7,
+    "n_instantaneous": 1092,
+    "n_finite_lag": 3178,
+    "inherited_l_instantaneous_forward_all": true,
+    "inherited_l_finite_forward_all": true,
+    "position_observability_reverse_all": true,
+    "velocity_observability_reverse_all": true,
+    "primary_kinetic_to_observability_crossings": 610,
+    "primary_crossing_lambda_min": 0.9226390843645136,
+    "primary_crossing_lambda_max": 0.9409233186105046,
+    "primary_crossing_lambda_median": 0.9377302022494012,
+    "primary_all_crossings_have_just_one_real_root_in_interval": true,
+    "primary_metric_quadrature_refinements_reverse_all": true
+  },
+  "quality": {
+    "min_full_metric_eigenvalue": 2.3207882488131084e-05,
+    "max_full_metric_condition": 44007.9063899469,
+    "max_plane_condition": 304.5434820072161,
+    "max_parent_baseline_ratio_error": 0.0,
+    "max_passive_chart_error": 2.9447610680300194e-15,
+    "max_O2_gauge_error": 3.0531133177191805e-15,
+    "max_interpolation_ratio_change": 7.2884905376602305e-06,
+    "max_polynomial_direct_error": 2.2559916691667928e-14,
+    "max_similarity_original_tau_replay_error": 2.2350497165671314e-16,
+    "max_passive_tau_observation_metric_error": 1.9995382644106229e-16
+  },
+  "checks": {
+    "l_archive_crc_and_SHA256": true,
+    "l_authenticated_20_checks": true,
+    "nested_k_j_i_h_g_f_e_authentication": true,
+    "authentic_two_seed_no_new_physical_ivps": true,
+    "original_material_similarity_anchor": true,
+    "inherited_l_tau1_channel_regression": true,
+    "independent_observability_tau_passive_covariance": true,
+    "nondegenerate_observability_gramians": true,
+    "metric_finite_conditioning": true,
+    "restricted_plane_conditioning": true,
+    "all_legacy_inherited_forward": true,
+    "all_position_output_direction_reversed": true,
+    "all_velocity_output_direction_reversed": true,
+    "all_610_fixed_material_observables_cross_the_metric_bridge": true,
+    "unique_bridge_root_every_observable": true,
+    "algebraic_bridge_polynomial_vs_direct_metric": true,
+    "independent_finite_lag_passive_chart_covariance": true,
+    "independent_O2_plane_basis_gauge": true,
+    "trapezoid_vs_cubic_refinement_preserves_reversal": true,
+    "distinct_metric_not_a_tau_reference_weight_family": true,
+    "no_new_IVP_and_no_inferred_physical_arrow": true
+  },
+  "limitations": [
+    "Numerical frozen 79-section inherited tangent history, no verified continuum in xi, no new 10D IVP.",
+    "Operational observability metric depends on an output map, bandwidth and full measurement window; cannot be identified with an observer-independent physical inner product.",
+    "The convex bridge proves continuity of *metric-dependent norm ordering*, not a dynamical bifurcation or physical reversal.",
+    "Quartic roots and quadrature refinement are double-precision diagnostics, not interval certificates.",
+    "Source spectral labels are inherited Riesz real planes E4,E5, well-separated only on sampled positive-xi sections.",
+    "No Q550 material torsion, energy transfer, microscopic arrow or hysteresis memory is established."
+  ],
+  "software": {
+    "python": "3.13.16",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}

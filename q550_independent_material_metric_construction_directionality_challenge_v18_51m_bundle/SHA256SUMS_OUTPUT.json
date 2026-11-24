@@ -1,0 +1,16 @@
+{
+  "root": "q550_independent_material_metric_construction_directionality_challenge_v18_51m_bundle",
+  "version": "v18.51m",
+  "file_sha256": {
+    "results/independent_metric_directionality_reversal.png": "a892ea5045cd42dd09cb4c30d63405ef849f0c4d2102454d5f51d7571d6c34c6",
+    "results/independent_metric_output_bandwidth_challenge.png": "b5b182c36609ea1882a805b725f15ee29e874590203daeff5ccbcc84b6411e4a",
+    "results/independent_observability_directionality_summary.csv": "dc384cde33cb5e3eaa83790632cc5fc4263d07f892e0ffc2c345a8376a7d8ae1",
+    "results/independent_observability_finite_lag_channels.csv": "16aac20825127ae953ecfb8f0324616cbd8ef4e298a12b80e806222e701fb363",
+    "results/independent_observability_instantaneous_channels.csv": "4ae19f10720f509cd573efb0d861156ab111947747d9f12a320ffa29a7f82232",
+    "results/independent_observability_metric_conditioning.csv": "59788c5d63b9ee32e2d519030d6683beb6638726aff35820fafcfc7a0f31d226",
+    "results/kinetic_observability_bridge_crossing_distribution.png": "669d9c53c1cb68941b3806ddff9b88665adc175fc9271208ed3f16a58de62986",
+    "results/kinetic_to_observability_metric_bridge_roots.csv": "96e33ed3cd3548369194441f94c4cfc5d2f4c7ac9542f84f35f50e456983bdd0",
+    "results/physical_observability_quadrature_refinement.csv": "fbd07d8f223a3d4a10c471aeab3dbc83918a48f58b4e7a1e8d24e592669123c3",
+    "results/report.json": "caa70a456244a7f2a7b555d5411bb9c738dbd8c4c4d28290bb8bb09a63bf7e51"
+  }
+}

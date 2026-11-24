@@ -1,0 +1,71 @@
+SOURCE IDENTITY VERIFIED 19
+v18.51m independent synthetic geometry, SPD, polynomial, gauge, passive chart, and adversarial reversal PASS
+AUTHENTICATED H REPLAY original 0.5
+AUTHENTICATED H REPLAY original 1.0
+AUTHENTICATED H REPLAY original 2.0
+AUTHENTICATED H REPLAY autonomous 0.5
+AUTHENTICATED H REPLAY autonomous 1.0
+AUTHENTICATED H REPLAY autonomous 2.0
+INHERITED I REPLAY original 0.5 sections 78
+INHERITED I REPLAY original 1.0 sections 78
+INHERITED I REPLAY original 2.0 sections 78
+INHERITED I REPLAY autonomous 0.5 sections 78
+INHERITED I REPLAY autonomous 1.0 sections 78
+INHERITED I REPLAY autonomous 2.0 sections 78
+OBSERVABILITY METRICS original profiles 7 critical roots 305
+OBSERVABILITY METRICS autonomous profiles 7 critical roots 305
+Q550 v18.51m observations: {
+  "n_metric_profiles": 7,
+  "n_instantaneous": 1092,
+  "n_finite_lag": 3178,
+  "inherited_l_instantaneous_forward_all": true,
+  "inherited_l_finite_forward_all": true,
+  "position_observability_reverse_all": true,
+  "velocity_observability_reverse_all": true,
+  "primary_kinetic_to_observability_crossings": 610,
+  "primary_crossing_lambda_min": 0.9226390843645136,
+  "primary_crossing_lambda_max": 0.9409233186105046,
+  "primary_crossing_lambda_median": 0.9377302022494012,
+  "primary_all_crossings_have_just_one_real_root_in_interval": true,
+  "primary_metric_quadrature_refinements_reverse_all": true
+}
+Q550 v18.51m quality: {
+  "min_full_metric_eigenvalue": 2.3207882488131084e-05,
+  "max_full_metric_condition": 44007.9063899469,
+  "max_plane_condition": 304.5434820072161,
+  "max_parent_baseline_ratio_error": 0.0,
+  "max_passive_chart_error": 2.9447610680300194e-15,
+  "max_O2_gauge_error": 3.0531133177191805e-15,
+  "max_interpolation_ratio_change": 7.2884905376602305e-06,
+  "max_polynomial_direct_error": 2.2559916691667928e-14,
+  "max_similarity_original_tau_replay_error": 2.2350497165671314e-16,
+  "max_passive_tau_observation_metric_error": 1.9995382644106229e-16
+}
+Q550 v18.51m checks: {
+  "l_archive_crc_and_SHA256": true,
+  "l_authenticated_20_checks": true,
+  "nested_k_j_i_h_g_f_e_authentication": true,
+  "authentic_two_seed_no_new_physical_ivps": true,
+  "original_material_similarity_anchor": true,
+  "inherited_l_tau1_channel_regression": true,
+  "independent_observability_tau_passive_covariance": true,
+  "nondegenerate_observability_gramians": true,
+  "metric_finite_conditioning": true,
+  "restricted_plane_conditioning": true,
+  "all_legacy_inherited_forward": true,
+  "all_position_output_direction_reversed": true,
+  "all_velocity_output_direction_reversed": true,
+  "all_610_fixed_material_observables_cross_the_metric_bridge": true,
+  "unique_bridge_root_every_observable": true,
+  "algebraic_bridge_polynomial_vs_direct_metric": true,
+  "independent_finite_lag_passive_chart_covariance": true,
+  "independent_O2_plane_basis_gauge": true,
+  "trapezoid_vs_cubic_refinement_preserves_reversal": true,
+  "distinct_metric_not_a_tau_reference_weight_family": true,
+  "no_new_IVP_and_no_inferred_physical_arrow": true
+}
+Q550 v18.51m PASS 21 / 21
+v18.51m persisted scientific outputs and adversarial directionality challenge PASS
+OUTPUT MANIFEST WRITTEN 10
+SOURCE IDENTITY VERIFIED 19
+SENDBACK PACKED /root/elab1/hysteresis/q550_independent_material_metric_construction_directionality_challenge_v18_51m_bundle_server_sendback.zip members 31 bytes 81217943
